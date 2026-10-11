@@ -21,8 +21,9 @@ explica antes de celebrar.
 - Frase com **cerca de 23 palavras** (mediana); três em quatro têm até
   32. Frase acima de 35 palavras é exceção (18% na revista, e ela as usa
   mais na argumentação do que na narração).
-- Parágrafo com **cerca de 50 palavras, em duas frases** (mediana). Não
-  passa de quatro frases.
+- Parágrafo com **cerca de 50 palavras, em duas frases** (mediana).
+- Matéria do Construcom: de 580 a 1.742 palavras de corpo; a maioria
+  entre 800 e 1.250.
 
 ### Pessoa verbal
 
