@@ -49,6 +49,33 @@ para que serve; este arquivo diz como trabalhar nele.
 - `pdftotext` (Git Bash, `/mingw64/bin`).
 - Sem Tesseract: se aparecer página que precise de OCR, avise antes de
   instalar qualquer coisa.
+- **Extrator:** `python -I scripts/extrair_revista.py <pdf> acervo/texto`
+  gera `<nome>.md` (português, com `## Página N` para citar),
+  `<nome>.en.md` nas edições bilíngues e `<nome>.log` com o que merece
+  conferência humana. É re-executável: sobrescreve a saída.
+- **Barra invertida em comando:** ao passar código Python por heredoc no
+  Bash, `\b` e `\n` chegaram ao arquivo como caractere de controle e
+  quebra de linha. Para patch com barra invertida, grave um `.py` no
+  scratchpad e monte a barra com `chr(92)`; depois confira que o arquivo
+  não tem caractere de controle.
+
+## O que a extração não resolve (Fase 1)
+
+Antes de levar um fato destas situações para uma ficha, confira a página
+no PDF:
+
+- **Depoimento e autor.** Quando a página reúne vários depoimentos (2016,
+  p. 10 a 16, 19 e 25), nomes e cargos saem separados das falas. A
+  extração não garante quem disse o quê. Regra 3: depoimento só entra
+  com autor conferido na página.
+- **Linha do tempo.** Os anos saem agrupados num título ("2002 2003
+  2004...") e os eventos soltos, sem o ano de cada um (2016, p. 6 a 9).
+  Data de evento de linha do tempo se lê na página.
+- **Caixas com título em imagem.** Em 2023, p. 8 e 9, o nome de cada
+  projeto está numa imagem: os parágrafos saem sem dizer de qual projeto
+  falam, e a ordem entre caixas pode trocar.
+- **Rótulos curtos em inglês** de uma palavra ("Principal", "Index",
+  "Quickies", "Expedient") podem ficar no arquivo em português.
 
 ## O que já se sabe sobre o acervo (Fase 0)
 

@@ -13,4 +13,5 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
 - **Por que importa:** o ano da edição vai para o índice e para as
   fichas. Se a revista cobre ações de 2024, os fatos dela não podem ser
   datados como 2023.
-- **Decisão:** [FALTA: decisão do usuário]
+- **Decisão (11/10/2026):** vale **2023**. A edição é tratada como de
+  2023 no índice e nas fichas; o "ITEVA 2024" do cabeçalho é ignorado.
