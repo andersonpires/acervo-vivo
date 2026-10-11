@@ -14,6 +14,7 @@ import collections
 import glob
 import re
 import statistics
+import sys
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -112,6 +113,9 @@ def fechos_noticias(arquivos):
 
 
 def main():
+    # No Windows o console usa a codepage local: sem isto, "> voz/medidas.md"
+    # grava em cp1252 e o arquivo vira mojibake para quem lê em UTF-8.
+    sys.stdout.reconfigure(encoding="utf-8", newline="\n")
     rev = sorted(glob.glob(str(RAIZ / "acervo/texto/revista20??.md")))
     noti = sorted(glob.glob(str(RAIZ / "acervo/noticias/*.md")))
     ano = lambda a: int(re.search(r"(20\d\d)", Path(a).name).group(1))

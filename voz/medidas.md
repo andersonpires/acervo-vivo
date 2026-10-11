@@ -1,99 +1,99 @@
 # Medidas de texto do acervo
 
-Gerado por `scripts/medir_voz.py`. SÛ corpo de texto; tÌtulos, destaques,
-legendas e linhas curtas ficam de fora. Palavras contadas como sequÍncias
-de letras ou n˙meros.
+Gerado por `scripts/medir_voz.py`. S√≥ corpo de texto; t√≠tulos, destaques,
+legendas e linhas curtas ficam de fora. Palavras contadas como sequ√™ncias
+de letras ou n√∫meros.
 
-| Medida | Revista 2010 a 2015 (Midiacom) | Revista 2016 a 2023 (Iteva) | NotÌcias 2011 a 2016 | NotÌcias 2017 a 2022 | NotÌcias 2024 a 2026 |
+| Medida | Revista 2010 a 2015 (Midiacom) | Revista 2016 a 2023 (Iteva) | Not√≠cias 2011 a 2016 | Not√≠cias 2017 a 2022 | Not√≠cias 2024 a 2026 |
 |---|---|---|---|---|---|
-| Par·grafos medidos | 615 | 1298 | 245 | 162 | 114 |
+| Par√°grafos medidos | 615 | 1298 | 245 | 162 | 114 |
 | Palavras medidas | 32802 | 70029 | 13193 | 8270 | 5653 |
 | Frase: mediana de palavras | 21 | 23 | 21 | 27 | 25 |
-| Frase: 75% tÍm atÈ | 29 | 32 | 32 | 37 | 31 |
-| Frase: 90% tÍm atÈ | 38 | 42 | 44 | 51 | 38 |
+| Frase: 75% t√™m at√© | 29 | 32 | 32 | 37 | 31 |
+| Frase: 90% t√™m at√© | 38 | 42 | 44 | 51 | 38 |
 | Frases com mais de 35 palavras | 13% | 18% | 18% | 27% | 15% |
-| Par·grafo: mediana de palavras | 48 | 50 | 49 | 48 | 48 |
-| Par·grafo: mediana de frases | 2 | 2 | 2 | 2 | 2 |
-| 1™ pessoa do plural, por mil palavras | 8.3 | 12.9 | 4.9 | 5.1 | 4.1 |
-| "vocÍ", por mil palavras | 0.7 | 0.5 | 0.3 | 0.5 | 0.0 |
+| Par√°grafo: mediana de palavras | 48 | 50 | 49 | 48 | 48 |
+| Par√°grafo: mediana de frases | 2 | 2 | 2 | 2 | 2 |
+| 1¬™ pessoa do plural, por mil palavras | 8.3 | 12.9 | 4.9 | 5.1 | 4.1 |
+| "voc√™", por mil palavras | 0.7 | 0.5 | 0.3 | 0.5 | 0.0 |
 | Perguntas, por cem frases | 0.9 | 2.2 | 0.9 | 1.1 | 1.4 |
-| ExclamaÁıes, por cem frases | 1.5 | 1.9 | 0.2 | 0.4 | 1.8 |
-| N˙meros em algarismo, por mil palavras | 7.6 | 8.3 | 12.1 | 13.2 | 11.7 |
+| Exclama√ß√µes, por cem frases | 1.5 | 1.9 | 0.2 | 0.4 | 1.8 |
+| N√∫meros em algarismo, por mil palavras | 7.6 | 8.3 | 12.1 | 13.2 | 11.7 |
 | "ou seja", "por exemplo", "imagine"... (total) | 17 | 44 | 0 | 0 | 0 |
 | "Iteva" / "ITEVA" no corpo | 95 / 101 | 487 / 5 | 95 / 23 | 56 / 4 | 17 / 29 |
 | "idoso(s)" / "pessoa(s) idosa(s)" | 0 / 0 | 156 / 18 | 0 / 0 | 16 / 1 | 32 / 2 |
 
 ## Revista 2010 a 2015 (Midiacom)
 
-Verbos depois de citaÁ„o (`î, verbo`): explica (12), diz (6), afirma (4), que (3), conta (2), compartilha (2), e (2), mas (2)
+Verbos depois de cita√ß√£o (`‚Äù, verbo`): explica (12), diz (6), afirma (4), que (3), conta (2), compartilha (2), e (2), mas (2)
 
-Palavras mais frequentes (fora as funcionais): projeto, iteva, jovens, social, trabalho, midiacom, desenvolvimento, profissional, comunicaÁ„o, mÌdiacom, sociais, empresas, digital, conhecimento, sendo, aÁıes, mundo, mercado, pessoas, curso, alunos, negÛcio, tecnologia, qualidade, profissionais
+Palavras mais frequentes (fora as funcionais): projeto, iteva, jovens, social, trabalho, midiacom, desenvolvimento, profissional, comunica√ß√£o, m√≠diacom, sociais, empresas, digital, conhecimento, sendo, a√ß√µes, mundo, mercado, pessoas, curso, alunos, neg√≥cio, tecnologia, qualidade, profissionais
 
 ## Revista 2016 a 2023 (Iteva)
 
-Verbos depois de citaÁ„o (`î, verbo`): comenta (14), o (6), que (4), diz (3), afirma (3), e (2), relata (2), para (2)
+Verbos depois de cita√ß√£o (`‚Äù, verbo`): comenta (14), o (6), que (4), diz (3), afirma (3), e (2), relata (2), para (2)
 
-Palavras mais frequentes (fora as funcionais): iteva, projeto, social, desenvolvimento, projetos, sociais, pessoas, educaÁ„o, sociedade, trabalho, curso, atividades, organizaÁıes, recursos, tecnologia, alunos, professores, aÁıes, profissional, jovens, ensino, comunicaÁ„o, mundo, empresas, assim
+Palavras mais frequentes (fora as funcionais): iteva, projeto, social, desenvolvimento, projetos, sociais, pessoas, educa√ß√£o, sociedade, trabalho, curso, atividades, organiza√ß√µes, recursos, tecnologia, alunos, professores, a√ß√µes, profissional, jovens, ensino, comunica√ß√£o, mundo, empresas, assim
 
-## NotÌcias 2011 a 2016
+## Not√≠cias 2011 a 2016
 
-Verbos depois de citaÁ„o (`î, verbo`): afirma (4), conclui (2), destacou (2), de (1), completa (1), comenta (1), comentou (1), coordenado (1)
+Verbos depois de cita√ß√£o (`‚Äù, verbo`): afirma (4), conclui (2), destacou (2), de (1), completa (1), comenta (1), comentou (1), coordenado (1)
 
-Palavras mais frequentes (fora as funcionais): iteva, projeto, jovens, midiacom, alunos, social, trabalho, desenvolvimento, tecnologia, curso, educaÁ„o, evento, aquiraz, crianÁas, josinaldo, direitos, coordenador, cear·, fortaleza, microsoft, aÁıes, crianÁa, secretaria, adolescentes, municÌpio
+Palavras mais frequentes (fora as funcionais): iteva, projeto, jovens, midiacom, alunos, social, trabalho, desenvolvimento, tecnologia, curso, educa√ß√£o, evento, aquiraz, crian√ßas, josinaldo, direitos, coordenador, cear√°, fortaleza, microsoft, a√ß√µes, crian√ßa, secretaria, adolescentes, munic√≠pio
 
-## NotÌcias 2017 a 2022
+## Not√≠cias 2017 a 2022
 
-Verbos depois de citaÁ„o (`î, verbo`): comentou (2), quer (1), ocorrido (1), explica (1), afirma (1), relata (1), que (1), comenta (1)
+Verbos depois de cita√ß√£o (`‚Äù, verbo`): comentou (2), quer (1), ocorrido (1), explica (1), afirma (1), relata (1), que (1), comenta (1)
 
-Palavras mais frequentes (fora as funcionais): iteva, desenvolvimento, social, cear·, trabalho, organizaÁıes, projeto, sociedade, projetos, curso, recursos, alunos, crianÁa, estado, setor, direitos, multimÌdia, civil, adolescente, atividades, aÁıes, conselho, municipal, secretaria, terceiro
+Palavras mais frequentes (fora as funcionais): iteva, desenvolvimento, social, cear√°, trabalho, organiza√ß√µes, projeto, sociedade, projetos, curso, recursos, alunos, crian√ßa, estado, setor, direitos, multim√≠dia, civil, adolescente, atividades, a√ß√µes, conselho, municipal, secretaria, terceiro
 
-## NotÌcias 2024 a 2026
+## Not√≠cias 2024 a 2026
 
-Verbos depois de citaÁ„o (`î, verbo`): afirmou (3), destaca (2), relata (2), destacou (2), declarou (2), compartilhou (1), explicou (1), afirma (1)
+Verbos depois de cita√ß√£o (`‚Äù, verbo`): afirmou (3), destaca (2), relata (2), destacou (2), declarou (2), compartilhou (1), explicou (1), afirma (1)
 
-Palavras mais frequentes (fora as funcionais): projeto, iteva, social, idosos, apenas, alunos, construcom, desenvolvimento, beberibe, comunidade, educaÁ„o, jovens, municÌpio, parceria, evento, instituto, futuro, participantes, qualidade, iniciativas, equipe, empodera, durante, tecnolÛgico, tecnologia
+Palavras mais frequentes (fora as funcionais): projeto, iteva, social, idosos, apenas, alunos, construcom, desenvolvimento, beberibe, comunidade, educa√ß√£o, jovens, munic√≠pio, parceria, evento, instituto, futuro, participantes, qualidade, iniciativas, equipe, empodera, durante, tecnol√≥gico, tecnologia
 
-## Como abrem as notÌcias de 2024 a 2026
+## Como abrem as not√≠cias de 2024 a 2026
 
-- `2024-05-20` No coraÁ„o de Beberibe-CE, o Projeto Construcom surge como uma luz de esperanÁa para...
-- `2024-05-21` O Projeto ConectivIdade +60 tem sido uma fonte vital de capacitaÁ„o tecnolÛgica para 23...
-- `2024-05-22` O Projeto Construcom est· transformando vidas atravÈs de intervenÁıes residenciais significativas no municÌpio de...
-- `2024-06-12` O Iteva marcou presenÁa no Google For Brasil 2024, realizado em S„o Paulo, evento...
-- `2024-06-25` Hoje È um dia histÛrico para o municÌpio de EusÈbio e para o Instituto...
-- `2024-06-30` O Iteva foi uma das organizaÁıes contempladas pelo Projeto ¡gua de Beber, uma iniciativa...
-- `2024-08-16` O Projeto Empodera Jovem passou por Itatira, cidade do Cear·, localizada no sert„o central,...
-- `2024-08-18` A cidade de Itatira foi palco de uma celebraÁ„o vibrante da cultura e da...
-- `2025-05-15` No dia 8 de maio, o Instituto TecnolÛgico e Vocacional AvanÁado (ITEVA) realizou a...
-- `2025-05-19` Na sexta-feira, dia 9, Beberibe foi palco de emoÁ„o, arte e celebraÁ„o com o...
-- `2025-08-25` O sorriso e a emoÁ„o dos idosos que recebem suas casas reformadas traduzem o...
-- `2025-10-15` A nutricionista Carina Jord„o, que atua no atendimento aos idosos do Projeto NoCorre, foi...
-- `2025-12-01` No s·bado, dia 29, o ITEVA foi ponto de encontro do projeto Cuidamos Juntos,...
-- `2025-12-08` Na ˙ltima sexta-feira (5), o Instituto TecnolÛgico e Vocacional AvanÁado (ITEVA) contou com uma...
-- `2025-12-23` Na manh„ desta terÁa-feira (23/12), o Instituto TecnolÛgico e Vocacional AvanÁado (ITEVA) realizou a...
-- `2026-03-25` O projeto Empodera Jovem, em execuÁ„o desde 2023 e com mais de 600 benefici·rios...
-- `2026-04-28` Beberibe ganhou, na tarde de sexta-feira (24/04), um novo espaÁo de educaÁ„o, tecnologia e...
-- `2026-05-28` Nesta quarta-feira (27), o Instituto TecnolÛgico Vocacional AvanÁado (ITEVA) foi sede da VII ConferÍncia...
+- `2024-05-20` No cora√ß√£o de Beberibe-CE, o Projeto Construcom surge como uma luz de esperan√ßa para...
+- `2024-05-21` O Projeto ConectivIdade +60 tem sido uma fonte vital de capacita√ß√£o tecnol√≥gica para 23...
+- `2024-05-22` O Projeto Construcom est√° transformando vidas atrav√©s de interven√ß√µes residenciais significativas no munic√≠pio de...
+- `2024-06-12` O Iteva marcou presen√ßa no Google For Brasil 2024, realizado em S√£o Paulo, evento...
+- `2024-06-25` Hoje √© um dia hist√≥rico para o munic√≠pio de Eus√©bio e para o Instituto...
+- `2024-06-30` O Iteva foi uma das organiza√ß√µes contempladas pelo Projeto √Ågua de Beber, uma iniciativa...
+- `2024-08-16` O Projeto Empodera Jovem passou por Itatira, cidade do Cear√°, localizada no sert√£o central,...
+- `2024-08-18` A cidade de Itatira foi palco de uma celebra√ß√£o vibrante da cultura e da...
+- `2025-05-15` No dia 8 de maio, o Instituto Tecnol√≥gico e Vocacional Avan√ßado (ITEVA) realizou a...
+- `2025-05-19` Na sexta-feira, dia 9, Beberibe foi palco de emo√ß√£o, arte e celebra√ß√£o com o...
+- `2025-08-25` O sorriso e a emo√ß√£o dos idosos que recebem suas casas reformadas traduzem o...
+- `2025-10-15` A nutricionista Carina Jord√£o, que atua no atendimento aos idosos do Projeto NoCorre, foi...
+- `2025-12-01` No s√°bado, dia 29, o ITEVA foi ponto de encontro do projeto Cuidamos Juntos,...
+- `2025-12-08` Na √∫ltima sexta-feira (5), o Instituto Tecnol√≥gico e Vocacional Avan√ßado (ITEVA) contou com uma...
+- `2025-12-23` Na manh√£ desta ter√ßa-feira (23/12), o Instituto Tecnol√≥gico e Vocacional Avan√ßado (ITEVA) realizou a...
+- `2026-03-25` O projeto Empodera Jovem, em execu√ß√£o desde 2023 e com mais de 600 benefici√°rios...
+- `2026-04-28` Beberibe ganhou, na tarde de sexta-feira (24/04), um novo espa√ßo de educa√ß√£o, tecnologia e...
+- `2026-05-28` Nesta quarta-feira (27), o Instituto Tecnol√≥gico Vocacional Avan√ßado (ITEVA) foi sede da VII Confer√™ncia...
 
-## Como fecham as notÌcias de 2024 a 2026
+## Como fecham as not√≠cias de 2024 a 2026
 
-- `2024-05-20` ...recompensa maior do que testemunhar essas histÛrias de resiliÍncia e renovaÁ„o em sua comunidade.
-- `2024-05-21` ...horizontes e novas descobertas - especialmente quando se trata do incrÌvel mundo da tecnologia.
-- `2024-05-22` ...Beberibe, fortalecendo laÁos comunit·rios e promovendo o bem-estar e a dignidade de seus benefici·rios.
-- `2024-06-12` ...a tecnologia e a educaÁ„o podem ter na vida das pessoas, especialmente dos idosos.
-- `2024-06-25` ...apenas o primeiro de muitos livros que vir„o!", declarou Acilon GonÁalves, prefeito de EusÈbio.
-- `2024-06-30` ...mais um passo significativo na miss„o compartilhada de construir um futuro melhor para todos.
-- `2024-08-16` ...acreditarem em seu potencial e a buscar suas prÛprias metas com confianÁa e determinaÁ„o.
-- `2024-08-18` ...Confira o vÌdeo oficial do Festival [aqui](https://www.instagram.com/p/C_BGymIuL2d/).
-- `2025-05-15` ...idosos, oferecendo melhorias materiais e a oportunidade de uma vida mais digna e autÙnoma.
-- `2025-05-19` ...suas ideias e emoÁıes, estimulando o pensamento crÌtico e a valorizaÁ„o da cultura local.
-- `2025-08-25` ...a produÁ„o de tijolos ecolÛgicos, ao fortalecimento da autoestima e autonomia da terceira idade.
-- `2025-10-15` ...vai muito alÈm do prato: È acolhimento, È movimento, È transformaÁ„o socialî, ressalta Carina.
-- `2025-12-01` ...Pfizer pela parceria e por contribuir para fortalecer essa rede de atenÁ„o ‡ sa˙de.
-- `2025-12-08` ...pela parceria e pelo apoio contÌnuo ‡s aÁıes de formaÁ„o e desenvolvimento da comunidade.
-- `2025-12-23` ...geram impacto social positivo e fazem a diferenÁa na vida de quem mais precisa.
+- `2024-05-20` ...recompensa maior do que testemunhar essas hist√≥rias de resili√™ncia e renova√ß√£o em sua comunidade.
+- `2024-05-21` ...horizontes e novas descobertas - especialmente quando se trata do incr√≠vel mundo da tecnologia.
+- `2024-05-22` ...Beberibe, fortalecendo la√ßos comunit√°rios e promovendo o bem-estar e a dignidade de seus benefici√°rios.
+- `2024-06-12` ...a tecnologia e a educa√ß√£o podem ter na vida das pessoas, especialmente dos idosos.
+- `2024-06-25` ...apenas o primeiro de muitos livros que vir√£o!", declarou Acilon Gon√ßalves, prefeito de Eus√©bio.
+- `2024-06-30` ...mais um passo significativo na miss√£o compartilhada de construir um futuro melhor para todos.
+- `2024-08-16` ...acreditarem em seu potencial e a buscar suas pr√≥prias metas com confian√ßa e determina√ß√£o.
+- `2024-08-18` ...Confira o v√≠deo oficial do Festival [aqui](https://www.instagram.com/p/C_BGymIuL2d/).
+- `2025-05-15` ...idosos, oferecendo melhorias materiais e a oportunidade de uma vida mais digna e aut√¥noma.
+- `2025-05-19` ...suas ideias e emo√ß√µes, estimulando o pensamento cr√≠tico e a valoriza√ß√£o da cultura local.
+- `2025-08-25` ...a produ√ß√£o de tijolos ecol√≥gicos, ao fortalecimento da autoestima e autonomia da terceira idade.
+- `2025-10-15` ...vai muito al√©m do prato: √© acolhimento, √© movimento, √© transforma√ß√£o social‚Äù, ressalta Carina.
+- `2025-12-01` ...Pfizer pela parceria e por contribuir para fortalecer essa rede de aten√ß√£o √† sa√∫de.
+- `2025-12-08` ...pela parceria e pelo apoio cont√≠nuo √†s a√ß√µes de forma√ß√£o e desenvolvimento da comunidade.
+- `2025-12-23` ...geram impacto social positivo e fazem a diferen√ßa na vida de quem mais precisa.
 - `2026-03-25` ...potencial, desenvolver autonomia e se posicionar no mundo de forma mais consciente e criativa.
-- `2026-04-28` ...Cear· e j· atendeu mais de 136 mil benefici·rios em 7 municÌpios. [ConheÁa mais](https://linktr.ee/Iteva?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnZkaEbFwvMsxqEWM8QNmGb7dPdwfVnaNmszgBj2z995QwzQDd4f5ER90MUUI_aem_tVn0pSITjrJFxHWUsdp73w)!
-- `2026-05-28` ...e acesso a oportunidades por meio de aÁıes educacionais, culturais e de desenvolvimento social.
+- `2026-04-28` ...Cear√° e j√° atendeu mais de 136 mil benefici√°rios em 7 munic√≠pios. [Conhe√ßa mais](https://linktr.ee/Iteva?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnZkaEbFwvMsxqEWM8QNmGb7dPdwfVnaNmszgBj2z995QwzQDd4f5ER90MUUI_aem_tVn0pSITjrJFxHWUsdp73w)!
+- `2026-05-28` ...e acesso a oportunidades por meio de a√ß√µes educacionais, culturais e de desenvolvimento social.
 
-NotÌcias de 2024 a 2026 com linha de crÈdito "Texto:": 10 de 18.
+Not√≠cias de 2024 a 2026 com linha de cr√©dito "Texto:": 10 de 18.
 
