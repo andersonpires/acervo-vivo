@@ -60,6 +60,15 @@ indicado, e diga na entrega que o formato usou regra provisória.
 Contexto do projeto (o que é, como funciona, histórico) sai **só da
 ficha**. Se a ficha não tem, o texto não diz.
 
+Na notícia, quatro pontos que o teste da Fase 7 mostrou fáceis de errar
+(detalhes em `voz/noticia.md`):
+
+- frase de 20 a 30 palavras e parágrafo de duas frases; não fragmente;
+- se o briefing tem uma cena forte (uma pessoa, um gesto), ela pode
+  abrir o texto; imagem sem fato, não;
+- depois de cada história, uma frase sobre o que a mudança significou;
+- fecho no registro da notícia, sem a tese da revista.
+
 ## Regra 3, sem exceção
 
 Nunca invente número, nome, data, local ou depoimento.

@@ -20,6 +20,9 @@ acontecendo numa pessoa, num lugar, num dia.
   notícias de 2017 a 2022 iam mais longe (27% acima de 35 palavras);
   as recentes ficam em 15%.
 - Parágrafo com **cerca de 48 palavras, em duas frases** (mediana).
+- **Não fragmente.** Junte fato e consequência na mesma frase. Uma
+  sequência de frases de 15 palavras soa como relatório: foi o desvio
+  mais claro do teste da Fase 7 (`testes/fase7/comparacao.md`).
 - Texto inteiro com **cerca de 340 palavras** (mediana das 18 recentes);
   a mais longa tem 525. As de 105 a 130 palavras são notas de doação
   ou visita.
@@ -32,8 +35,10 @@ mil palavras, contra 12,9 na revista). "Você" não aparece nas recentes.
 
 ### Como abre
 
-O primeiro parágrafo diz **quando, quem, o quê e onde**, nessa ordem
-ou perto dela. Formas que se repetem:
+Duas famílias de abertura convivem nas notícias recentes.
+
+**Abertura factual.** O primeiro parágrafo diz **quando, quem, o quê e
+onde**, nessa ordem ou perto dela. Formas que se repetem:
 
 - data primeiro: "No dia 8 de maio, o Instituto Tecnológico e
   Vocacional Avançado (ITEVA) realizou a entrega de duas casas
@@ -44,6 +49,16 @@ ou perto dela. Formas que se repetem:
   vidas através de intervenções residenciais [...] no município de
   Beberibe-CE".
 
+**Abertura de cena ou emoção** (5 das 18 recentes): "O sorriso e a
+emoção dos idosos que recebem suas casas reformadas traduzem o
+verdadeiro impacto do projeto" [N 2025-08-25]; "Na sexta-feira, dia 9,
+Beberibe foi palco de emoção, arte e celebração" [N 2025-05-19]. Vale
+quando a cena é **fato do briefing**: alguém que chegou de bengala e
+saiu tocando pandeiro é cena. "Luz de esperança" e "verdadeiro
+catalisador de mudanças" [N 2024-05-20] são imagem sem fato: não use.
+Na abertura de cena, quando, onde e quem entram no segundo parágrafo,
+no máximo.
+
 **Confira o dia da semana contra a data.** A notícia de 28/04/2026 diz
 "sexta-feira (24/04)" e, na frase seguinte, "quinta-feira (24/04)".
 
@@ -52,6 +67,9 @@ ou perto dela. Formas que se repetem:
 - Uma frase de alcance, no presente, que liga o fato à missão: "O
   Projeto Construcom continua comprometido em melhorar as condições de
   moradia para os idosos em Beberibe" [N 2024-05-22].
+- O fecho fica no registro da notícia: a equipe, a comunidade, o que
+  continua. A tese da revista ("não assistencial", "construtores
+  aptos") não vem para cá.
 - Ou um número acumulado (trecho 3).
 - Depois, **crédito**: "Texto: Nome" e "Fotos: Nome", em linhas
   próprias (10 das 18 recentes).
@@ -76,6 +94,13 @@ adolescentes". Sem ponto final.
   Beneduce, presidente do ITEVA" [N 2026-04-28]; "comentou o diretor
   operacional do ITEVA, Junior Zapata" [N 2025-05-15]. Dê o cargo
   sempre: o leitor de fora não sabe quem é quem.
+- **Depois de uma história, uma frase de sentido:** o que a mudança
+  representou para a pessoa, com palavra que o fato sustenta. "Ao longo
+  do curso, ela adquiriu conhecimentos que lhe permitiram realizar a
+  troca da tomada por conta própria" é fato; a frase seguinte da mesma
+  notícia, "marcou um importante passo em sua jornada de
+  autossuficiência", é o sentido [N 2024-05-20]. Um passo; não uma
+  jornada inteira de adjetivos.
 - Verbo de citação jornalístico, no passado ou no presente:
   **afirmou, destacou, relata, declarou, compartilhou**. A revista usa
   "comenta"; a notícia quase não.
@@ -113,7 +138,8 @@ Quem quer saber como o tijolo funciona vai para a página do projeto.
   oscilam (29 "ITEVA", 17 "Iteva"): escolha um por texto e mantenha.
   Atenção ao "e": "Instituto Tecnológico Vocacional Avançado", sem ele,
   saiu publicado em 28/05/2026 e está errado.
-- **Evita:** imagem gasta no lugar de fato; travessão (regra do projeto).
+- **Evita:** imagem sem fato ("luz de esperança", "verdadeiro
+  catalisador de mudanças"); travessão (regra do projeto).
 
 ## Três trechos reais, comentados
 
