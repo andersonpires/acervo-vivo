@@ -59,6 +59,13 @@ para que serve; este arquivo diz como trabalhar nele.
   scratchpad e monte a barra com `chr(92)`; depois confira que o arquivo
   não tem caractere de controle.
 
+- **Notícias:** `node scripts/exportar_noticias.cjs` relê as notícias
+  publicadas do banco do site (`../site_iteva`, só leitura) e regrava
+  `acervo/noticias/`, um `.md` por notícia com título, data, URL e texto.
+  Em 11/10/2026 eram 97, de 16/11/2011 a 28/05/2026, o mesmo número
+  listado em iteva.org.br/noticias. Não há notícia publicada de 2023, e
+  2021 e 2022 têm uma e três. Os 16 rascunhos do banco ficam de fora.
+
 ## O que a extração não resolve (Fase 1)
 
 Antes de levar um fato destas situações para uma ficha, confira a página
