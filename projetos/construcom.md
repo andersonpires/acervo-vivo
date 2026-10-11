@@ -58,14 +58,21 @@ casas de idosos em vulnerabilidade [R2022 p. 23; N 2024-05-22].
 
 ## Linha do tempo
 
-- **2012:** notícia cita um "Projeto ConstruCOM" de construções
-  sustentáveis [N 2012-08-03]; ver divergência 6.
+- **2012 a 2018, ensaio:** primeiras experiências com tijolo
+  solo-cimento e treinamento de profissionais da construção civil para
+  construir com ele [Curadoria]. A notícia de 2012 já usa o nome
+  "Projeto ConstruCOM", para construções sustentáveis [N 2012-08-03].
+  A revista de 2020 põe a pesquisa com tijolo em 2011 [R2020 p. 6]; ver
+  divergência 9.
+- **2018:** o projeto com idosos é elaborado e capta recursos
+  [Curadoria].
 - **Origem, sem data exata:** dentro da parceria com Eusébio, o
   prefeito Acilon Gonçalves desafia o Iteva a atuar com idosos [R2019
   p. 17; R2021 p. 12].
-- **2019:** aprovação no conselho municipal do idoso de Eusébio e
-  captação pelo Fundo do Idoso [R2019 p. 19; N 2019-05-31]; aulas
-  começam em junho [R2019 p. 19].
+- **2019:** início do projeto, com idosos [Curadoria; Site]; aulas
+  começam em junho [R2019 p. 19]. A aprovação no conselho municipal do
+  idoso de Eusébio e a captação pelo Fundo do Idoso são contadas na
+  revista de 2019, sem data [R2019 p. 19; N 2019-05-31].
 - **2020:** atividades param pela pandemia [R2020 p. 18; R2021 p. 12].
 - **2021:** retomada com UPEX e acompanhantes [R2021 p. 13]; consultoria
   da FedEx propõe uma franquia social [R2021 p. 16].
@@ -85,7 +92,7 @@ casas de idosos em vulnerabilidade [R2022 p. 23; N 2024-05-22].
 |---|---|---|
 | Turma piloto em Eusébio | 60 vagas, 4 turmas de 15 | R2019 p. 19 |
 | Evasão na turma piloto | zero | R2019 p. 19; R2021 p. 12 |
-| Captação em 2019 | R$ 1.703.210,00, em três meses | R2019 p. 19 |
+| Captação do projeto (2018) | R$ 1.703.210,00, em três meses | R2019 p. 19; ano: Curadoria |
 | Turma em Beberibe, 2024 | 40 alunos | N 2024-05-20 |
 | Idosos beneficiados | mais de 700 (a notícia não diz se só em Beberibe) | N 2025-08-25 |
 | Lares reformados em Beberibe | dez (até agosto de 2025) | N 2025-08-25 |
@@ -154,3 +161,4 @@ p. 16].
 | N 2025-08-25 | iteva.org.br/noticia/secretaria-de-beberibe-destaca-impacto-social-das-reformas-realizadas-pelo-iteva |
 | N 2026-04-28 | iteva.org.br/noticia/iteva-inaugura-unidade-em-beberibe-e-consolida-presenca-no-municipio-com-mais-de-21-mil-pe |
 | Site | iteva.org.br/projeto/construcom e menu do site, lidos em 11/10/2026 |
+| Curadoria | informação do Iteva na curadoria do acervo, 11/10/2026 (registrada em `divergencias.md`, item 6) |

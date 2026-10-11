@@ -90,7 +90,13 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
   pesquisa em construção sustentável, e o projeto com idosos começou em
   2019. Nenhuma fonte do acervo diz isso com todas as letras.
 - **Por que importa:** é o primeiro item da linha do tempo da ficha.
-- **Decisão:** [FALTA: decisão do usuário]
+- **Decisão (11/10/2026), informada pelo Iteva na curadoria do acervo:**
+  o Construcom foi "ensaiado" desde 2012, com as primeiras experiências
+  com tijolo solo-cimento e o treinamento de profissionais da construção
+  civil para construir com ele. O projeto propriamente dito foi
+  elaborado e captou recursos em **2018** e começou em **2019**, com
+  idosos como público beneficiário. A notícia de 2012 fala da fase de
+  ensaio; o site, do projeto.
 
 ## 7. Empresas que apoiaram o Construcom em 2019: oito ou nove?
 
@@ -119,3 +125,20 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
   próprio citado nota primeiro.
 - **Decisão (11/10/2026):** a grafia é **Tays Holanda**. A notícia de
   20/05/2024 escreveu errado.
+
+## 9. Início do trabalho do Iteva com tijolo solo-cimento: 2005, 2011 ou 2012?
+
+- **Fonte A:** `revista2020.pdf`, p. 15: o Iteva é especialista em
+  construção com tijolo solo-cimento, "aplicando esse conhecimento há 15
+  anos" (o que daria cerca de 2005).
+- **Fonte B:** `revista2020.pdf`, p. 6, linha do tempo: "Pesquisa com
+  tijolos ecológicos e construção sustentável" no ano de **2011**
+  (conferido na página; a mesma entrada está na linha do tempo de
+  `revista2013.pdf`, p. 23).
+- **Fonte C:** informação do Iteva na curadoria do acervo, 11/10/2026:
+  primeiras experiências com tijolo solo-cimento em **2012**.
+- **Por que importa:** é a origem técnica do Construcom, e a frase "há
+  X anos" costuma ir para texto de divulgação.
+- **Enquanto não houver decisão:** a ficha registra 2012 como início
+  dos ensaios, com as outras datas citadas.
+- **Decisão:** [FALTA: decisão do usuário]
