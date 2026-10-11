@@ -86,3 +86,30 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
   2019. Nenhuma fonte do acervo diz isso com todas as letras.
 - **Por que importa:** é o primeiro item da linha do tempo da ficha.
 - **Decisão:** [FALTA: decisão do usuário]
+
+## 7. Empresas que apoiaram o Construcom em 2019: oito ou nove?
+
+- **Fonte A:** `revista2019.pdf`, p. 19: "Fundação Telefônica/Vivo, Leroy
+  Merlin, Atacadão, Microsoft, Elo, Getnet, Stoller e Pardini" (oito),
+  com captação de R$ 1.703.210,00.
+- **Fonte B:** notícia de 31/05/2019,
+  iteva.org.br/noticia/projeto-construcom-construindo-vidas: as mesmas
+  oito e mais a Schneider (nove).
+- **Por que importa:** lista de parceiros é exatamente o que um
+  parceiro confere num texto de prestação de contas.
+- **Enquanto não houver decisão:** a ficha lista as oito em comum e
+  cita a Schneider como presente só na notícia.
+- **Decisão:** [FALTA: decisão do usuário]
+
+## 8. Nome da engenheira e instrutora: Thays ou Tays Holanda?
+
+- **Fonte A:** notícia de 20/05/2024
+  (iteva.org.br/noticia/projeto-construcom-capacita-idosos-atraves-da-construcao-sustentavel):
+  "Thays Holanda, uma das instrutoras do curso".
+- **Fonte B:** notícia de 15/05/2025
+  (iteva.org.br/noticia/o-sonho-da-casa-digna-se-torna-realidade-para-dona-santina-e-sr-antonio-em-beberibe):
+  "a engenheira Tays Holanda, responsável pela obra"; `revista2023.pdf`,
+  p. 5, lista da equipe: "Tays Holanda".
+- **Por que importa:** nome de pessoa publicado errado é o erro que o
+  próprio citado nota primeiro.
+- **Decisão:** [FALTA: grafia correta]
