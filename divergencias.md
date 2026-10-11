@@ -108,9 +108,9 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
   oito e mais a Schneider (nove).
 - **Por que importa:** lista de parceiros é exatamente o que um
   parceiro confere num texto de prestação de contas.
-- **Enquanto não houver decisão:** a ficha lista as oito em comum e
-  cita a Schneider como presente só na notícia.
-- **Decisão:** [FALTA: decisão do usuário]
+- **Decisão (11/10/2026):** encerrada sem escolha, por não ser
+  relevante. A ficha mantém as oito em comum e cita a Schneider como
+  presente só na notícia.
 
 ## 8. Nome da engenheira e instrutora: Thays ou Tays Holanda?
 
