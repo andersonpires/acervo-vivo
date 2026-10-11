@@ -38,11 +38,11 @@ PROGRAMAS = {
     "Técnico em Multimídia": "Midiacom",
     "Provedor Social": "Midiacom",
     "Empodera Jovem": "Midiacom (revista 2023, p. 8; fora do menu do site)",
-    "Sisger": "Midiacom (site) / Fortalecimento do Terceiro Setor (revista 2023); ver divergência 2",
+    "Sisger": "Fortalecimento do Terceiro Setor",  # decisão de 11/10/2026, divergência 2
     "Desenvolvimento de Software": "[sem programa no site]",
     "Delart": "[sem programa no site]",
     "Bem-estar +60": "Bem-estar +60",
-    "Construcom": "Bem-estar +60 / Construção Sustentável; ver divergência 3",
+    "Construcom": "Bem-estar +60",  # decisão de 11/10/2026, divergência 3
     "Conectividade +60": "Bem-estar +60",
     "Idoso Conectado": "Bem-estar +60",
     "Termodinâmica": "Energia",
@@ -51,8 +51,8 @@ PROGRAMAS = {
     "Geodésica": "Construção Sustentável",
     "Estação de Tratamento de Esgoto": "Construção Sustentável",
     "Parafix": "Projetos concluídos",
-    "Fortalecimento do Terceiro Setor": "Fortalecimento do Terceiro Setor (revista 2023; fora do menu do site)",
-    "Bem-te-vi": "Fortalecimento do Terceiro Setor (revista 2023; fora do menu do site)",
+    "Fortalecimento do Terceiro Setor": "Fortalecimento do Terceiro Setor",
+    "Bem-te-vi": "Fortalecimento do Terceiro Setor",
     "Institucional": "Institucional",
     # Encontrados na indexação, fora da lista inicial. Nenhum está no menu
     # do site; o programa fica em aberto até haver fonte que o diga.

@@ -11,17 +11,20 @@ e conhecimento para fomentar o potencial humano e das instituições.
 Os projetos se organizam em programas (estrutura do site
 iteva.org.br, use-a como referência):
 
-- Midiacom: CDF, Professores Digitais, Técnico em Multimídia,
-  Sisger, Provedor Social
+- Midiacom: CDF (Cidadão do Futuro), Professores Digitais, Técnico
+  em Multimídia, Provedor Social, Empodera Jovem
 - Bem-estar +60: Construcom, Conectividade +60
+- Fortalecimento do Terceiro Setor: Sisger, Bem-te-vi, Seminário
+  Compartilhando Saberes
 - Energia: Termodinâmica, Eólica, Solar
-- Construção Sustentável: Construcom, Geodésica, Estação de
-  Tratamento de Esgoto
+- Construção Sustentável: Geodésica, Estação de Tratamento de Esgoto
 - Projetos concluídos
 
-O Construcom aparece em dois programas. Há projetos recentes que
-talvez não estejam nessa lista (ex.: Empodera Jovem); registre os
-que encontrar.
+Lista atualizada em 11/10/2026 com as decisões de `divergencias.md`
+(itens 2 a 4) e com o que a revista de 2023 mostra (p. 8 a 11). Antes,
+o Sisger estava no Midiacom e o Construcom também em Construção
+Sustentável, como no menu do site. Os demais projetos encontrados na
+indexação estão em `acervo/volume.md`.
 
 ## Propósito
 

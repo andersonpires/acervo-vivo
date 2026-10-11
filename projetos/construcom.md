@@ -8,8 +8,9 @@ no quadro **Fontes**, no fim. O que nenhuma fonte diz está marcado como
 ## Programa
 
 **Bem-estar +60**, do qual é "o primeiro projeto" [R2022 p. 22; R2023
-p. 9]. O menu do site o põe também em Construção Sustentável [Site]; ver
-divergência 3.
+p. 9]. O menu do site ainda o põe também em Construção Sustentável [Site];
+por decisão de 11/10/2026 (divergência 3), o programa é só o Bem-estar
++60.
 
 ## O que é
 
@@ -128,9 +129,10 @@ p. 16].
   eu vi assentando o tijolo pela primeira vez, mas fica mais resistente
   que com tijolo comum... eu me surpreendi!" [R2021 p. 14; autoria
   conferida na página]
-- Thays Holanda, instrutora: "Eles não só aprendem a projetar, mas
-  também a executar o projeto" [N 2024-05-20]; grafia do nome: ver
-  divergência 8.
+- Tays Holanda, instrutora e engenheira: "Eles não só aprendem a
+  projetar, mas também a executar o projeto, o que comprova que o curso
+  entrega uma formação completa aos alunos" [N 2024-05-20, que grafa
+  "Thays"; grafia correta decidida na divergência 8].
 - Tia Neném, 69 anos: "Eu realmente não imaginava receber tudo isso!
   Minhas netas ganharam um quarto e meu filho também" [N 2024-05-22].
 - Dona Santina: "E hoje eu tô vendo uma casa, né? E eu tô muito feliz,

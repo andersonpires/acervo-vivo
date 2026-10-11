@@ -27,7 +27,8 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
 - **Por que importa:** define em que programa a ficha do Sisger fica e
   como o texto apresenta o projeto.
 - **Enquanto não houver decisão:** o índice registra os dois.
-- **Decisão:** [FALTA: decisão do usuário]
+- **Decisão (11/10/2026):** o Sisger é do **Fortalecimento do Terceiro Setor**,
+  agora. Os textos antigos que o põem no Midiacom ficam como estão.
 
 ## 3. Programa do Construcom: um ou dois?
 
@@ -40,7 +41,8 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
   pertence.
 - **Enquanto não houver decisão:** o índice registra os dois programas
   do site.
-- **Decisão:** [FALTA: decisão do usuário]
+- **Decisão (11/10/2026):** o Construcom é do **Bem-estar +60**. Construção
+  Sustentável deixa de ser programa dele.
 
 ## 4. Nome do CDF: Cientista do Futuro ou Cidadão do Futuro?
 
@@ -54,7 +56,9 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
 - **Por que importa:** o nome por extenso vai para a ficha e para todo
   texto novo. Pode ter havido troca de nome por volta de 2020, mas
   nenhuma fonte do acervo diz isso.
-- **Decisão:** [FALTA: decisão do usuário; e, se houve troca, em que ano]
+- **Decisão (11/10/2026):** o nome atual é **Cidadão do Futuro**. As
+  edições de 2017 a 2019 dizem "Cientista do Futuro" e ficam como estão;
+  texto novo usa "Cidadão do Futuro". Ano exato da troca: não informado.
 
 ## 5. Fundação: 1993 ou 1999? (aparente; conferir)
 
@@ -69,7 +73,8 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
 - **Leitura proposta, a confirmar:** início das atividades em 1993,
   constituição formal em 1999. As fichas citam as duas datas com esses
   nomes.
-- **Decisão:** [FALTA: confirmação do usuário]
+- **Decisão (11/10/2026):** confirmada. Início informal em **1993**,
+  constituição formal em **1999**.
 
 ## 6. Início do Construcom: 2012 ou 2019?
 
@@ -112,4 +117,5 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
   p. 5, lista da equipe: "Tays Holanda".
 - **Por que importa:** nome de pessoa publicado errado é o erro que o
   próprio citado nota primeiro.
-- **Decisão:** [FALTA: grafia correta]
+- **Decisão (11/10/2026):** a grafia é **Tays Holanda**. A notícia de
+  20/05/2024 escreveu errado.

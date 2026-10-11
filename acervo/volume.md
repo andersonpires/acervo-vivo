@@ -10,12 +10,12 @@ mais de um projeto. Gerado por `scripts/montar_indice.py` a partir de
 | Institucional | Institucional | 64 | 35 | 99 | 1 | 1 | 2 | 7 | 13 | 17 | 9 | 8 | 9 | 8 | 5 | 4 | 5 | 4 | 1 | 3 | 2 |
 | Midiacom | Midiacom | 62 | 29 | 91 | 11 | 14 | 22 | 12 | 9 | 10 | 2 | 4 |  | 2 |  | 2 | 2 | 1 |  |  |  |
 | Técnico em Multimídia | Midiacom | 14 | 7 | 21 |  |  |  |  |  | 4 | 2 | 1 | 1 | 3 | 2 | 3 | 3 | 2 |  |  |  |
-| Construcom | Bem-estar +60 / Construção Sustentável | 14 | 6 | 20 |  |  | 1 |  |  |  |  |  |  | 5 | 2 | 4 | 2 | 2 | 2 | 2 |  |
+| Construcom | Bem-estar +60 | 14 | 6 | 20 |  |  | 1 |  |  |  |  |  |  | 5 | 2 | 4 | 2 | 2 | 2 | 2 |  |
 | CDF | Midiacom | 11 | 6 | 17 |  |  |  |  |  |  | 2 | 1 | 2 | 3 | 2 | 2 | 1 | 2 | 1 | 1 |  |
 | Professores Digitais | Midiacom | 13 | 1 | 14 |  |  |  |  | 1 | 2 | 1 |  | 1 | 3 | 1 | 2 | 1 | 2 |  |  |  |
 | Bem-te-vi | Fortalecimento do Terceiro Setor | 11 | 2 | 13 |  |  |  |  |  |  |  | 1 | 3 | 3 | 2 | 2 | 1 | 1 |  |  |  |
 | Fortalecimento do Terceiro Setor | Fortalecimento do Terceiro Setor | 6 | 4 | 10 |  |  |  |  |  |  |  | 4 |  | 1 | 2 | 1 | 1 | 1 |  |  |  |
-| Sisger | Midiacom / Fortalecimento do Terceiro Setor | 6 | 2 | 8 |  |  |  |  |  |  |  | 1 | 1 |  | 2 | 2 | 1 | 1 |  |  |  |
+| Sisger | Fortalecimento do Terceiro Setor | 6 | 2 | 8 |  |  |  |  |  |  |  | 1 | 1 |  | 2 | 2 | 1 | 1 |  |  |  |
 | Midiacom.net | Midiacom | 6 | 1 | 7 |  |  | 1 | 4 |  |  | 1 |  | 1 |  |  |  |  |  |  |  |  |
 | Conectividade +60 | Bem-estar +60 | 6 | 1 | 7 |  |  |  |  |  |  |  |  |  |  | 1 | 2 | 1 | 2 | 1 |  |  |
 | Desenvolvimento de Software | [sem programa no site] | 5 | 1 | 6 |  | 1 |  |  | 2 |  | 1 |  | 1 |  |  | 1 |  |  |  |  |  |
