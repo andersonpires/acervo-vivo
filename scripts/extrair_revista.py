@@ -251,7 +251,8 @@ def capitulares(blocos, vocab, log, onde):
     letras = []
     for b in blocos:
         for ln in list(b["linhas"]):
-            if re.fullmatch(r"[A-ZÀ-Ú]", ln["texto"].strip()) and ln["tamanho"] >= 30:
+            # Tamanho mínimo de 20 pt (2015 usa 26,6) e letra minúscula aceita (2013 usa "p").
+            if re.fullmatch(r"[A-Za-zÀ-ú]", ln["texto"].strip()) and ln["tamanho"] >= 20:
                 letras.append(ln)
                 b["linhas"].remove(ln)
     resto = [b for b in blocos if b["linhas"]]
@@ -260,17 +261,28 @@ def capitulares(blocos, vocab, log, onde):
         x1, y0, y1 = c["bbox"][2], c["bbox"][1], c["bbox"][3]
         candidatos = [
             b for b in resto
-            if b["linhas"][0]["texto"].strip()[:1].islower()
+            if b["linhas"][0]["texto"].strip()[:1].isalpha()
             and y0 - 5 <= b["linhas"][0]["bbox"][1] <= y1
             # A caixa da letra inclui o espaço depois dela e invade a primeira linha.
-            and -20 < b["linhas"][0]["bbox"][0] - x1 < 25
+            and -20 < b["linhas"][0]["bbox"][0] - x1 < 45
         ]
         alvo = min(candidatos, key=lambda b: b["linhas"][0]["bbox"][0] - x1, default=None)
-        letra = c["texto"].strip()
-        if alvo:
+        letra = c["texto"].strip().upper()
+        if not alvo:
+            log.append(f"{onde}: capitular '{letra}' sem texto colado ao lado; descartada (ornamento, ou letra repetida do texto)")
+            continue
+        primeira = alvo["linhas"][0]["texto"].strip()
+        if primeira[:1].islower():
             alvo["linhas"][0]["texto"] = colar_capitular(letra, alvo["linhas"][0]["texto"], vocab)
+        elif primeira[:1].upper() == letra:
+            # Capitular decorativa: o texto já traz a letra ("C" + "Coaching").
+            pass
+        elif letra in "AOEÉÀ":
+            # Artigo como capitular: "O" + "Iteva nasceu em 1993".
+            alvo["linhas"][0]["texto"] = letra + " " + alvo["linhas"][0]["texto"].lstrip()
+            log.append(f"{onde}: capitular '{letra}' lida como palavra: '{letra} {primeira[:30]}'")
         else:
-            log.append(f"{onde}: capitular '{letra}' sem bloco correspondente; descartada")
+            log.append(f"{onde}: capitular '{letra}' antes de '{primeira[:30]}'; descartada, conferir")
     return resto
 
 
