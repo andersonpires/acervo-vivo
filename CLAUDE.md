@@ -66,6 +66,14 @@ para que serve; este arquivo diz como trabalhar nele.
   listado em iteva.org.br/noticias. Não há notícia publicada de 2023, e
   2021 e 2022 têm uma e três. Os 16 rascunhos do banco ficam de fora.
 
+- **Índice:** `python -I scripts/montar_indice.py scripts/indexacao`
+  regrava `acervo/indice.csv` (UTF-8 com BOM, separador `;`, sem linha
+  `sep=;`) e `acervo/volume.md`. As linhas vêm de
+  `scripts/indexacao/*.jsonl`, feitas por leitura de cada texto segundo
+  `scripts/indexacao/INSTRUCOES.md`. O **programa** não vem da leitura:
+  sai da tabela `PROGRAMAS` do script, uma só para o índice inteiro.
+  Projeto novo entra na tabela antes de entrar no índice.
+
 ## O que a extração não resolve (Fase 1)
 
 Antes de levar um fato destas situações para uma ficha, confira a página
