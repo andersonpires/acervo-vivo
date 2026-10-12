@@ -1,12 +1,18 @@
 # Orientações do projeto: Acervo Vivo
 
 Leia antes de qualquer alteração. O `README.md` diz o que o projeto é e
-para que serve; este arquivo diz como trabalhar nele.
+para que serve; este arquivo diz como trabalhar nele. O que ficou para
+depois está em `PENDENCIAS.md`; decisões entre fontes, em
+`divergencias.md`.
 
 ## Regras permanentes
 
 1. **Os arquivos em `acervo/revistas` são originais: nunca alterar, mover
-   ou renomear.** Tudo que se extrai deles vai para outra pasta.
+   ou renomear.** Tudo que se extrai deles vai para outra pasta. Os PDFs
+   **não ficam no git** (pesados demais; estão no `.gitignore`). A
+   integridade se confere com
+   `cd acervo/revistas && sha256sum -c SHA256SUMS`; se faltar algum, a
+   origem é `../site_iteva/site_legado/public/download/`.
 2. **Trabalhe em fases.** Ao fim de cada fase, pare, mostre o resultado e
    espere a aprovação do usuário antes de seguir.
 3. **Nunca invente número, nome, data, local ou depoimento.** O que não
@@ -50,9 +56,10 @@ para que serve; este arquivo diz como trabalhar nele.
 - Sem Tesseract: se aparecer página que precise de OCR, avise antes de
   instalar qualquer coisa.
 - **Extrator:** `python -I scripts/extrair_revista.py <pdf> acervo/texto`
-  gera `<nome>.md` (português, com `## Página N` para citar),
-  `<nome>.en.md` nas edições bilíngues e `<nome>.log` com o que merece
-  conferência humana. É re-executável: sobrescreve a saída.
+  gera `<nome>.md` (português, com `## Página N` para citar) e
+  `<nome>.log` com o que merece conferência humana. Nas edições
+  bilíngues, separa e descarta o inglês: a base é só em português. É
+  re-executável: sobrescreve a saída.
 - **Barra invertida em comando:** ao passar código Python por heredoc no
   Bash, `\b` e `\n` chegaram ao arquivo como caractere de controle e
   quebra de linha. Para patch com barra invertida, grave um `.py` no
@@ -71,8 +78,9 @@ para que serve; este arquivo diz como trabalhar nele.
   `sep=;`) e `acervo/volume.md`. As linhas vêm de
   `scripts/indexacao/*.jsonl`, feitas por leitura de cada texto segundo
   `scripts/indexacao/INSTRUCOES.md`. O **programa** não vem da leitura:
-  sai da tabela `PROGRAMAS` do script, uma só para o índice inteiro.
-  Projeto novo entra na tabela antes de entrar no índice.
+  sai de `projetos/cadastro.csv`, a fonte única de programa e situação
+  (ativo, encerrado, a confirmar) de cada projeto. Projeto novo entra no
+  cadastro antes de entrar no índice; o script avisa quando falta.
 
 ## O que a extração não resolve (Fase 1)
 
@@ -89,21 +97,20 @@ no PDF:
 - **Caixas com título em imagem.** Em 2023, p. 8 e 9, o nome de cada
   projeto está numa imagem: os parágrafos saem sem dizer de qual projeto
   falam, e a ordem entre caixas pode trocar.
-- **Rótulos curtos em inglês** de uma palavra ("Principal", "Index",
-  "Quickies", "Expedient") podem ficar no arquivo em português.
 
 ## O que já se sabe sobre o acervo (Fase 0)
 
 - 14 revistas, uma por ano, de 2010 a 2023, iguais às listadas em
   iteva.org.br/publicacoes. Todas têm texto extraível; não há edição
   escaneada.
-- Edições bilíngues (português e inglês): **2014, 2015 e 2016**.
+- Edições bilíngues (português e inglês): **2014, 2015 e 2016**. O
+  inglês não entra na base.
 - De 2010 a 2015 o cabeçalho das páginas diz "Projeto MídiaCOM <ano>"
   (2010 e 2011) ou "Projeto Midiacom <ano>" (2012 a 2015); de 2016 em
   diante diz "ITEVA <ano>". As primeiras edições são a revista do
   programa Midiacom, não da instituição inteira.
-- A edição publicada como 2023 traz "ITEVA 2024" no cabeçalho. Está em
-  `divergencias.md`, sem decisão.
+- A edição publicada como 2023 traz "ITEVA 2024" no cabeçalho. Vale
+  2023 (`divergencias.md`, item 1).
 - Texto que só existe como imagem: capas, anúncios da Midiacom.net,
   algumas frases de destaque e as **páginas de logos de parceiros**
   (por exemplo 2010 p. 27 e 2016 p. 28). Os parceiros dessas páginas

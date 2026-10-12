@@ -5,8 +5,10 @@ Uso:
 
 Gera, na pasta de saída:
     <nome>.md      texto em português, com marcador de página
-    <nome>.en.md   texto em inglês (só nas edições bilíngues)
     <nome>.log     decisões que merecem conferência humana
+
+Nas edições bilíngues (2014 a 2016), o inglês é separado e descartado:
+a base é só em português.
 
 O PDF original nunca é alterado: é aberto só para leitura.
 
@@ -16,7 +18,7 @@ O que o script trata:
     - capitular (letra grande separada do resto da palavra);
     - hifenização: hífen invisível (U+00AD) e hífen comum em fim de linha;
     - legendas e destaques, separados do corpo;
-    - idioma, por bloco, nas edições bilíngues.
+    - idioma, por linha, nas edições bilíngues (o inglês é descartado).
 """
 
 import collections
@@ -447,8 +449,6 @@ def extrair(caminho_pdf, pasta_saida):
     pasta = Path(pasta_saida)
     pasta.mkdir(parents=True, exist_ok=True)
     escrever(pasta / f"{nome}.md", nome, "português", saida["pt"], resumo["paginas_sem_texto"], doc.page_count)
-    if bilingue:
-        escrever(pasta / f"{nome}.en.md", nome, "inglês", saida["en"], [], doc.page_count)
     (pasta / f"{nome}.log").write_text("\n".join(log) + "\n", encoding="utf-8")
     print(json.dumps(resumo, ensure_ascii=False))
     print(f"{len(log)} decisões no log")
