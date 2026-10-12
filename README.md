@@ -26,6 +26,22 @@ O cadastro completo, com programa, situação e fonte de cada projeto,
 está em `projetos/cadastro.csv`; o material por projeto e ano, em
 `acervo/volume.md`.
 
+## Acervos
+
+Cada acervo tem um papel. Os que servem de modelo de escrita estão
+marcados.
+
+| Acervo | Pasta | Situação | Para que serve |
+|---|---|---|---|
+| Revistas (2010 a 2023) | `acervo/texto` | pronto | conteúdo e **principal modelo de escrita** |
+| Notícias do site | `acervo/noticias` | pronto | conteúdo e **modelo de escrita** da notícia |
+| Páginas do site | `acervo/site` | extraído | conteúdo institucional e de projeto; **modelo de escrita**; é fonte, não verdade (há trechos desatualizados) |
+| Clipping | a criar | futuro | o que a imprensa publicou sobre o Iteva; **nunca** como modelo de escrita |
+| Vídeos | a criar | futuro | transcrição dos vídeos de /videos: depoimentos e histórias, base para roteiros |
+| Transparência | a criar | futuro, sempre atualizado | dados de cada convênio: quanto captou, quanto recebeu, aditivo, devolução, situação (em execução, concluído, prestes a iniciar); permite saber se um dado está atualizado |
+| Propostas de projeto | a criar | futuro | ideias apresentadas para captar recursos; só se executam se o recurso vier |
+| Relatórios | a criar | futuro | relatórios de projetos executados enviados a apoiadores, com resultados e metas atendidas |
+
 ## Propósito
 
 Aplicar ao próprio Iteva o que ele faz pelos outros: unir tecnologia

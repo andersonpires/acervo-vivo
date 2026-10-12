@@ -1,0 +1,114 @@
+---
+titulo: "Linha do Tempo"
+url: https://www.iteva.org.br/p/linhaDoTempo
+tipo: institucional
+consultado_em: 2026-10-11
+---
+
+# Linha do Tempo
+
+### Linha do Tempo
+
+Há quase 30 anos, o Iteva vem desenvolvendo trabalhos inovadores e, atento à conjuntura do momento, vem se renovando e novos projetos vão sendo incorporados e as metodologias aperfeiçoadas. Mergulhe no tempo e conheça um pouco mais sobre nossa entidade:
+
+- 1993
+  - Início das atividades
+- 1995
+  - Pesquisas com energia solar fotovoltaica
+- 1996
+  - Pesquisa e desenvolvimento do projeto forragem hidropônica de milho
+  - Pesquisa com biodigestores
+- 1997
+  - Pesquisa com a produção e utilização de húmus de minhoca
+  - Lançamento do livro “A Sociedade Energética e o Meio Ambiente”
+- 1998
+  - Aulas de Campo: abertura do Iteva para visitação das escolas
+  - Participação na implantação dos primeiros parques eólicos comerciais do Brasil
+- 1999
+  - Constituição oficial do Iteva: Instituto Tecnológico e Vocacional Avançado
+  - Lançamento do livro “Energia Solar Fotovoltaica sem Mistérios”
+  - Pesquisa com rotor eólico Savonius
+- 2000
+  - Desenvolvimento do sistema pneumático em cata-ventos
+  - Pesquisa e desenvolvimento do rotor eólico de eixo vertical com defletores direcionadores
+  - Desenvolvimento do sistema de acionamento hidráulico para bombeamento d’água por cata-ventos
+- 2001
+  - Implantação do programa gestor de energia em municípios demandantes
+- 2002
+  - Desenvolvimento do parafix
+- 2003
+  - Embrião do Projeto Midiacom
+- 2004
+  - Início das atividades do Projeto Midiacom
+- 2006
+  - Caso de sucesso da 4ª Conferência Internacional BAWB - Business as Agent of World Benefit
+- 2007
+  - Desenvolvimento de aerogeradores para pequenas aplicações
+  - Qualificado como OSCIP: Organização da Sociedade Civil de Interesse Público
+  - Finalista do Prêmio Êxito Empresarial nas categorias: "Serviço" e "Empresa Cidadã"
+- 2008
+  - Relatado no livro "Histórias de Sucesso” do Sebrae-CE
+- 2009
+  - Declarado Utilidade Pública Municipal de Aquiraz
+  - Certificado como Tecnologia Social pela Fundação Banco do Brasil
+  - Representação do Iteva no Conselho Municipal dos Direitos da Criança e do Adolescente de Aquiraz - CMDCA
+- 2010
+  - Pesquisa e desenvolvimento do sistema de climatização de baixo custo
+- 2011
+  - Promoção do evento “Conexão Digital” em Fortaleza em parceria com a Microsoft e ATN - Associação Telecentro de Informação e Negócios
+  - Participação pioneira de integrantes do Iteva no Students to Business - S2B, programa avançado oferecido pela Microsoft
+  - Pesquisa com tijolos ecológicos e construção sustentável
+- 2012
+  - Representação do Iteva no Innovate4Good, evento internacional da Microsoft realizado no México
+  - Desenvolvimento estação reúso de água e tratamento de esgoto residencial
+  - Replicação do Projeto Midiacom em Aquiraz - CE e na ABA em São Paulo - SP
+- 2013
+  - Práticas sustentáveis em micro e pequenas propriedades rurais
+  - Representação do Iteva no Conselho Municipal de Assistência Social de Aquiraz - CMAS
+  - A Cooperativa Midiacom.net é estudo de caso da tese de mestrado em Administração de Carolina Bohórquez Herrera
+  - Iteva torna-se uma unidade da Academia Cisco
+- 2014
+  - Iteva apoia o Prêmio Renato Castelo Branco de Sustentabilidade Socioambiental na Propaganda - ESPM
+  - Representação do Iteva no Conselho Municipal de Alimentação Escolar de Aquiraz - CAE
+  - Iteva no Conselho de Administração do Instituto de Desenvolvimento do Trabalho - IDT
+  - Iteva no Conselho Estadual dos Direitos da Criança e do Adolescente do Ceará - CEDCA
+  - Implantação do 1º Provedor Social de Internet do Brasil beneficiando todo o Município de Aquiraz, escolas públicas, ONGs e profissionais do ITEVA
+  - Replicação da metodologia Midiacom no Centro de Inclusão Digital Dragão do Mar, capacitação profissional em parceria com a Lanlink e a Prefeitura Municipal de Fortaleza
+  - Participação do Iteva no painel “Cooperação Entre os Três Setores no 10º Encontro Nacional do Terceiro Setor”
+  - O Projeto Midiacom é case no Fórum Interamericano de Filantropia Estratégica - FIFE
+- 2015
+  - Criação e implementação do Projeto Professores Digitais nas escolas municipais de Aquiraz
+  - Os programas sociais do Iteva é estudo de caso da dissertação de mestrado de Bruno Sousa Lessa do Curso de Administração da universidade Federal do Ceará -UFC
+- 2016
+  - Iteva promove palestra sobre Intersetorialidade no Fórum Interamericano de Filantropia Estratégica - FIFE 2016
+  - Implantação do curso Técnico em Multimídia nas Escolas Estaduais de Educação Profissional do Estado do Ceará
+  - Criação e execução do Projeto Cientista do Futuro - CDF
+  - Idealização e fabricação de 2 Cúpulas Geodésicas para atividades diversas
+  - Execução do projeto Cientista do Futuro - CDF em Aquiraz - Ce
+- 2017
+  - O Iteva organiza em parceira com o governo do Ceará o Seminário Compartilhando Saberes voltado para o fortalecimento das organizações do terceiro setor de todo o estado
+  - Concepção e montagem de uma oficina multifuncional
+  - Desenvolvimento e fabricação de uma estação de tratamento de esgoto para reaproveitamento da água
+  - Produção e utilização do tijolo Solo-Cimento nas construções sustentáveis do Iteva
+  - Pesquisa, desenvolvimento e construção de um sistema de climatização de alta eficiência.
+  - Idealização e desenvolvimento do Sistema Gerenciador de Projetos Sociais - Sisger
+  - Treinamento do uso do SISGER para as OSCs do município de Aquiraz
+- 2018
+  - Execução do Projeto Cientista do Futuro – CDF e Professores Digitais no município de Eusébio
+  - Lançamento da nova logomarca do Iteva
+  - O desenvolvimento dos negócios sociais no Iteva é estudo de caso da dissertaçãode mestrado de Diana Goiana Alves, do Curso do Curso de Administração da Universidade Estadual Ceará - UECE
+  - Participação de Fábio Beneduce, coordenador geral da instituição, como umas vozes globais do “2018 Global Engagement Forum: Live”, em Washington, evento idealizado pela Pyxera Global com a participação de grandes empresas e atores sociais de todo o mundo
+  - Iteva ganha 10 robôs denominado TJBOT que utiliza recursos de inteligência artificial do IBM Watson Services
+  - Representação do Iteva no Conselho Municipal dos Direitos da Criança e do Adolescente de Eusébio – CMDCA
+  - Lançamento do Projeto Professores Digitais nas escolas municipais de Eusébio
+- 2019
+  - Iteva lança o projeto Construcom tendo como público-alvo o idoso
+  - Representação do Iteva no Conselho Municipal dos Direitos dos Idosos de Eusébio - CMDI
+  - Representação do Iteva no Conselho Municipal dos Direitos da Mulher de Eusébio – COMDIM
+  - Implantação Fábrica de Tijolos Ecológicos
+  - Treinamento do uso do SISGER para OCSs do município de Eusébio
+  - Lançamento da Plataforma Bem te Vi – A TV do Bem
+- 2020
+  - Disponibilização gratuita da Plataforma SISGER – Sistema de Gerenciamento de Projetos Sociais para OSCs de todo o Brasil
+  - Disponibilização gratuita dos livros do Projeto Cidadão do Futuro – CDF em formato digital e em audiolivros.
+  - Lançamento da Plataforma Sala de Aula Iteva no munícipio de Eusébio

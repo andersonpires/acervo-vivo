@@ -27,6 +27,10 @@ depois está em `PENDENCIAS.md`; decisões entre fontes, em
 
 ## Estilo
 
+- **Modelo de escrita** vem só das revistas (principalmente), das
+  notícias e das páginas do site. O clipping é acervo de consulta, não
+  de estilo: é a voz da imprensa, não a do Iteva. Proposta de projeto e
+  relatório, quando chegarem, são modelo apenas dos próprios formatos.
 - Sem travessão (—) nem meia-risca (–) em nada que se escreva aqui:
   fichas, guias, textos gerados, comentários e mensagens de commit. Onde
   ele entraria, use vírgula, dois-pontos, parênteses ou duas frases.
@@ -72,6 +76,14 @@ depois está em `PENDENCIAS.md`; decisões entre fontes, em
   Em 11/10/2026 eram 97, de 16/11/2011 a 28/05/2026, o mesmo número
   listado em iteva.org.br/noticias. Não há notícia publicada de 2023, e
   2021 e 2022 têm uma e três. Os 16 rascunhos do banco ficam de fora.
+
+- **Páginas do site:** `python -I scripts/extrair_site.py` lê o
+  sitemap.xml, baixa as páginas institucionais, de projeto, de evento e
+  a home, e regrava `acervo/site/` (um `.md` por página, com URL e data
+  da consulta, mais `rodape.md`). Lê o HTML publicado, não o banco: no
+  banco o conteúdo fica em blocos aninhados e parte se perde. Ficam de
+  fora as páginas de outros acervos (notícias, vídeos, clipping,
+  publicações, transparência).
 
 - **Índice:** `python -I scripts/montar_indice.py scripts/indexacao`
   regrava `acervo/indice.csv` (UTF-8 com BOM, separador `;`, sem linha

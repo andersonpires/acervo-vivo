@@ -33,10 +33,28 @@ vive (ficha, cadastro, divergências).
 - **Menu desatualizado em relação às decisões de 11/10/2026:** Sisger
   ainda em Midiacom; Construcom também em Construção Sustentável; sem o
   programa Mais Saúde, o ItevaLab e o Empodera Mulher.
+- **Página Parceria quebrada:** /p/parceria não mostra nenhum logo; no
+  HTML, no lugar das imagens, há só quebras de linha. A home mostra os
+  parceiros, mas o primeiro item ("Parceiros do Iteva") é uma imagem
+  única com vários logos, sem os nomes em texto.
+- **Página Destaques vazia:** /p/destaques só tem o título.
 - **Erros publicados:** a notícia de 28/04/2026 dá o dia 24/04 como
   sexta-feira e como quinta-feira; a de 28/05/2026 escreve "Instituto
   Tecnológico Vocacional Avançado", sem o "e"; a de 21/06/2012 traz a
   entrevista duas vezes.
+
+## Do acervo das páginas do site
+
+- **Índice e confronto** (próximo passo, aguardando aprovação): pôr as
+  páginas no índice e confrontá-las com revistas e notícias, registrando
+  em `divergencias.md` o que não bater. Já se sabe de uma: "Quem Somos"
+  diz "matriz em Aquiraz", e o rodapé dá o endereço em Eusébio.
+
+## Acervos futuros
+
+Na ordem em que o usuário os citou: clipping, vídeos (com transcrição),
+transparência (a atualizar sempre), propostas de projeto e relatórios.
+O papel de cada um está no `README.md`.
 
 ## Do projeto como um todo
 
