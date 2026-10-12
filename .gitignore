@@ -1,0 +1,3 @@
+# PDFs originais das revistas: pesados demais para o git.
+# Conferir integridade com acervo/revistas/SHA256SUMS.
+acervo/revistas/*.pdf

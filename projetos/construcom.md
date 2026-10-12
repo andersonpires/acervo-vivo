@@ -58,12 +58,12 @@ casas de idosos em vulnerabilidade [R2022 p. 23; N 2024-05-22].
 
 ## Linha do tempo
 
-- **2012 a 2018, ensaio:** primeiras experiências com tijolo
-  solo-cimento e treinamento de profissionais da construção civil para
-  construir com ele [Curadoria]. A notícia de 2012 já usa o nome
-  "Projeto ConstruCOM", para construções sustentáveis [N 2012-08-03].
-  A revista de 2020 põe a pesquisa com tijolo em 2011 [R2020 p. 6]; ver
-  divergência 9.
+- **Antes do projeto, ensaio:** testes com tijolo solo-cimento e,
+  depois, cursos para profissionais da construção civil construírem
+  com ele [Curadoria]. Marcos citados nas fontes: "Pesquisa com tijolos
+  ecológicos e construção sustentável" em 2011 [R2020 p. 6]; conhecimento
+  aplicado "há 15 anos" em 2020 [R2020 p. 15]; o nome "Projeto
+  ConstruCOM" já em 2012, para construções sustentáveis [N 2012-08-03].
 - **2018:** o projeto com idosos é elaborado e capta recursos
   [Curadoria].
 - **Origem, sem data exata:** dentro da parceria com Eusébio, o

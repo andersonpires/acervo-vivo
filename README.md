@@ -8,23 +8,23 @@ tecnológica, capacitação técnica e qualidade de vida, voltada a
 públicos em vulnerabilidade social. Sua missão é associar tecnologia
 e conhecimento para fomentar o potencial humano e das instituições.
 
-Os projetos se organizam em programas (estrutura do site
-iteva.org.br, use-a como referência):
+Programas em funcionamento (curadoria de 11/10/2026):
 
-- Midiacom: CDF (Cidadão do Futuro), Professores Digitais, Técnico
-  em Multimídia, Provedor Social, Empodera Jovem
-- Bem-estar +60: Construcom, Conectividade +60
-- Fortalecimento do Terceiro Setor: Sisger, Bem-te-vi, Seminário
-  Compartilhando Saberes
-- Energia: Termodinâmica, Eólica, Solar
-- Construção Sustentável: Geodésica, Estação de Tratamento de Esgoto
-- Projetos concluídos
+- Midiacom: Empodera Jovem, Empodera Mulher, ItevaLab, CDF (Cidadão
+  do Futuro), Professores Digitais, Técnico em Multimídia
+- Bem-estar +60: Construcom, ConectivIdade +60
+- Fortalecimento do Terceiro Setor: Sisger, BemTeVi, Compartilhando
+  Saberes
+- Mais Saúde: NoCorre, Pilates, Fisioterapia
 
-Lista atualizada em 11/10/2026 com as decisões de `divergencias.md`
-(itens 2 a 4) e com o que a revista de 2023 mostra (p. 8 a 11). Antes,
-o Sisger estava no Midiacom e o Construcom também em Construção
-Sustentável, como no menu do site. Os demais projetos encontrados na
-indexação estão em `acervo/volume.md`.
+Já encerrados, mantidos no acervo como história: Academia Cisco,
+Delart, os negócios do condomínio social e o Parafix. Os demais
+projetos do site (Energia, Construção Sustentável, Provedor Social e
+outros) estão no cadastro com situação a confirmar.
+
+O cadastro completo, com programa, situação e fonte de cada projeto,
+está em `projetos/cadastro.csv`; o material por projeto e ano, em
+`acervo/volume.md`.
 
 ## Propósito
 

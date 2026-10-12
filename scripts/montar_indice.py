@@ -5,7 +5,8 @@ Uso:
 
 Cada linha JSONL traz fonte, arquivo, ano, título, projetos, páginas ou
 URL, tipo e observação. O programa NÃO vem da indexação: é atribuído
-aqui, pela tabela PROGRAMAS, para ser o mesmo em todo o índice.
+aqui, pelo cadastro em projetos/cadastro.csv, para ser o mesmo em todo o
+índice.
 
 Saídas:
     acervo/indice.csv     UTF-8 com BOM e separador ";" (abre em colunas
@@ -25,54 +26,18 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 
-# Programa de cada projeto. Base: o menu de iteva.org.br. Projetos fora
-# do menu levam o programa em que a revista de 2023 os apresenta (p. 8 a
-# 10). Onde as fontes divergem, os dois aparecem e o item correspondente
-# de divergencias.md explica.
-PROGRAMAS = {
-    "Midiacom": "Midiacom",
-    "Midiacom.net": "Midiacom",
-    "Centro de Inclusão Digital Dragão do Mar": "Midiacom",
-    "CDF": "Midiacom",
-    "Professores Digitais": "Midiacom",
-    "Técnico em Multimídia": "Midiacom",
-    "Provedor Social": "Midiacom",
-    "Empodera Jovem": "Midiacom (revista 2023, p. 8; fora do menu do site)",
-    "Sisger": "Fortalecimento do Terceiro Setor",  # decisão de 11/10/2026, divergência 2
-    "Desenvolvimento de Software": "[sem programa no site]",
-    "Delart": "[sem programa no site]",
-    "Bem-estar +60": "Bem-estar +60",
-    "Construcom": "Bem-estar +60",  # decisão de 11/10/2026, divergência 3
-    "Conectividade +60": "Bem-estar +60",
-    "Idoso Conectado": "Bem-estar +60",
-    "Termodinâmica": "Energia",
-    "Eólica": "Energia",
-    "Solar": "Energia",
-    "Geodésica": "Construção Sustentável",
-    "Estação de Tratamento de Esgoto": "Construção Sustentável",
-    "Parafix": "Projetos concluídos",
-    "Fortalecimento do Terceiro Setor": "Fortalecimento do Terceiro Setor",
-    "Bem-te-vi": "Fortalecimento do Terceiro Setor",
-    "Institucional": "Institucional",
-    # Encontrados na indexação, fora da lista inicial. Nenhum está no menu
-    # do site; o programa fica em aberto até haver fonte que o diga.
-    "Academia Cisco": "[sem programa no site]",
-    "Microsoft S2B": "[sem programa no site]",
-    "Curso Introdução às TICs": "[sem programa no site]",
-    "Estudo de Ensino Híbrido do Eusébio": "[sem programa no site]",
-    "Gestão de Projetos (negócio social)": "[sem programa no site]",
-    "Condomínio de Empresas Sociais": "[sem programa no site]",
-    "Sala de Aula Iteva": "[sem programa no site]",
-    "TSC Construções": "[sem programa no site]",
-    "OrangeBOX": "[sem programa no site]",
-    "Ninho de Ideias": "[sem programa no site]",
-    "Scriple": "[sem programa no site]",
-    "Empodera Mulher": "[sem programa no site]",
-    "Contação de Histórias Reversas": "[sem programa no site]",
-    "Água de Beber": "[sem programa no site]",
-    "Festival CumbuCOR": "[sem programa no site]",
-    "NoCorre": "[sem programa no site]",
-}
+# Programa e situação de cada projeto vêm de projetos/cadastro.csv, a fonte
+# única: quem decide programa ou situação edita o cadastro, não este script.
+CADASTRO = RAIZ / "projetos" / "cadastro.csv"
+
+
+def ler_cadastro():
+    with open(CADASTRO, encoding="utf-8-sig", newline="") as f:
+        return {r["projeto"]: r for r in csv.DictReader(f, delimiter=";")}
+
+
+PROJETOS = ler_cadastro()
+PROGRAMAS = {nome: r["programa"] for nome, r in PROJETOS.items()}
 
 # Grafia única para o que os agentes de indexação marcaram como "NOVO: ...".
 NOVOS = {
@@ -182,12 +147,13 @@ def escrever_volume(linhas):
         "mais de um projeto. Gerado por `scripts/montar_indice.py` a partir de",
         "`acervo/indice.csv`.",
         "",
-        "| Projeto | Programa | Revista | Notícia | Total | " + " | ".join(str(a)[2:] for a in anos) + " |",
-        "|---|---|---|---|---|" + "---|" * len(anos),
+        "| Projeto | Programa | Situação | Revista | Notícia | Total | " + " | ".join(str(a)[2:] for a in anos) + " |",
+        "|---|---|---|---|---|---|" + "---|" * len(anos),
     ]
     for p in ordem:
         celulas = [str(por[p][a]) if por[p][a] else "" for a in anos]
-        md.append(f"| {p} | {curto(PROGRAMAS.get(p, '?'))} | {fontes[p]['revista']} | {fontes[p]['noticia']} | {sum(por[p].values())} | " + " | ".join(celulas) + " |")
+        situacao = PROJETOS.get(p, {}).get("situacao", "?")
+        md.append(f"| {p} | {curto(PROGRAMAS.get(p, '?'))} | {situacao} | {fontes[p]['revista']} | {fontes[p]['noticia']} | {sum(por[p].values())} | " + " | ".join(celulas) + " |")
     md.append("")
     md.append("Anos na tabela: " + ", ".join(str(a) for a in anos) + ". Revistas cobrem 2010 a 2023; notícias, 2011 a 2026.")
     md.append("")

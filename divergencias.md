@@ -139,6 +139,7 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
   primeiras experiências com tijolo solo-cimento em **2012**.
 - **Por que importa:** é a origem técnica do Construcom, e a frase "há
   X anos" costuma ir para texto de divulgação.
-- **Enquanto não houver decisão:** a ficha registra 2012 como início
-  dos ensaios, com as outras datas citadas.
-- **Decisão:** [FALTA: decisão do usuário]
+- **Decisão (11/10/2026):** não é divergência. São marcos diferentes:
+  os testes com o tijolo começaram numa época, os cursos com
+  profissionais da construção civil em outra e o projeto com idosos em
+  2019. A ficha cita cada data como o marco que a fonte descreve.
