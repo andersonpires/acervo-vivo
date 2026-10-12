@@ -38,6 +38,18 @@ vive (ficha, cadastro, divergências).
   parceiros, mas o primeiro item ("Parceiros do Iteva") é uma imagem
   única com vários logos, sem os nomes em texto.
 - **Página Destaques vazia:** /p/destaques só tem o título.
+- **Páginas desatualizadas** (achadas no confronto de 12/10/2026):
+  - Programa Midiacom lista Sisger e BemTeVi entre os projetos dele;
+  - Linha do Tempo para em 2020;
+  - Geodésica usa "Cientista do Futuro" e diz que "uma segunda geodésica
+    está sendo construída", mas a Linha do Tempo registra as duas
+    cúpulas em 2016; atribui a geodésica a "o alemão Richard Fuller"
+    (pelo conhecimento geral, Buckminster Fuller era norte-americano;
+    conferir antes de corrigir);
+  - Idoso Conectado é um anúncio antigo de turma do ConectivIDADE +60;
+  - Trabalhe Conosco só tem vagas de 2018, já preenchidas, e uma delas
+    dá prazo de envio "até 23/02/2017", antes da data da vaga;
+  - Quem Somos diz "matriz em Aquiraz" (divergência 10).
 - **Erros publicados:** a notícia de 28/04/2026 dá o dia 24/04 como
   sexta-feira e como quinta-feira; a de 28/05/2026 escreve "Instituto
   Tecnológico Vocacional Avançado", sem o "e"; a de 21/06/2012 traz a
@@ -45,10 +57,11 @@ vive (ficha, cadastro, divergências).
 
 ## Do acervo das páginas do site
 
-- **Índice e confronto** (próximo passo, aguardando aprovação): pôr as
-  páginas no índice e confrontá-las com revistas e notícias, registrando
-  em `divergencias.md` o que não bater. Já se sabe de uma: "Quem Somos"
-  diz "matriz em Aquiraz", e o rodapé dá o endereço em Eusébio.
+- **Divergências 10 a 15** aguardam decisão: sede, início do Sisger,
+  nome do pesquisador, parque eólico, início das aulas de campo e
+  telefone para publicar.
+- **Ficha do Construcom:** a página do projeto no site não trouxe fato
+  novo; a ficha já cita a data de início dela.
 
 ## Acervos futuros
 

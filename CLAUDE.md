@@ -83,7 +83,9 @@ depois está em `PENDENCIAS.md`; decisões entre fontes, em
   da consulta, mais `rodape.md`). Lê o HTML publicado, não o banco: no
   banco o conteúdo fica em blocos aninhados e parte se perde. Ficam de
   fora as páginas de outros acervos (notícias, vídeos, clipping,
-  publicações, transparência).
+  publicações, transparência). As 30 páginas estão no índice como
+  `scripts/indexacao/site.jsonl`, tipo "página do site", sem ano (o
+  site não data as páginas; vale a data da consulta).
 
 - **Índice:** `python -I scripts/montar_indice.py scripts/indexacao`
   regrava `acervo/indice.csv` (UTF-8 com BOM, separador `;`, sem linha

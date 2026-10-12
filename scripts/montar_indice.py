@@ -68,7 +68,7 @@ def normalizar(p):
     return p
 
 COLUNAS = ["fonte", "arquivo", "ano", "titulo", "programa", "projetos", "paginas_ou_url", "tipo", "obs"]
-TIPOS = {"reportagem", "editorial", "entrevista", "nota", "notícia", "artigo", "depoimento"}
+TIPOS = {"reportagem", "editorial", "entrevista", "nota", "notícia", "artigo", "depoimento", "página do site"}
 
 
 def main(pasta):
@@ -93,7 +93,8 @@ def main(pasta):
             linhas.append({
                 "fonte": r["fonte"],
                 "arquivo": r["arquivo"],
-                "ano": int(r["ano"]),
+                # Página do site não tem data de publicação: fica sem ano.
+                "ano": int(r["ano"]) if r.get("ano") else "",
                 "titulo": r["titulo"],
                 "programa": "; ".join(programas),
                 "projetos": "; ".join(projetos),
@@ -102,7 +103,8 @@ def main(pasta):
                 "obs": r.get("obs", ""),
             })
 
-    linhas.sort(key=lambda r: (r["ano"], r["fonte"] != "revista", r["arquivo"], primeira_pagina(r["paginas_ou_url"])))
+    ordem_fonte = {"revista": 0, "noticia": 1, "site": 2}
+    linhas.sort(key=lambda r: (r["ano"] or 9999, ordem_fonte.get(r["fonte"], 3), r["arquivo"], primeira_pagina(r["paginas_ou_url"])))
 
     destino = RAIZ / "acervo" / "indice.csv"
     with open(destino, "w", encoding="utf-8-sig", newline="") as saida:
@@ -130,14 +132,15 @@ def curto(programa):
 
 def escrever_volume(linhas):
     """Tabela projeto x ano: quantos textos citam o projeto de forma substantiva."""
-    anos = sorted({r["ano"] for r in linhas})
+    anos = sorted({r["ano"] for r in linhas if r["ano"]})
     por = collections.defaultdict(collections.Counter)
     fontes = collections.defaultdict(collections.Counter)
     for r in linhas:
         for p in filter(None, r["projetos"].split("; ")):
-            por[p][r["ano"]] += 1
+            if r["ano"]:
+                por[p][r["ano"]] += 1
             fontes[p][r["fonte"]] += 1
-    ordem = sorted(por, key=lambda p: -sum(por[p].values()))
+    ordem = sorted(fontes, key=lambda p: -sum(fontes[p].values()))
 
     md = [
         "# Volume de material por projeto",
@@ -147,15 +150,15 @@ def escrever_volume(linhas):
         "mais de um projeto. Gerado por `scripts/montar_indice.py` a partir de",
         "`acervo/indice.csv`.",
         "",
-        "| Projeto | Programa | Situação | Revista | Notícia | Total | " + " | ".join(str(a)[2:] for a in anos) + " |",
-        "|---|---|---|---|---|---|" + "---|" * len(anos),
+        "| Projeto | Programa | Situação | Revista | Notícia | Site | Total | " + " | ".join(str(a)[2:] for a in anos) + " |",
+        "|---|---|---|---|---|---|---|" + "---|" * len(anos),
     ]
     for p in ordem:
         celulas = [str(por[p][a]) if por[p][a] else "" for a in anos]
         situacao = PROJETOS.get(p, {}).get("situacao", "?")
-        md.append(f"| {p} | {curto(PROGRAMAS.get(p, '?'))} | {situacao} | {fontes[p]['revista']} | {fontes[p]['noticia']} | {sum(por[p].values())} | " + " | ".join(celulas) + " |")
+        md.append(f"| {p} | {curto(PROGRAMAS.get(p, '?'))} | {situacao} | {fontes[p]['revista']} | {fontes[p]['noticia']} | {fontes[p]['site']} | {sum(fontes[p].values())} | " + " | ".join(celulas) + " |")
     md.append("")
-    md.append("Anos na tabela: " + ", ".join(str(a) for a in anos) + ". Revistas cobrem 2010 a 2023; notícias, 2011 a 2026.")
+    md.append("Anos na tabela: " + ", ".join(str(a) for a in anos) + ". Revistas cobrem 2010 a 2023; notícias, 2011 a 2026. Páginas do site não têm data e só entram nas colunas Site e Total.")
     md.append("")
     (RAIZ / "acervo" / "volume.md").write_text("\n".join(md), encoding="utf-8", newline="\n")
 
