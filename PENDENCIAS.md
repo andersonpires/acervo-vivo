@@ -49,7 +49,10 @@ vive (ficha, cadastro, divergências).
   - Idoso Conectado é um anúncio antigo de turma do ConectivIDADE +60;
   - Trabalhe Conosco só tem vagas de 2018, já preenchidas, e uma delas
     dá prazo de envio "até 23/02/2017", antes da data da vaga;
-  - Quem Somos diz "matriz em Aquiraz" (divergência 10).
+  - Quem Somos diz "matriz em Aquiraz"; desde 2026 a matriz é em
+    Eusébio e a unidade de Aquiraz foi fechada (divergência 10);
+  - Linha do Tempo escreve "Bruno Sousa Lessa"; o certo é "Bruno de
+    Souza Lessa" (divergência 12).
 - **Erros publicados:** a notícia de 28/04/2026 dá o dia 24/04 como
   sexta-feira e como quinta-feira; a de 28/05/2026 escreve "Instituto
   Tecnológico Vocacional Avançado", sem o "e"; a de 21/06/2012 traz a
@@ -57,9 +60,6 @@ vive (ficha, cadastro, divergências).
 
 ## Do acervo das páginas do site
 
-- **Divergências 10 a 15** aguardam decisão: sede, início do Sisger,
-  nome do pesquisador, parque eólico, início das aulas de campo e
-  telefone para publicar.
 - **Ficha do Construcom:** a página do projeto no site não trouxe fato
   novo; a ficha já cita a data de início dela.
 

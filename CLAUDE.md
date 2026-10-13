@@ -27,6 +27,9 @@ depois está em `PENDENCIAS.md`; decisões entre fontes, em
 
 ## Estilo
 
+- **Fatos institucionais** (matriz, unidades, contato, fundação,
+  números da instituição) estão em `projetos/iteva.md`. Telefone em
+  texto novo: quem pede define; se não definir, (85) 3362-3210.
 - **Modelo de escrita** vem só das revistas (principalmente), das
   notícias e das páginas do site. O clipping é acervo de consulta, não
   de estilo: é a voz da imprensa, não a do Iteva. Proposta de projeto e

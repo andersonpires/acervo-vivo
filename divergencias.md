@@ -157,7 +157,11 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
   Eusébio, mas mantendo nossa sede em Aquiraz".
 - **Por que importa:** "com sede em" aparece em quase todo texto
   institucional e em toda prestação de contas.
-- **Decisão:** [FALTA: cidade da sede hoje e desde quando]
+- **Decisão (13/10/2026):** "sede" é usada como sinônimo de unidade: o
+  Iteva tem unidades em municípios diferentes. A **matriz** ficou em
+  Aquiraz até 2026; depois passou para **Eusébio**, e a unidade de
+  Aquiraz foi fechada. Em texto novo, "matriz" para a principal e
+  "unidade" para as demais.
 
 ## 11. Sisger: começou em 2012 ou em 2017?
 
@@ -166,9 +170,10 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
 - **Fonte B:** `revista2020.pdf`, p. 7, e a Linha do Tempo do site:
   "Desenvolvimento do SISGER" (revista) e "Idealização e desenvolvimento
   do Sistema Gerenciador de Projetos Sociais - Sisger" (site) em 2017.
-- **Leitura possível, não confirmada:** bases conceituais em 2012,
-  desenvolvimento da plataforma em 2017.
-- **Decisão:** [FALTA: decisão do usuário]
+- **Decisão (13/10/2026):** são três fases. Em 2012, um software
+  instalado na intranet, só para o Iteva; em 2017, a versão web, como
+  projeto, liberada para organizações de Aquiraz; na pandemia, a
+  liberação para organizações de todo o Brasil.
 
 ## 12. Nome do pesquisador: Bruno de Souza Lessa ou Bruno Sousa Lessa?
 
@@ -177,7 +182,7 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
   artigo); `revista2018.pdf`, p. 21.
 - **Fonte B:** "Bruno Sousa Lessa" em `revista2020.pdf`, p. 7, e na
   Linha do Tempo do site (2015).
-- **Decisão:** [FALTA: grafia correta]
+- **Decisão (13/10/2026):** **Bruno de Souza Lessa**.
 
 ## 13. Parque eólico: o primeiro do Ceará ou os primeiros comerciais do Brasil?
 
@@ -189,7 +194,8 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
   na implantação dos "primeiros parques eólicos comerciais do Brasil".
 - **Por que importa:** são afirmações de alcance diferente (estadual e
   nacional) sobre o mesmo fato, e as duas circulam.
-- **Decisão:** [FALTA: qual afirmação usar, ou as duas]
+- **Decisão (13/10/2026):** as duas afirmações são verdadeiras e podem
+  ser usadas.
 
 ## 14. Aulas de campo: começaram em 1998 ou em 1999?
 
@@ -198,7 +204,7 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
 - **Fonte B:** site, página Projetos Concluídos: as aulas de campo
   "foram assistidas em média, por nove mil alunos/ano, entre 1999 e
   2004".
-- **Decisão:** [FALTA: decisão do usuário]
+- **Decisão (13/10/2026):** começaram em **1998**.
 
 ## 15. Telefone para publicar
 
@@ -208,4 +214,5 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
 - **Fonte C:** página Idoso Conectado: WhatsApp 99974-0443.
 - **Por que importa:** texto novo com chamada para contato precisa do
   número certo.
-- **Decisão:** [FALTA: números em uso hoje e para que serve cada um]
+- **Decisão (13/10/2026):** o número de contato é sempre definido por
+  quem pede o texto. Se não definir, usar **(85) 3362-3210**.

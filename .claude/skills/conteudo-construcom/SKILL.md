@@ -15,8 +15,11 @@ e nenhum passo se pula.
 Leia, inteiros, antes de qualquer outra coisa:
 
 1. `projetos/construcom.md`, a ficha do projeto;
-2. o guia do canal pedido (tabela do passo 3);
-3. `divergencias.md`, para saber que fatos estão em disputa.
+2. `projetos/iteva.md`, a ficha institucional (matriz, unidades,
+   contato, números da instituição);
+3. o guia do canal pedido (tabela do passo 3);
+4. `divergencias.md`, para saber que fatos estão em disputa e o que já
+   foi decidido.
 
 ## Passo 2: exigir o briefing
 
@@ -93,6 +96,10 @@ Nunca invente número, nome, data, local ou depoimento.
 - **Sem travessão nem meia-risca.** Use vírgula, dois-pontos,
   parênteses ou duas frases. Hífen solto com espaços também não.
 - "Construcom" com só a inicial maiúscula.
+- **Telefone de contato:** quem pede o texto define. Se não definir,
+  use (85) 3362-3210.
+- "Matriz" para a unidade principal (Eusébio, desde 2026) e "unidade"
+  para as demais; "sede" só como sinônimo de unidade.
 - Na notícia, nome completo da instituição na primeira menção:
   "Instituto Tecnológico e Vocacional Avançado (ITEVA)", com o "e".
 
