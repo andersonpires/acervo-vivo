@@ -58,18 +58,30 @@ Entregue, nesta ordem:
    | 0:10 | marca do Iteva e do parceiro | | |
 
    Na coluna Áudio, **descreva o conteúdo esperado da fala e a pergunta
-   que a provoca, nunca o texto da fala**. Siga a ordem do guia:
-   participante, equipe, poder público, participante.
+   que a provoca, nunca o texto da fala**. Siga o desenho do guia:
+   - abertura com a voz de um participante falando de si, ou de quem
+     conduz falando do projeto sobre imagens do cotidiano;
+   - o porquê do projeto nos primeiros 30 segundos, na voz de quem
+     conduz;
+   - sequência de participantes, cada um com uma mudança concreta, de
+     8 a 20 segundos;
+   - quem ensina conta uma história;
+   - poder público **só se houver alguém no briefing**: sem gestor, não
+     reserve bloco;
+   - fecho em cascata, com frases curtas de participantes diferentes.
 3. **Perguntas por entrevistado:** de 3 a 5 perguntas abertas por
    pessoa, cada uma ligada a um bloco (P1, P2...). Pergunta que pede
    história ("como foi o primeiro dia?") e não que pede adjetivo ("foi
    bom?").
 4. **Imagens de apoio:** lista do fazer a filmar (máquina, mãos, aula,
    entrega), ligada aos blocos.
-5. **Textos de tela:** as frases curtas da abertura e do fecho, e a
-   legenda de cada pessoa no formato do guia ("Nome, idade" ou "Nome,
-   cargo"). Texto de tela é a voz do Iteva e pode ser escrito aqui,
-   mas **número em tela só com fonte** (ficha, briefing, notícia).
+5. **Textos de tela:** a legenda de cada pessoa no formato do guia
+   ("Nome, idade" ou "Nome, cargo") e, se fizer sentido, as frases
+   curtas da abertura e do fecho. Frase de efeito é opcional; muitos
+   vídeos da casa não têm nenhuma, e slogan genérico ("Nunca é tarde
+   para...") não entra. Texto de tela é a voz do Iteva e pode ser
+   escrito aqui, mas **número em tela só com fonte** (ficha, briefing,
+   notícia).
 6. **Cartela final:** marca do projeto e "Parceiros", com os parceiros
    do briefing ou da ficha. Nenhum parceiro inventado.
 

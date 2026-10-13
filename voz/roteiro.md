@@ -44,27 +44,44 @@ com autor.
 
 ### Abertura
 
-Todos abrem em **tela preta**. Depois, uma de duas entradas:
+Todos abrem em **tela preta**. A primeira voz entra antes de qualquer
+legenda de nome (em 10 dos 11), e é de um de dois tipos:
 
-1. **Uma fala forte, antes de qualquer legenda**, de quem viveu: a
-   frase que resume a virada. Em 9 dos 11, a primeira voz é de alguém
-   ainda sem nome na tela. Em três deles ("Projeto Construcom", "O muro
-   improvável", "Colaboração intersetorial"), vem logo depois, até os
-   12 segundos, a cartela com a marca do Iteva, às vezes ao lado da do
-   parceiro (Eusébio, "Desenvolvimento com qualidade de vida").
-2. **Um texto na tela que provoca**: citação ("Nesta terra, em se
-   plantando, tudo dá.", de Pero Vaz de Caminha), pergunta ("O que é
-   ser velho para você?", numa barra de busca), desafio ("Lançamos um
-   desafio para professores da rede pública de ensino do município de
-   Aquiraz no Ceará").
+1. **Participante falando de si**, com a frase que resume a virada (5
+   dos 11: os quatro vídeos de idosos do Construcom e do Bem-estar +60,
+   e o depoimento de Vanesca Lima). Exemplo: "Porque muita gente pensa
+   que, por nós termos uma certa idade, praticamente acabou pra nós."
+2. **Quem conduz o projeto, ou um gestor, falando do projeto**, muitas
+   vezes sobre imagens do cotidiano (5 dos 11: os institucionais e o
+   "Projeto Conectividade"). Exemplo, sobre imagens de rua, aplicativo
+   e teclado do celular: "No mundo de hoje, você não pega mais um táxi,
+   como antigamente. [...] porque não os idosos."
+
+Além da voz, pode vir **um texto na tela que provoca**: citação ("Nesta
+terra, em se plantando, tudo dá.", de Pero Vaz de Caminha), pergunta
+("O que é ser velho para você?", numa barra de busca), desafio
+("Lançamos um desafio para professores da rede pública de ensino do
+município de Aquiraz no Ceará"). Em três vídeos ("Projeto Construcom",
+"O muro improvável", "Colaboração intersetorial"), vem até os 12
+segundos a cartela com a marca do Iteva, às vezes ao lado da do
+parceiro (Eusébio, "Desenvolvimento com qualidade de vida").
 
 ### Ordem das vozes
 
-O desenho mais comum: **participante, depois equipe do Iteva, depois
-poder público, e de novo participante**. O gestor público (prefeito,
-secretário) entra no meio ou perto do fim, para dar escala; quem fecha,
-na maioria, é de novo quem viveu. Há exceção: em "Mudando a rotina de
-professores e alunos", a secretária de Educação abre e fecha. Exemplos: Kennedy Montenegro, secretário executivo do
+- **O porquê vem cedo.** Quando a abertura não explica o projeto, a
+  voz de quem conduz explica logo depois, nos primeiros 30 segundos (no
+  "Projeto Conectividade", o objetivo está dito até 0:27).
+- **Depois, a prova, em sequência de participantes**, cada um com uma
+  mudança concreta, de 8 a 20 segundos (no "Projeto Conectividade":
+  a leitura que melhorou, a ambulância que ela mesma chama, o filho com
+  quem voltou a falar).
+- **Quem ensina conta uma história**, não uma opinião (a educadora
+  social relata a noite em que uma aluna ligou para ela sozinha).
+- **Poder público só se houver.** O gestor (prefeito, secretário)
+  aparece em 6 dos 11, no meio ou perto do fim, para dar escala; quando
+  a ação não tem gestor, o vídeo não abre espaço para ele. Na exceção
+  "Mudando a rotina de professores e alunos", a secretária de Educação
+  abre e fecha. Exemplos: Kennedy Montenegro, secretário executivo do
 Trabalho do Ceará, no meio do vídeo do Construcom; o prefeito de
 Eusébio e o secretário executivo da Proteção Social perto do fim de "O
 que é ser velho para você?".
@@ -95,8 +112,16 @@ e comum nos novos ("2.424 PESSOAS impactadas indiretamente", 2025).
 
 ### Fecho
 
-- A última fala é de participante, ou um par de frases na tela que
-  devolve a pergunta da abertura (trecho 2).
+- **Fecho em cascata:** nos vídeos com idosos, o fim é uma sequência
+  de frases curtas de participantes diferentes (4 dos 5). No "Projeto
+  Conectividade", são quatro em 30 segundos, de "É, agora eu sou
+  digital, pois é." a "Só quero dizer que esse projeto, pra mim, foi a
+  coisa mais maravilhosa que aconteceu."
+- Ou um par de frases na tela que devolve a pergunta da abertura
+  (trecho 2).
+- **Frase de efeito na tela não é obrigatória:** "Projeto
+  Conectividade" e "Programa Bem-estar +60 2021" não têm texto de tela
+  além das legendas de nome. Não invente slogan para preencher.
 - Depois, a marca do projeto e a **cartela "Parceiros"**: 10 dos 11
   terminam com ela, às vezes com a frase "Transformando vidas com o
   apoio de empresas comprometidas com o desenvolvimento humano".

@@ -82,13 +82,9 @@ O papel de cada um está no `README.md`.
   `.gitignore`).
 - **Guias e skills dos outros formatos:** post e relatório para
   parceiro (objetivo 4). Hoje o post usa regra provisória. O roteiro já
-  tem guia (`voz/roteiro.md`) e skill (`roteiro-video`), ainda sem o
-  teste de comparação feito com a notícia.
-- **Divergência 16:** data dos vídeos no site e no YouTube.
-- **Vídeos sem nome na tela:** em "Projeto Construcom" e "O muro
-  improvável" (2019), nenhum idoso tem legenda; as falas não podem ser
-  citadas com autor. Se alguém do Iteva souber quem são, dá para
-  completar as fichas.
+  tem guia (`voz/roteiro.md`) e skill (`roteiro-video`), testados em
+  `testes/roteiro/`; falta testar o Modo B (montagem com gravação
+  bruta), que pede gravação ainda não editada.
 - **Vídeo da Discovery:** o Whisper traduziu as falas em inglês em vez
   de transcrevê-las, e parou em 3:01. Produção externa; refazer só se
   for útil.

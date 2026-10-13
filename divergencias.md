@@ -237,4 +237,5 @@ YouTube divergem (consultadas em 13/10/2026):
   a data do site é anterior ao que o próprio vídeo mostra.
 - **Enquanto não houver decisão:** o índice usa o ano do site e cita as
   duas datas na observação; cada ficha em `acervo/videos/` traz as duas.
-- **Decisão:** [FALTA: qual data vale, ou a data correta de cada vídeo]
+- **Decisão (13/10/2026):** encerrada sem escolha, por decisão do usuário.
+  O índice segue com o ano do site, e as fichas mantêm as duas datas.
