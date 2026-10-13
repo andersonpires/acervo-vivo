@@ -13,7 +13,7 @@ Um bom projeto atrai bons parceiros. Conte o que você tem em mente e a nossa eq
 
 ### Contato direto
 
-Rua Francisco do Amaral, 730 — Parque Hawaí — Eusébio/CE
+Rua Francisco Evandro do Amaral, 730 — Parque Hawaí — Eusébio/CE
 
 +55 85 3362-3210
 
@@ -23,6 +23,6 @@ CNPJ: 03.502.169/0001-38
 
 ### Onde ficamos
 
-Rua Francisco do Amaral, 730 — Parque Hawaí — Eusébio/CE
+Rua Francisco Evandro do Amaral, 730 — Parque Hawaí — Eusébio/CE
 
 O mapa vem do Google e grava cookies no seu navegador. Ele só é carregado se você pedir.

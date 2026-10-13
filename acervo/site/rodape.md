@@ -5,7 +5,7 @@ consultado_em: 2026-10-13
 
 # Rodapé do site
 
-- Rua Francisco do Amaral, 730 — Parque Hawaí — Eusébio/CE
+- Rua Francisco Evandro do Amaral, 730 — Parque Hawaí — Eusébio/CE
 - CEP: 61.761-320
 - iteva@iteva.org.br
 - +55 85 9.8509-6710

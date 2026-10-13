@@ -23,8 +23,9 @@ nenhuma fonte diz está marcado como `[FALTA: ...]`. Última revisão:
 - **Matriz:** em Aquiraz até 2026; depois, em **Eusébio**. A unidade de
   Aquiraz foi fechada [Curadoria, divergência 10].
   `[FALTA: mês da mudança da matriz]`
-- **Endereço da matriz:** Rua Francisco do Amaral, 730, Parque Hawaí,
-  Eusébio/CE, CEP 61.761-320 [Site rodapé].
+- **Endereço da matriz:** Rua Francisco Evandro do Amaral, 730, Parque
+  Hawaí, Eusébio/CE, CEP 61.761-320 [Curadoria, 13/10/2026; Site rodapé,
+  corrigido no mesmo dia].
 - **Unidade de Beberibe:** inaugurada em 24/04/2026, na Rua Antônio
   Mário Ribeiro, 361 [N 2026-04-28].
 - `[FALTA: lista completa das unidades em funcionamento]`
