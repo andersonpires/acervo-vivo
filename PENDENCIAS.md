@@ -54,6 +54,11 @@ vive (ficha, cadastro, divergências).
     contato do controlador dos dados. A matriz é em Eusébio desde 2026
     (divergência 10). Texto jurídico: corrigir com quem responde pela
     LGPD no Iteva.
+  - Política de Privacidade (contato do controlador) e Trabalhe Conosco
+    (quatro vagas) mostram ao público "[email protected]" no lugar do
+    e-mail: o texto veio do site antigo já embaralhado pela proteção
+    contra spam da Cloudflare, sem o código que permitiria recuperá-lo.
+    Precisa ser redigitado (iteva@iteva.org.br, se for esse o certo).
 - **Erros publicados:** a notícia de 28/04/2026 dá o dia 24/04 como
   sexta-feira e como quinta-feira; a de 28/05/2026 escreve "Instituto
   Tecnológico Vocacional Avançado", sem o "e"; a de 21/06/2012 traz a
