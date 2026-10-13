@@ -90,6 +90,18 @@ depois está em `PENDENCIAS.md`; decisões entre fontes, em
   `scripts/indexacao/site.jsonl`, tipo "página do site", sem ano (o
   site não data as páginas; vale a data da consulta).
 
+- **Vídeos:** fluxo em quatro scripts, rodados sem `-I` (pacotes
+  instalados com `--user`): baixar com yt-dlp
+  (`--cookies-from-browser firefox --js-runtimes node`; o YouTube exige
+  login e o desafio em JavaScript), `transcrever_videos.py` (Whisper
+  medium no processador; a GTX 1650 não tem a cuBLAS),
+  `quadros_videos.py` (folhas com a metade de baixo da tela a cada 4 s,
+  para ler o nome de quem fala) e `quadro_em.py` (quadros inteiros em
+  tempos específicos, para legenda em animação e cartela final). As
+  fichas ficam em `acervo/videos/`, uma por vídeo, e a transcrição
+  bruta em `acervo/videos/transcricoes-brutas/`. Falas só têm autor
+  quando o nome aparece na tela. Áudio e vídeo não entram no git.
+
 - **Índice:** `python -I scripts/montar_indice.py scripts/indexacao`
   regrava `acervo/indice.csv` (UTF-8 com BOM, separador `;`, sem linha
   `sep=;`) e `acervo/volume.md`. As linhas vêm de

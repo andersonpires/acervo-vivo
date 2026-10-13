@@ -1,0 +1,76 @@
+{
+ "duracao": 87.3,
+ "modelo": "medium",
+ "trechos": [
+  {
+   "inicio": 2.1,
+   "fim": 6.1,
+   "texto": "O Fábio falou, vamos fazer um muro para nós."
+  },
+  {
+   "inicio": 6.1,
+   "fim": 25.8,
+   "texto": "Eu acho que não teve nenhum que foi fácil que fosse construir aquele muro."
+  },
+  {
+   "inicio": 25.8,
+   "fim": 27.8,
+   "texto": "Nenhum de nós."
+  },
+  {
+   "inicio": 27.8,
+   "fim": 31.8,
+   "texto": "Quanto à professora, se você não acredita depois, pode acreditar."
+  },
+  {
+   "inicio": 31.8,
+   "fim": 34.8,
+   "texto": "Parece mentira, mas é verdade."
+  },
+  {
+   "inicio": 34.8,
+   "fim": 41.0,
+   "texto": "E foi rápido. Eu achei muito fácil."
+  },
+  {
+   "inicio": 41.0,
+   "fim": 43.0,
+   "texto": "Eu já peguei o tijolo e já fui assentando."
+  },
+  {
+   "inicio": 43.0,
+   "fim": 45.0,
+   "texto": "Falei, hoje eu não vou dormir, né?"
+  },
+  {
+   "inicio": 45.0,
+   "fim": 52.0,
+   "texto": "né, dor, vou ter dor, que nada, eu cheguei em casa, fui arrumar a minha casa."
+  },
+  {
+   "inicio": 52.0,
+   "fim": 60.3,
+   "texto": "É uma fisioterapia ótima mesmo, eu acho."
+  },
+  {
+   "inicio": 60.3,
+   "fim": 65.1,
+   "texto": "Ainda comentei com a minha amiga, olha, eu pensei que eu ia chegar quebrada, maior,"
+  },
+  {
+   "inicio": 65.1,
+   "fim": 66.1,
+   "texto": "tô bem."
+  },
+  {
+   "inicio": 66.1,
+   "fim": 72.9,
+   "texto": "Aí aqui na hora que eu tava só, aí era só, é muito rápido."
+  },
+  {
+   "inicio": 72.9,
+   "fim": 77.1,
+   "texto": "Tô me renovando, esqueço até o que eu sentia antes, fiquei bom, me curei."
+  }
+ ]
+}

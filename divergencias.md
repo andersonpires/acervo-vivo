@@ -216,3 +216,25 @@ própria. Ao decidir, registre a decisão e a data no próprio item.
   número certo.
 - **Decisão (13/10/2026):** o número de contato é sempre definido por
   quem pede o texto. Se não definir, usar **(85) 3362-3210**.
+
+## 16. Data dos vídeos: a do site ou a do YouTube?
+
+Em 7 dos 19 vídeos, a data em iteva.org.br/videos e a data de envio ao
+YouTube divergem (consultadas em 13/10/2026):
+
+| Vídeo | Site | YouTube | Indício no próprio vídeo |
+|---|---|---|---|
+| O que é ser velho para você? | 25/04/2022 | 10/12/2020 | |
+| Programa Bem-estar +60 2021 | 02/12/2021 | 27/04/2022 | título diz 2021 |
+| O muro improvável | 04/07/2019 | 18/02/2020 | |
+| Projeto Conectividade | 03/07/2019 | 30/05/2022 | cartela final "ITEVA 2021"; pessoas de máscara |
+| Projeto Construcom | 02/07/2019 | 18/02/2020 | |
+| Em se plantando, tudo dá. | 04/12/2018 | 16/01/2020 | |
+| Mais que High-Tech, somos High-Touch, ep. 1 | 12/02/2016 | 27/02/2019 | cita a formatura em 2017; logo final de 2018 |
+
+- **Por que importa:** o ano do vídeo vai para o índice e para qualquer
+  texto que diga "em <ano>, o Iteva...". Nos três vídeos com indício,
+  a data do site é anterior ao que o próprio vídeo mostra.
+- **Enquanto não houver decisão:** o índice usa o ano do site e cita as
+  duas datas na observação; cada ficha em `acervo/videos/` traz as duas.
+- **Decisão:** [FALTA: qual data vale, ou a data correta de cada vídeo]

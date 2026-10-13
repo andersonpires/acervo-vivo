@@ -1,0 +1,76 @@
+{
+ "duracao": 108.6,
+ "modelo": "medium",
+ "trechos": [
+  {
+   "inicio": 17.4,
+   "fim": 23.6,
+   "texto": "Quando as crianças chegaram, elas viram um lugar enorme e todo laranja."
+  },
+  {
+   "inicio": 23.6,
+   "fim": 26.6,
+   "texto": "Elas pensaram, o que é isso?"
+  },
+  {
+   "inicio": 26.6,
+   "fim": 32.2,
+   "texto": "Quando as portas se abriram, era um teatro!"
+  },
+  {
+   "inicio": 32.2,
+   "fim": 34.5,
+   "texto": "Mas era um teatro diferente."
+  },
+  {
+   "inicio": 34.5,
+   "fim": 39.5,
+   "texto": "Parecia uma nave."
+  },
+  {
+   "inicio": 39.5,
+   "fim": 50.2,
+   "texto": "Também tinha palhaço, tinha boneco, tinha até uma cobra."
+  },
+  {
+   "inicio": 50.2,
+   "fim": 58.4,
+   "texto": "Deu até um medo e, de repente, foi muito divertido."
+  },
+  {
+   "inicio": 58.4,
+   "fim": 66.4,
+   "texto": "Higiene, educação, meio ambiente, foram tantas histórias legais e todos se divertiram muito."
+  },
+  {
+   "inicio": 66.4,
+   "fim": 79.1,
+   "texto": "E depois, como num conto de fadas, apareceu uma bolsa linda e nela existiam muitos presentes."
+  },
+  {
+   "inicio": 79.1,
+   "fim": 84.8,
+   "texto": "E quando as crianças voltaram para a escola, perceberam que tudo aquilo era realidade."
+  },
+  {
+   "inicio": 84.8,
+   "fim": 90.3,
+   "texto": "E elas leram os livros, se encantaram com os jogos e adoraram ter em ganho um crachá"
+  },
+  {
+   "inicio": 90.3,
+   "fim": 92.0,
+   "texto": "de cientistas."
+  },
+  {
+   "inicio": 92.0,
+   "fim": 94.2,
+   "texto": "Cientistas do futuro."
+  },
+  {
+   "inicio": 94.2,
+   "fim": 95.2,
+   "texto": "Simples assim."
+  }
+ ]
+}
