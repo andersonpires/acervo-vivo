@@ -1,44 +1,121 @@
 # Orientações do projeto: Acervo Vivo
 
-Leia antes de qualquer alteração. O `README.md` diz o que o projeto é e
-para que serve; este arquivo diz como trabalhar nele. O que ficou para
-depois está em `PENDENCIAS.md`; decisões entre fontes, em
-`divergencias.md`.
+Base de conhecimento do Iteva, montada a partir do que a casa já
+publicou, para produzir conteúdo novo com a voz e os fatos da casa. O
+`README.md` diz o propósito e o papel de cada acervo; este arquivo diz
+como trabalhar. Leia também `PENDENCIAS.md` (o que ficou para depois) e
+`divergencias.md` (decisões entre fontes) antes de começar.
+
+## Estado atual (13/10/2026)
+
+| Acervo | Pasta | Situação |
+|---|---|---|
+| Revistas 2010 a 2023 | `acervo/texto` | pronto; principal modelo de escrita |
+| Notícias do site | `acervo/noticias` | pronto (97, conferidas contra /noticias) |
+| Páginas do site | `acervo/site` | pronto (30 páginas e rodapé) |
+| Vídeos | `acervo/videos` | pronto (19; 4 são produção externa) |
+| Transparência | `acervo/transparencia` | pronto; atualizar a cada lançamento |
+| Clipping | | **próximo**: 105 matérias no banco do site; consulta, nunca modelo de escrita |
+| Propostas de projeto e relatórios | | futuros; o usuário indica onde estão os arquivos |
+
+Produtos prontos: índice (`acervo/indice.csv`, `acervo/volume.md`),
+cadastro de projetos (`projetos/cadastro.csv`), fichas
+(`projetos/iteva.md`, `projetos/construcom.md`), guias de voz
+(`voz/revista.md`, `voz/noticia.md`, `voz/roteiro.md`) e as skills
+`conteudo-construcom` e `roteiro-video` (em `.claude/skills/`), ambas
+testadas (`testes/`). Todas as divergências registradas até aqui estão
+decididas.
+
+## Mapa
+
+```
+acervo/revistas/   PDFs originais (fora do git; integridade em SHA256SUMS)
+acervo/texto/      revistas em texto, "## Página N" para citar
+acervo/noticias/   uma notícia por arquivo
+acervo/site/       páginas do site publicado
+acervo/videos/     ficha e transcrição por vídeo (+ transcricoes-brutas/)
+acervo/transparencia/  convênios, resumo.csv, conferir.md, historico/
+acervo/indice.csv  tudo indexado por fonte, ano, projeto, tipo
+projetos/          cadastro.csv (fonte única de programa e situação) e fichas
+voz/               guias de escrita medidos nos textos reais
+scripts/           extratores, índice e indexacao/*.jsonl
+testes/            testes das skills contra textos e vídeos reais
+```
 
 ## Regras permanentes
 
-1. **Os arquivos em `acervo/revistas` são originais: nunca alterar, mover
-   ou renomear.** Tudo que se extrai deles vai para outra pasta. Os PDFs
-   **não ficam no git** (pesados demais; estão no `.gitignore`). A
-   integridade se confere com
-   `cd acervo/revistas && sha256sum -c SHA256SUMS`; se faltar algum, a
-   origem é `../site_iteva/site_legado/public/download/`.
-2. **Trabalhe em fases.** Ao fim de cada fase, pare, mostre o resultado e
-   espere a aprovação do usuário antes de seguir.
-3. **Nunca invente número, nome, data, local ou depoimento.** O que não
-   estiver na fonte fica marcado como `[FALTA: descrição]`.
-4. **Todo fato registrado em ficha leva a fonte**: arquivo e página, ou
-   URL e data da notícia.
-5. **Quando duas fontes divergirem, registre em `divergencias.md`** para o
-   usuário decidir. Não escolha por conta própria. O site tem trechos
-   desatualizados (linha do tempo parada em 2020, cidade da sede), então
-   trate-o como fonte, não como verdade.
-6. **Tudo em português do Brasil. Faça um commit ao fim de cada fase.**
+1. **Originais intocáveis.** Nada em `acervo/revistas` se altera, move ou
+   renomeia. Conferir: `cd acervo/revistas && sha256sum -c SHA256SUMS`.
+   Se faltar PDF, a origem é `../site_iteva/site_legado/public/download/`.
+2. **Trabalhe em fases.** Ao fim de cada fase, mostre o resultado e espere
+   aprovação. Commit ao fim de cada fase.
+3. **Nunca invente** número, nome, data, local ou depoimento. O que não
+   está na fonte vira `[FALTA: descrição]`. Fala só tem autor quando a
+   fonte o mostra (na revista, conferido na página; no vídeo, nome na
+   tela).
+4. **Todo fato em ficha leva fonte:** arquivo e página, URL e data, ou
+   "Curadoria" (decisão do usuário registrada em `divergencias.md`).
+5. **Fontes que divergem vão para `divergencias.md`**, para o usuário
+   decidir. O site é fonte, não verdade: tem trechos desatualizados.
+6. **Português do Brasil, sem travessão nem meia-risca** em tudo que se
+   escreve: fichas, guias, comentários, commits. Use vírgula, dois-pontos,
+   parênteses ou duas frases.
+7. **Modelo de escrita** só das revistas (principalmente), notícias e
+   páginas do site. Clipping e produções externas são consulta.
+8. **Fatos institucionais** (matriz em Eusébio desde 2026, unidades,
+   contato, fundação) vêm de `projetos/iteva.md`. Telefone em texto novo:
+   quem pede define; senão, (85) 3362-3210.
 
-## Estilo
+## Método que funcionou
 
-- **Fatos institucionais** (matriz, unidades, contato, fundação,
-  números da instituição) estão em `projetos/iteva.md`. Telefone em
-  texto novo: quem pede define; se não definir, (85) 3362-3210.
-- **Modelo de escrita** vem só das revistas (principalmente), das
-  notícias e das páginas do site. O clipping é acervo de consulta, não
-  de estilo: é a voz da imprensa, não a do Iteva. Proposta de projeto e
-  relatório, quando chegarem, são modelo apenas dos próprios formatos.
-- Sem travessão (—) nem meia-risca (–) em nada que se escreva aqui:
-  fichas, guias, textos gerados, comentários e mensagens de commit. Onde
-  ele entraria, use vírgula, dois-pontos, parênteses ou duas frases.
-- Depois de criar ou editar arquivo com acento, confira se não há
-  mojibake (ambiente Windows):
+Para cada acervo novo, a mesma sequência:
+
+1. **Reconhecimento:** volume, formato, onde está, o que falta. Parar.
+2. **Extração** por script re-executável, com fonte e data em cada
+   arquivo. Conferir por amostragem lendo o resultado.
+3. **Índice:** linhas em `scripts/indexacao/<acervo>.jsonl`; projeto novo
+   entra antes em `projetos/cadastro.csv`.
+4. **Confronto** com o resto do acervo: o que diverge vai para
+   `divergencias.md`; o que é só desatualizado do site vai para
+   `PENDENCIAS.md`.
+5. **Fichas e guias** só com fato de fonte; números de guia medidos
+   (`scripts/medir_voz.py`), nunca impressão.
+6. **Teste** de skill: reduzir um texto real (fora dos exemplos do guia)
+   a briefing, gerar sem acesso ao original, comparar e corrigir o guia.
+
+Trabalho de leitura em volume (indexar revistas, fichas de vídeo) foi
+dividido entre agentes com um arquivo comum de instruções; revise por
+amostragem o que voltar e confira toda afirmação numérica antes de
+gravar em guia ou ficha. Várias das minhas próprias generalizações
+caíram nessa conferência.
+
+## Comandos de cada acervo
+
+| O quê | Comando | Observação |
+|---|---|---|
+| Revista | `python -I scripts/extrair_revista.py <pdf> acervo/texto` | descarta o inglês das edições bilíngues |
+| Notícias | `node scripts/exportar_noticias.cjs` | lê o banco do site, só leitura |
+| Páginas | `python -I scripts/extrair_site.py` | lê o HTML publicado a partir do sitemap |
+| Vídeos | yt-dlp, `transcrever_videos.py`, `quadros_videos.py`, `quadro_em.py` | ver armadilhas; mídia fica fora do git |
+| Transparência | `node scripts/exportar_transparencia.cjs` | gera `conferir.md` e `mudancas.md`; valores por data não provam liberação |
+| Índice | `python -I scripts/montar_indice.py scripts/indexacao` | rodar depois de qualquer exportação |
+| Medidas de voz | `python -I scripts/medir_voz.py > voz/medidas.md` | |
+
+Os scripts de Node leem o projeto do site ao lado (`../site_iteva`): o
+driver `pg` vem de `site_novo/node_modules` e a `DATABASE_URI` do `.env`
+de lá. Esse banco é compartilhado com outros sistemas: só a role do site,
+só o banco do site, e escrita apenas quando o usuário pedir correção no
+site (seguir então o `CLAUDE.md` de `../site_iteva`).
+
+## Armadilhas desta máquina (Windows)
+
+- **Barra invertida reduzida.** Código passado por heredoc ou `python -c`
+  perdeu barras: `\b` virou caractere de controle e `\n` virou quebra de
+  linha dentro de string. A ferramenta Write também converte escapes
+  `\uXXXX` em caracteres. Para patch com barra invertida, gravar um `.py`
+  no scratchpad e montar a barra com `chr(92)`; depois conferir que o
+  arquivo não tem caractere de controle (`node --check` nos `.cjs`).
+- **Mojibake.** Conferir depois de gravar texto com acento:
 
   ```powershell
   $pat = "[\u00C2\u00C3\u00E2][\u0080-\u00BF]|\uFFFD"
@@ -46,116 +123,29 @@ depois está em `PENDENCIAS.md`; decisões entre fontes, em
   [regex]::Matches($txt, $pat) | ForEach-Object { $_.Value }
   ```
 
-  Grave com as ferramentas Write/Edit. Evite `Out-File`, `Set-Content` e
-  `echo` do PowerShell para texto com acento.
+  Saída de Python redirecionada com `>` sai em cp1252: o script precisa
+  de `sys.stdout.reconfigure(encoding="utf-8")`. Com `-I`, o Python ignora
+  `PYTHONIOENCODING`.
+- **`python -I` ignora pacotes `--user`.** yt-dlp, faster-whisper e av
+  foram instalados assim: os scripts de vídeo rodam sem `-I`.
+- **YouTube** pede login e um desafio em JavaScript: `python -m yt_dlp
+  --cookies-from-browser firefox --js-runtimes node` (o Firefox está
+  logado; Chrome e Edge cifram os cookies e falham).
+- **Whisper:** faster-whisper 1.2 não abre arquivo com av 19; o script
+  decodifica o áudio antes. A GPU (GTX 1650) não tem a cuBLAS: roda no
+  processador, cerca de metade da duração do vídeo.
+- **Folhas de quadros** cortam legenda em animação e o alto das cartelas:
+  completar com `quadro_em.py` em quadros inteiros.
+- **CSV para Excel pt-BR:** UTF-8 com BOM, separador `;`, sem linha
+  `sep=;`.
 
-  Atenção ao gravar este próprio padrão: ao criar este arquivo, a
-  ferramenta Write converteu os escapes de barra invertida em caracteres
-  literais, e o padrão passou a acusar a si mesmo. Depois de gravar,
-  confira com `grep -n 'pat = ' CLAUDE.md` que os escapes continuam
-  escritos como texto.
+## Limites conhecidos do acervo
 
-## Ferramentas disponíveis nesta máquina
-
-- Python 3.12 com PyMuPDF (`import pymupdf`) para extrair texto com
-  posição dos blocos, o que permite reordenar colunas.
-- `pdftotext` (Git Bash, `/mingw64/bin`).
-- Sem Tesseract: se aparecer página que precise de OCR, avise antes de
-  instalar qualquer coisa.
-- **Extrator:** `python -I scripts/extrair_revista.py <pdf> acervo/texto`
-  gera `<nome>.md` (português, com `## Página N` para citar) e
-  `<nome>.log` com o que merece conferência humana. Nas edições
-  bilíngues, separa e descarta o inglês: a base é só em português. É
-  re-executável: sobrescreve a saída.
-- **Barra invertida em comando:** ao passar código Python por heredoc no
-  Bash, `\b` e `\n` chegaram ao arquivo como caractere de controle e
-  quebra de linha. Para patch com barra invertida, grave um `.py` no
-  scratchpad e monte a barra com `chr(92)`; depois confira que o arquivo
-  não tem caractere de controle.
-
-- **Notícias:** `node scripts/exportar_noticias.cjs` relê as notícias
-  publicadas do banco do site (`../site_iteva`, só leitura) e regrava
-  `acervo/noticias/`, um `.md` por notícia com título, data, URL e texto.
-  Em 11/10/2026 eram 97, de 16/11/2011 a 28/05/2026, o mesmo número
-  listado em iteva.org.br/noticias. Não há notícia publicada de 2023, e
-  2021 e 2022 têm uma e três. Os 16 rascunhos do banco ficam de fora.
-
-- **Páginas do site:** `python -I scripts/extrair_site.py` lê o
-  sitemap.xml, baixa as páginas institucionais, de projeto, de evento e
-  a home, e regrava `acervo/site/` (um `.md` por página, com URL e data
-  da consulta, mais `rodape.md`). Lê o HTML publicado, não o banco: no
-  banco o conteúdo fica em blocos aninhados e parte se perde. Ficam de
-  fora as páginas de outros acervos (notícias, vídeos, clipping,
-  publicações, transparência). As 30 páginas estão no índice como
-  `scripts/indexacao/site.jsonl`, tipo "página do site", sem ano (o
-  site não data as páginas; vale a data da consulta).
-
-- **Vídeos:** fluxo em quatro scripts, rodados sem `-I` (pacotes
-  instalados com `--user`): baixar com yt-dlp
-  (`--cookies-from-browser firefox --js-runtimes node`; o YouTube exige
-  login e o desafio em JavaScript), `transcrever_videos.py` (Whisper
-  medium no processador; a GTX 1650 não tem a cuBLAS),
-  `quadros_videos.py` (folhas com a metade de baixo da tela a cada 4 s,
-  para ler o nome de quem fala) e `quadro_em.py` (quadros inteiros em
-  tempos específicos, para legenda em animação e cartela final). As
-  fichas ficam em `acervo/videos/`, uma por vídeo, e a transcrição
-  bruta em `acervo/videos/transcricoes-brutas/`. Falas só têm autor
-  quando o nome aparece na tela. Áudio e vídeo não entram no git.
-
-- **Transparência:** `node scripts/exportar_transparencia.cjs`, a cada
-  lançamento da contabilidade no painel do site. Regrava
-  `acervo/transparencia/` (um arquivo por convênio, `resumo.csv`,
-  `conferir.md`), guarda a cópia datada em `historico/` e escreve em
-  `mudancas.md` o que mudou desde a anterior. Também regrava
-  `scripts/indexacao/transparencia.jsonl`: depois dele, rode o índice.
-  Os valores "com data até a consulta" e "com data futura" são
-  calculados pela data da parcela e **não provam liberação**: a página
-  pública avisa que as datas são previstas. Valor recebido só com
-  confirmação da contabilidade.
-
-- **Índice:** `python -I scripts/montar_indice.py scripts/indexacao`
-  regrava `acervo/indice.csv` (UTF-8 com BOM, separador `;`, sem linha
-  `sep=;`) e `acervo/volume.md`. As linhas vêm de
-  `scripts/indexacao/*.jsonl`, feitas por leitura de cada texto segundo
-  `scripts/indexacao/INSTRUCOES.md`. O **programa** não vem da leitura:
-  sai de `projetos/cadastro.csv`, a fonte única de programa e situação
-  (ativo, encerrado, a confirmar) de cada projeto. Projeto novo entra no
-  cadastro antes de entrar no índice; o script avisa quando falta.
-
-## O que a extração não resolve (Fase 1)
-
-Antes de levar um fato destas situações para uma ficha, confira a página
-no PDF:
-
-- **Depoimento e autor.** Quando a página reúne vários depoimentos (2016,
-  p. 10 a 16, 19 e 25), nomes e cargos saem separados das falas. A
-  extração não garante quem disse o quê. Regra 3: depoimento só entra
-  com autor conferido na página.
-- **Linha do tempo.** Os anos saem agrupados num título ("2002 2003
-  2004...") e os eventos soltos, sem o ano de cada um (2016, p. 6 a 9).
-  Data de evento de linha do tempo se lê na página.
-- **Caixas com título em imagem.** Em 2023, p. 8 e 9, o nome de cada
-  projeto está numa imagem: os parágrafos saem sem dizer de qual projeto
-  falam, e a ordem entre caixas pode trocar.
-
-## O que já se sabe sobre o acervo (Fase 0)
-
-- 14 revistas, uma por ano, de 2010 a 2023, iguais às listadas em
-  iteva.org.br/publicacoes. Todas têm texto extraível; não há edição
-  escaneada.
-- Edições bilíngues (português e inglês): **2014, 2015 e 2016**. O
-  inglês não entra na base.
-- De 2010 a 2015 o cabeçalho das páginas diz "Projeto MídiaCOM <ano>"
-  (2010 e 2011) ou "Projeto Midiacom <ano>" (2012 a 2015); de 2016 em
-  diante diz "ITEVA <ano>". As primeiras edições são a revista do
-  programa Midiacom, não da instituição inteira.
-- A edição publicada como 2023 traz "ITEVA 2024" no cabeçalho. Vale
-  2023 (`divergencias.md`, item 1).
-- Texto que só existe como imagem: capas, anúncios da Midiacom.net,
-  algumas frases de destaque e as **páginas de logos de parceiros**
-  (por exemplo 2010 p. 27 e 2016 p. 28). Os parceiros dessas páginas
-  não saem na extração de texto e precisam ser lidos olhando a página.
-- Fonte das revistas: cópia byte a byte de
-  `site_iteva/site_legado/public/download/`. O site legado tem também
-  um `revista2012-old.pdf`, versão anterior da edição de 2012, que não
-  foi copiado.
+- **Revistas:** depoimentos agrupados (2016, p. 10 a 16, 19 e 25),
+  linhas do tempo (anos separados dos eventos) e páginas de logos de
+  parceiros precisam de leitura da página; estão em `PENDENCIAS.md`. Em
+  2023, p. 8 e 9, os títulos dos projetos estão em imagem.
+- **Vídeos:** fala sem nome na tela fica sem autor; o vídeo da Discovery
+  saiu traduzido pelo Whisper e incompleto.
+- **Transparência:** o painel é atualizado pela contabilidade; o que não
+  fecha está em `acervo/transparencia/conferir.md`.
