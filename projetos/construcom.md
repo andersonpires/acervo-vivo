@@ -65,12 +65,14 @@ casas de idosos em vulnerabilidade [R2022 p. 23; N 2024-05-22].
   aplicado "há 15 anos" em 2020 [R2020 p. 15]; o nome "Projeto
   ConstruCOM" já em 2012, para construções sustentáveis [N 2012-08-03].
 - **2018:** o projeto com idosos é elaborado e capta recursos
-  [Curadoria].
+  [Curadoria]; o conselho municipal do idoso de Eusébio o aprova pelas
+  resoluções 13 e 14/2018 [T 2019].
 - **Origem, sem data exata:** dentro da parceria com Eusébio, o
   prefeito Acilon Gonçalves desafia o Iteva a atuar com idosos [R2019
   p. 17; R2021 p. 12].
-- **2019:** início do projeto, com idosos [Curadoria; Site]; aulas
-  começam em junho [R2019 p. 19]. A aprovação no conselho municipal do
+- **2019:** início do projeto, com idosos [Curadoria; Site]; Termo de
+  Fomento 46/2019 com o Município de Eusébio [T 2019]; aulas começam em
+  junho [R2019 p. 19]. A aprovação no conselho municipal do
   idoso de Eusébio e a captação pelo Fundo do Idoso são contadas na
   revista de 2019, sem data [R2019 p. 19; N 2019-05-31].
 - **2020:** atividades param pela pandemia [R2020 p. 18; R2021 p. 12].
@@ -96,10 +98,21 @@ casas de idosos em vulnerabilidade [R2022 p. 23; N 2024-05-22].
 | Turma em Beberibe, 2024 | 40 alunos | N 2024-05-20 |
 | Idosos beneficiados | mais de 700 (a notícia não diz se só em Beberibe) | N 2025-08-25 |
 | Lares reformados em Beberibe | dez (até agosto de 2025) | N 2025-08-25 |
+| Termo de Fomento 46/2019 (Eusébio): valor total | R$ 5.243.711,99 | T 2019 |
+| Termo de Fomento 46/2019: parcelas | 14, de 21/03/2019 a 12/11/2021, somando R$ 4.453.223,13 | T 2019 |
+| Termo de Fomento 46/2019: prestações de contas | 14 aprovadas | T 2019 |
 | Parque fabril do Iteva | 800 tijolos por hora | R2021 p. 15 |
 | Economia da obra com o tijolo | até 40% | R2020 p. 16; R2022 p. 21 |
 
 `[FALTA: total de alunos formados por ano e por município]`
+
+A captação de R$ 1.703.210,00 e o valor do termo (R$ 5.243.711,99)
+vêm de fontes que descrevem coisas diferentes: a revista de 2019 fala
+do que o projeto captou por meio das empresas em três meses; o termo,
+do valor pactuado entre o Município de Eusébio e o Iteva. Nenhuma fonte
+diz como os dois se relacionam. A soma das parcelas fica R$ 790.488,86 abaixo do valor total,
+ponto listado em `acervo/transparencia/conferir.md`.
+`[FALTA: valor efetivamente recebido, confirmado pela contabilidade]`
 
 ## Parceiros e municípios
 
@@ -160,5 +173,6 @@ p. 16].
 | N 2025-05-15 | iteva.org.br/noticia/o-sonho-da-casa-digna-se-torna-realidade-para-dona-santina-e-sr-antonio-em-beberibe |
 | N 2025-08-25 | iteva.org.br/noticia/secretaria-de-beberibe-destaca-impacto-social-das-reformas-realizadas-pelo-iteva |
 | N 2026-04-28 | iteva.org.br/noticia/iteva-inaugura-unidade-em-beberibe-e-consolida-presenca-no-municipio-com-mais-de-21-mil-pe |
+| T 2019 | iteva.org.br/transparencia, "PROJETO CONSTRUCOM 2019", consultado em 13/10/2026 (`acervo/transparencia/convenios/2019-projeto-construcom-2019.md`) |
 | Site | iteva.org.br/projeto/construcom e menu do site, lidos em 11/10/2026 |
 | Curadoria | informação do Iteva na curadoria do acervo, 11/10/2026 (registrada em `divergencias.md`, item 6) |

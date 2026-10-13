@@ -69,6 +69,16 @@ vive (ficha, cadastro, divergências).
 - **Ficha do Construcom:** a página do projeto no site não trouxe fato
   novo; a ficha já cita a data de início dela.
 
+## Do acervo da transparência
+
+- **Pontos a conferir com a contabilidade**, listados em
+  `acervo/transparencia/conferir.md` e refeitos a cada exportação: soma
+  das parcelas diferente do valor total (NoCorre 2024, Conectividade
+  Eusébio 2023, CDF 2020, Construcom 2019, Midiacom 2018, Conectividade
+  2020), convênio sem tabela de parcelas (Conectividade Eusébio 2024),
+  cinco sem situação da prestação de contas e o Midiacom Aquiraz 2017
+  com "Aguardando (Município em atraso)".
+
 ## Acervos futuros
 
 Na ordem em que o usuário os citou: clipping, vídeos (com transcrição),

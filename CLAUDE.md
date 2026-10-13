@@ -102,6 +102,17 @@ depois está em `PENDENCIAS.md`; decisões entre fontes, em
   bruta em `acervo/videos/transcricoes-brutas/`. Falas só têm autor
   quando o nome aparece na tela. Áudio e vídeo não entram no git.
 
+- **Transparência:** `node scripts/exportar_transparencia.cjs`, a cada
+  lançamento da contabilidade no painel do site. Regrava
+  `acervo/transparencia/` (um arquivo por convênio, `resumo.csv`,
+  `conferir.md`), guarda a cópia datada em `historico/` e escreve em
+  `mudancas.md` o que mudou desde a anterior. Também regrava
+  `scripts/indexacao/transparencia.jsonl`: depois dele, rode o índice.
+  Os valores "com data até a consulta" e "com data futura" são
+  calculados pela data da parcela e **não provam liberação**: a página
+  pública avisa que as datas são previstas. Valor recebido só com
+  confirmação da contabilidade.
+
 - **Índice:** `python -I scripts/montar_indice.py scripts/indexacao`
   regrava `acervo/indice.csv` (UTF-8 com BOM, separador `;`, sem linha
   `sep=;`) e `acervo/volume.md`. As linhas vêm de
