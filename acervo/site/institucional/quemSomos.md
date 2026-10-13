@@ -2,14 +2,14 @@
 titulo: "Quem Somos"
 url: https://www.iteva.org.br/p/quemSomos
 tipo: institucional
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Quem Somos
 
 ### Quem Somos
 
-O Instituto Tecnológico e Vocacional Avançado - Iteva é uma OSCIP - Organização de Sociedade Civil de Interesse Público, com matriz em Aquiraz, no Ceará, cuja finalidade é atuar nas temáticas de produção científica, difusão tecnológica, capacitação técnica e qualidade de vida. Tendo entre seus objetivos sociais ações voltadas à diminuição das carências tecnológicas e econômicas no seio social.
+O Instituto Tecnológico e Vocacional Avançado - Iteva é uma OSCIP - Organização de Sociedade Civil de Interesse Público, com matriz em Eusébio, no Ceará, cuja finalidade é atuar nas temáticas de produção científica, difusão tecnológica, capacitação técnica e qualidade de vida. Tendo entre seus objetivos sociais ações voltadas à diminuição das carências tecnológicas e econômicas no seio social.
 
 A fundação do Iteva em 1993, surgiu a partir do sonho do casal Fábio Beneduce e Vanessa Belém; autores de uma história cheia de ideias e atitudes inovadoras, com o propósito de contribuir para a construção de uma sociedade menos desigual.
 

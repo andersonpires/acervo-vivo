@@ -2,7 +2,7 @@
 titulo: "Instituto Tecnológico e Vocacional Avançado"
 url: https://www.iteva.org.br/
 tipo: home
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Instituto Tecnológico e Vocacional Avançado

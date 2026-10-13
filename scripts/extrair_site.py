@@ -95,6 +95,10 @@ def preparar(sopa):
     for el in sopa.find_all(attrs={"data-cfemail": True}):
         b = bytes.fromhex(el["data-cfemail"])
         el.replace_with("".join(chr(x ^ b[0]) for x in b[1:]))
+    # O mesmo endereço cifrado também vem como link ".../email-protection#<hex>".
+    for el in sopa.find_all("a", href=re.compile(r"email-protection#")):
+        b = bytes.fromhex(el["href"].split("#", 1)[1])
+        el.replace_with("".join(chr(x ^ b[0]) for x in b[1:]))
     # Blocos de bloco viram parágrafos separados, mesmo sem <p>.
     for el in sopa.find_all(["p", "li", "h1", "h2", "h3", "h4", "h5", "h6", "div"]):
         el.insert_after(" ")

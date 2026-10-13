@@ -2,7 +2,7 @@
 titulo: "Maker 3D"
 url: https://www.iteva.org.br/maker3d
 tipo: evento
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Maker 3D

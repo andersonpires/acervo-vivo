@@ -2,7 +2,7 @@
 titulo: "Política de Privacidade"
 url: https://www.iteva.org.br/p/politica-de-privacidade
 tipo: institucional
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Política de Privacidade

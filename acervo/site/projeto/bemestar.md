@@ -2,7 +2,7 @@
 titulo: "Bem-estar +60"
 url: https://www.iteva.org.br/projeto/bemestar
 tipo: projeto
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Bem-estar +60

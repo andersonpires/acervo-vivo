@@ -49,10 +49,11 @@ vive (ficha, cadastro, divergências).
   - Idoso Conectado é um anúncio antigo de turma do ConectivIDADE +60;
   - Trabalhe Conosco só tem vagas de 2018, já preenchidas, e uma delas
     dá prazo de envio "até 23/02/2017", antes da data da vaga;
-  - Quem Somos diz "matriz em Aquiraz"; desde 2026 a matriz é em
-    Eusébio e a unidade de Aquiraz foi fechada (divergência 10);
-  - Linha do Tempo escreve "Bruno Sousa Lessa"; o certo é "Bruno de
-    Souza Lessa" (divergência 12).
+  - Política de Privacidade dá como sede do Iteva "Rodovia CE 04, s/n,
+    Caixa Postal 66, Aquiraz - CE, CEP 61.700-000", na abertura e no
+    contato do controlador dos dados. A matriz é em Eusébio desde 2026
+    (divergência 10). Texto jurídico: corrigir com quem responde pela
+    LGPD no Iteva.
 - **Erros publicados:** a notícia de 28/04/2026 dá o dia 24/04 como
   sexta-feira e como quinta-feira; a de 28/05/2026 escreve "Instituto
   Tecnológico Vocacional Avançado", sem o "e"; a de 21/06/2012 traz a

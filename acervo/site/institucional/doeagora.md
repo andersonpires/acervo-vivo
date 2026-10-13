@@ -2,7 +2,7 @@
 titulo: "Doe Agora"
 url: https://www.iteva.org.br/p/doeagora
 tipo: institucional
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Doe Agora

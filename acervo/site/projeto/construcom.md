@@ -2,7 +2,7 @@
 titulo: "Construcom"
 url: https://www.iteva.org.br/projeto/construcom
 tipo: projeto
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Construcom

@@ -2,7 +2,7 @@
 titulo: "Professores Digitais"
 url: https://www.iteva.org.br/projeto/professoresDigitais
 tipo: projeto
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Professores Digitais

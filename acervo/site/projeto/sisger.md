@@ -2,7 +2,7 @@
 titulo: "Sisger"
 url: https://www.iteva.org.br/projeto/sisger
 tipo: projeto
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Sisger

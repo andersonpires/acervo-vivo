@@ -2,7 +2,7 @@
 titulo: "Estação de Tratamento de Esgoto"
 url: https://www.iteva.org.br/projeto/estacaoEsgoto
 tipo: projeto
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Estação de Tratamento de Esgoto

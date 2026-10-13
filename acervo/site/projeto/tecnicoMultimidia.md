@@ -2,7 +2,7 @@
 titulo: "Técnico em Multimídia"
 url: https://www.iteva.org.br/projeto/tecnicoMultimidia
 tipo: projeto
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Técnico em Multimídia

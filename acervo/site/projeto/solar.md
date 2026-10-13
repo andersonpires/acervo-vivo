@@ -2,7 +2,7 @@
 titulo: "Energia Solar"
 url: https://www.iteva.org.br/projeto/solar
 tipo: projeto
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Energia Solar

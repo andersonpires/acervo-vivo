@@ -2,7 +2,7 @@
 titulo: "Idoso Conectado"
 url: https://www.iteva.org.br/projeto/idosoconectado
 tipo: projeto
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Idoso Conectado

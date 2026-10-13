@@ -2,7 +2,7 @@
 titulo: "Saúde"
 url: https://www.iteva.org.br/paineis-tematicos/saude
 tipo: evento
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Saúde

@@ -2,7 +2,7 @@
 titulo: "Provedor Social"
 url: https://www.iteva.org.br/projeto/provedorSocial
 tipo: projeto
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Provedor Social

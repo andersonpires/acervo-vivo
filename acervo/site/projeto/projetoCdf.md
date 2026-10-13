@@ -2,7 +2,7 @@
 titulo: "Projeto CDF"
 url: https://www.iteva.org.br/projeto/projetoCdf
 tipo: projeto
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Projeto CDF

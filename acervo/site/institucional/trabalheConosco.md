@@ -2,7 +2,7 @@
 titulo: "Trabalhe Conosco"
 url: https://www.iteva.org.br/p/trabalheConosco
 tipo: institucional
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Trabalhe Conosco

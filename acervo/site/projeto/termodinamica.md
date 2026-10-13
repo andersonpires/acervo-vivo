@@ -2,7 +2,7 @@
 titulo: "Termodinâmica"
 url: https://www.iteva.org.br/projeto/termodinamica
 tipo: projeto
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Termodinâmica

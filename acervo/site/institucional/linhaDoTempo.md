@@ -2,7 +2,7 @@
 titulo: "Linha do Tempo"
 url: https://www.iteva.org.br/p/linhaDoTempo
 tipo: institucional
-consultado_em: 2026-10-11
+consultado_em: 2026-10-13
 ---
 
 # Linha do Tempo
@@ -78,7 +78,7 @@ Há quase 30 anos, o Iteva vem desenvolvendo trabalhos inovadores e, atento à c
   - O Projeto Midiacom é case no Fórum Interamericano de Filantropia Estratégica - FIFE
 - 2015
   - Criação e implementação do Projeto Professores Digitais nas escolas municipais de Aquiraz
-  - Os programas sociais do Iteva é estudo de caso da dissertação de mestrado de Bruno Sousa Lessa do Curso de Administração da universidade Federal do Ceará -UFC
+  - Os programas sociais do Iteva é estudo de caso da dissertação de mestrado de Bruno de Souza Lessa do Curso de Administração da universidade Federal do Ceará -UFC
 - 2016
   - Iteva promove palestra sobre Intersetorialidade no Fórum Interamericano de Filantropia Estratégica - FIFE 2016
   - Implantação do curso Técnico em Multimídia nas Escolas Estaduais de Educação Profissional do Estado do Ceará
