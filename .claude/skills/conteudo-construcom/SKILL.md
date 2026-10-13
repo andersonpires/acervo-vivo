@@ -53,12 +53,13 @@ foi dita, ou não entra. Uma correção mínima de transcrição (vírgula,
 | Notícia do site | `voz/noticia.md` | cerca de 340 palavras; título com verbo no presente; crédito "Texto:" e "Fotos:" no fim |
 | Matéria de revista | `voz/revista.md` | 800 a 1.250 palavras (as matérias do Construcom vão de 580 a 1.742); título, linha fina, intertítulos |
 | Post | `voz/noticia.md` (provisório) | até 120 palavras; um fato, uma pessoa, um número (escolha provisória, sem base no acervo) |
-| Roteiro de vídeo | `voz/revista.md` (provisório) | 60 a 90 segundos; duas colunas: imagem e fala (escolha provisória, sem base no acervo) |
+| Roteiro de vídeo | use a skill `roteiro-video` | o roteiro do Iteva não tem texto de locutor: a skill própria define estrutura, perguntas e montagem com falas reais |
 
 Siga as regras do guia: tamanho de frase e parágrafo, pessoa verbal,
 abertura, fecho, como apresentar pessoas, parceiros e números. Para
-**post** e **roteiro** ainda não há guia próprio: use as regras do guia
-indicado, e diga na entrega que o formato usou regra provisória.
+**post** ainda não há guia próprio: use as regras do guia indicado, e
+diga na entrega que o formato usou regra provisória. Pedido de
+**roteiro** vai para a skill `roteiro-video`.
 
 Contexto do projeto (o que é, como funciona, histórico) sai **só da
 ficha**. Se a ficha não tem, o texto não diz.

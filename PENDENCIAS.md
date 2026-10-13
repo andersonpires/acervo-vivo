@@ -80,9 +80,18 @@ O papel de cada um está no `README.md`.
 - **Repositório remoto:** quando as skills estiverem prontas, criar o
   repositório privado no GitHub. Os PDFs não vão (estão no
   `.gitignore`).
-- **Guias e skills dos outros formatos:** post, roteiro de vídeo e
-  relatório para parceiro (objetivo 4). Hoje post e roteiro usam regra
-  provisória.
+- **Guias e skills dos outros formatos:** post e relatório para
+  parceiro (objetivo 4). Hoje o post usa regra provisória. O roteiro já
+  tem guia (`voz/roteiro.md`) e skill (`roteiro-video`), ainda sem o
+  teste de comparação feito com a notícia.
+- **Divergência 16:** data dos vídeos no site e no YouTube.
+- **Vídeos sem nome na tela:** em "Projeto Construcom" e "O muro
+  improvável" (2019), nenhum idoso tem legenda; as falas não podem ser
+  citadas com autor. Se alguém do Iteva souber quem são, dá para
+  completar as fichas.
+- **Vídeo da Discovery:** o Whisper traduziu as falas em inglês em vez
+  de transcrevê-las, e parou em 3:01. Produção externa; refazer só se
+  for útil.
 - **Fichas dos demais projetos ativos** (objetivo 2), começando quando
   o usuário pedir. A skill do Construcom serve de modelo e deve ser
   generalizada na segunda ficha.
