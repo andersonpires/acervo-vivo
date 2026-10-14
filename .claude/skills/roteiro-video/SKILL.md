@@ -109,6 +109,17 @@ todas as falas, legenda de nome "Nome, idade, Projeto Município",
 número na tela. O texto do locutor pode ser escrito aqui, curto e
 concreto; números e fatos dele seguem a regra 3.
 
+## Fotos do acervo
+
+O vídeo pede imagem filmada; foto do acervo serve para o que não se
+filma mais: história do projeto, turmas anteriores, um "antes" de obra,
+uma linha do tempo. Para esses blocos, siga `voz/imagens.md` e busque
+com `python -I scripts/buscar_imagens.py --projeto "<projeto>" --busca
+"<assunto>"`. Na tabela de blocos, indique o id da foto na coluna de
+imagem, com o texto de tela que diz de quando ela é. Foto com criança
+leva o aviso de autorização de imagem; foto que a ficha marca para não
+sugerir não entra.
+
 ## Regra 3, sem exceção
 
 - Nenhuma fala escrita para pessoa real ou personagem.
@@ -124,5 +135,6 @@ que quem pede definir; senão (85) 3362-3210.
 
 ## Entrega
 
-Roteiro, perguntas (modo A) ou lista de falas usadas (modo B), e
-avisos: faltas, divergências tocadas, estilo escolhido.
+Roteiro, perguntas (modo A) ou lista de falas usadas (modo B), fotos
+do acervo indicadas (se houver bloco que peça), e avisos: faltas,
+divergências tocadas, estilo escolhido.

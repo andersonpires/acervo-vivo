@@ -331,6 +331,25 @@ YouTube divergem (consultadas em 13/10/2026):
 - **Decisão (14/10/2026):** não viram projeto. Ficam como **atividades
   extras**, sob `Institucional`, com o nome registrado na ficha.
 
+## 23. Fortalecimento do Terceiro Setor: programa à parte ou dentro do Midiacom?
+
+- **Fonte A:** `projetos/cadastro.csv` e a divergência 2: programa
+  próprio, com Sisger, BemTeVi e Compartilhando Saberes.
+- **Fonte B:** o telão da inauguração da unidade de Beberibe põe o
+  Fortalecimento dentro do Programa Midiacom (foto
+  `acervo/imagens/fichas/not-2026-04-28-2-g07.md`, notícia de
+  28/04/2026).
+- **Decisão (14/10/2026):** é **programa à parte**. Uma ação dele pode
+  ser feita para beneficiar crianças e adolescentes (junto do Midiacom)
+  ou pessoas idosas (junto do Bem-estar +60 ou do Mais Saúde); o texto
+  pode apresentar as duas coisas juntas sem mudar o programa.
+
+Outros achados do confronto das imagens (14/10/2026) que o usuário
+dispensou: lista de parceiros do Construcom no painel de 2019 e na placa
+de 2025 diferente da notícia; grafias "Gabriel de Sousa" e "Gabriel
+Sousa", "Jean D' Carlos" e "Jean D'Carlo"; endereço cortado da notícia
+do prêmio ESPM no banco do site.
+
 ## 21. Grafia do nome da jornalista da BemTeVi
 
 - **Fonte A:** "Andressa Meireles" (`revista2019.pdf`, p. 8).

@@ -16,16 +16,19 @@ como trabalhar. Leia também `PENDENCIAS.md` (o que ficou para depois) e
 | Vídeos | `acervo/videos` | pronto (19; 4 são produção externa) |
 | Transparência | `acervo/transparencia` | pronto; atualizar a cada lançamento |
 | Clipping | `acervo/clipping` | pronto (105 matérias, 40 com o texto original; 32 à espera do Internet Archive); consulta, nunca modelo de escrita |
-| Imagens (revistas, notícias, site) | `acervo/imagens` | extraídas (fase 2: 1.728); fichas a fazer; plano em `prd-imagens.md` |
+| Imagens (revistas, notícias, site) | `acervo/imagens` | pronto (1.285 fichas, 1.161 sugeríveis; catálogo e buscador); plano e método em `prd-imagens.md` |
 | Propostas de projeto e relatórios | | futuros; o usuário indica onde estão os arquivos |
 
 Produtos prontos: índice (`acervo/indice.csv`, `acervo/volume.md`),
 cadastro de projetos (`projetos/cadastro.csv`), fichas
 (`projetos/iteva.md`, `projetos/construcom.md`), guias de voz
-(`voz/revista.md`, `voz/noticia.md`, `voz/roteiro.md`) e as skills
-`conteudo-construcom` e `roteiro-video` (em `.claude/skills/`), ambas
-testadas (`testes/`). As divergências 1 a 21 estão decididas. A 20 vale para
-tudo: Fábio Beneduce não é nomeado em texto novo ("um dos fundadores").
+(`voz/revista.md`, `voz/noticia.md`, `voz/roteiro.md`, `voz/imagens.md`),
+o acervo de imagens (`acervo/imagens`, com `catalogo.jsonl` e
+`scripts/buscar_imagens.py`) e as skills `conteudo-iteva` (notícia,
+matéria, post e legenda de qualquer projeto, com imagens sugeridas) e
+`roteiro-video` (em `.claude/skills/`), testadas (`testes/`). As
+divergências 1 a 23 estão decididas. A 20 vale para tudo: Fábio
+Beneduce não é nomeado em texto novo ("um dos fundadores").
 
 ## Mapa
 

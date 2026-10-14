@@ -12,3 +12,6 @@ acervo/imagens/paginas/
 acervo/imagens/folhas/
 acervo/imagens/previas/
 acervo/imagens/lotes/
+
+# Cache do Python.
+scripts/__pycache__/

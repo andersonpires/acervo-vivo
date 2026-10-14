@@ -18,7 +18,7 @@ vive (ficha, cadastro, divergências).
 - **Revisão geral pelo usuário:** `acervo/indice.csv` (classificação
   feita por leitura automática, conferida só por amostragem), a ficha
   `projetos/construcom.md`, os guias em `voz/` e a skill
-  `.claude/skills/conteudo-construcom/`.
+  `.claude/skills/conteudo-iteva/`.
 - **Situação dos projetos "a confirmar"** em `projetos/cadastro.csv`:
   Idoso Conectado, Provedor Social, Midiacom.net, Centro de Inclusão
   Digital Dragão do Mar, Desenvolvimento de Software, Microsoft S2B,
@@ -142,6 +142,7 @@ O papel de cada um está no `README.md`.
   de transcrevê-las, e parou em 3:01. Produção externa; refazer só se
   for útil.
 - **Fichas dos demais projetos ativos** (objetivo 2), começando quando
-  o usuário pedir. A skill do Construcom serve de modelo e deve ser
-  generalizada na segunda ficha.
+  o usuário pedir. A skill de conteúdo já é geral (`conteudo-iteva`,
+  14/10/2026): sem ficha, ela busca os fatos do projeto no acervo pelo
+  índice; uma ficha nova só deixa isso mais rápido e mais seguro.
 - **Documentar o método para outras OSCs** (objetivo 7).

@@ -18,6 +18,14 @@ nenhuma fonte diz está marcado como `[FALTA: ...]`. Última revisão:
   associados" [Curadoria, divergência 20].
 - **Fundação:** atividades informais desde **1993**; constituição
   formal em **1999** [Curadoria, divergência 5; R2013 p. 21; Site LdT].
+  Por isso peças da casa dão idades diferentes conforme a data e a
+  contagem (o banner da home diz "30 anos" na arte e "32 anos" no
+  título); as duas estão certas [Curadoria, 14/10/2026]. Em texto
+  novo, deixe claro de qual marco a idade é contada.
+- **Programas:** cada um é à parte, mas uma ação do Fortalecimento do
+  Terceiro Setor pode ser feita para crianças e adolescentes (com o
+  Midiacom) ou para pessoas idosas (com o Bem-estar +60 ou o Mais
+  Saúde) [Curadoria, divergência 23].
 
 ## Matriz e unidades
 

@@ -195,8 +195,10 @@ de contexto com a fonte.
 - Instrução comum em `voz/imagens.md`: como escolher, quantas sugerir,
   como citar (sempre id e fonte), e o que avisar (baixa resolução,
   criança, imagem de outro ano ou de outro projeto).
-- `conteudo-construcom` e `roteiro-video` ganham um passo final:
-  "imagens sugeridas", com 3 a 5 opções por bloco do texto.
+- `roteiro-video` e a nova skill geral `conteudo-iteva` (que substituiu
+  `conteudo-construcom` em 14/10/2026, a pedido do usuário: qualquer
+  projeto, inclusive novo) ganham o passo "imagens sugeridas", com
+  `scripts/buscar_imagens.py`.
 - Pedido avulso ("preciso de uma foto de X") é atendido por busca nas
   fichas, com opções e o motivo de cada uma.
 
