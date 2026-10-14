@@ -357,3 +357,42 @@ do prêmio ESPM no banco do site.
 - **Outra:** o expediente da mesma edição traz "Andressa Maia" em
   Audiovisual (p. 4).
 - **Decisão (14/10/2026):** vale **Andressa Meirelles**.
+
+## 24. Respostas da equipe sobre as páginas de projeto (14/10/2026)
+
+- **Fonte:** página "Perguntas dos projetos", respondida pela equipe do
+  Iteva em 14/10/2026, ao reescrever as páginas de projeto do site
+  (`../site_iteva/site_novo/scripts/reescrever-projetos.ts`).
+- **Decisões que valem para texto novo:**
+  - Provedor Social: **31** instituições (não 21). O título de "primeiro
+    provedor social do Brasil" não tem fonte externa: use como registro
+    da casa.
+  - Termodinâmica: o sistema de climatização ainda climatiza o Iteva.
+  - Estação de Tratamento de Esgoto: também instalada na matriz, em
+    Eusébio.
+  - CDF: os "mais de 17 mil alunos" de `revista2023.pdf`, p. 19, são só
+    de 2023. Em 2026 o projeto está em Eusébio, Beberibe e Horizonte.
+    Parceiros não são citados (mudam por município).
+  - Professores Digitais: primeira turma com **40** professores. Em 2026
+    está em Eusébio, Horizonte e Beberibe. Financiadores e carga horária
+    não são citados.
+  - Técnico em Multimídia: a matriz nova foi implantada em 2024; grafias
+    **Humberlândia Granjeiro** e **Kamillo Ribeiro**.
+  - Sisger: nome por extenso **Sistema de Gerenciamento de Projetos
+    Sociais**; segue gratuito e aberto a todo o Brasil; depois de 2020
+    ganhou relatórios automatizados e testes com IA para acelerar
+    processos e achar inconsistências. Números de usuários não são
+    citados.
+  - Construcom: chegou a Horizonte; a matriz de Eusébio foi erguida com
+    tijolo solo-cimento e tem **1.662,54 m²** de área construída (encerra
+    a dúvida entre 1.650, 1.530 e 1,6 mil m²); TSC Construtora ativa;
+    franquia e locação social não aconteceram. Totais de alunos e
+    beneficiados: um número só, sem dividir por município ou ano
+    (pendente com a equipe). Tijolos e casas reformadas não são citados.
+  - Solar: projeto em andamento; energia solar instalada só na matriz,
+    em Eusébio. O livro de 1999 não é citado em texto novo.
+  - Geodésica: capacidade de **100 pessoas**; a segunda cúpula foi
+    construída; vale "domo geodésico autoportante único no mundo"
+    (`revista2022.pdf`, p. 7). Não dizer se está montada hoje.
+  - Projetos Concluídos: entram Academia Cisco e Delart; Parafix,
+    Forragem, Cursos e Aulas de campo ficam como estão.
