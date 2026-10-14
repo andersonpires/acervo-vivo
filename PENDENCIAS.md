@@ -80,6 +80,18 @@ vive (ficha, cadastro, divergências).
     matéria não usa (ela cita hidroterapia, fisioterapia e pilates);
   - o resumo da posse de conselhos de 19/11/2019 grafa COMDIM e CONDIM
     para o mesmo conselho.
+- **Nome de Fábio Beneduce no site** (levantamento de 14/10/2026, pela
+  decisão da divergência 20; o usuário decide o que tirar):
+  - páginas: Quem Somos ("sonho do casal Fábio Beneduce e Vanessa
+    Belém"), Linha do Tempo (2018, "Participação de Fábio Beneduce,
+    coordenador geral", no Global Engagement Forum) e Eólica ("pesquisas
+    desenvolvidas pelo coordenador geral do Iteva, Fábio Beneduce");
+  - 22 notícias de 2012 a 2020, uma delas inteira sobre ele
+    (28/06/2019, "Coordenador do Iteva é homenageado pela Câmara
+    Municipal de Aquiraz"); lista: `grep -l "Beneduce" acervo/noticias`
+    menos as que só citam Sara Beneduce;
+  - fora do site, nas revistas (13 edições), no clipping (24 matérias) e
+    em dois vídeos (Discovery e Microsoft, com o nome na tela).
 - **Erros publicados:** a notícia de 28/04/2026 dá o dia 24/04 como
   sexta-feira e como quinta-feira; a de 28/05/2026 escreve "Instituto
   Tecnológico Vocacional Avançado", sem o "e"; a de 21/06/2012 traz a
@@ -109,9 +121,6 @@ vive (ficha, cadastro, divergências).
 - **14 sem texto a extrair:** 6 vídeos do YouTube (dá para transcrever
   com o fluxo dos vídeos, se for útil), 7 posts de Instagram e 1 do
   LinkedIn (pedem login) e o áudio da Rádio Dom Bosco (no OneDrive).
-- **Divergências 18 a 20** (início do Midiacom, endereço da matriz, nome
-  completo de Fábio Beneduce), abertas no confronto de 13/10/2026,
-  esperam decisão.
 
 ## Acervos futuros
 

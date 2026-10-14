@@ -270,7 +270,8 @@ YouTube divergem (consultadas em 13/10/2026):
   (`acervo/clipping/recortes/arede.md`, p. 31).
 - **Por que importa:** a data de início do Midiacom aparece em texto de
   aniversário e de histórico.
-- **Enquanto não houver decisão:** vale março de 2004, das revistas.
+- **Decisão (14/10/2026):** vale **março de 2004**, como nas revistas.
+  (O usuário escreveu "março 2024"; lido como 2004, o ano em discussão.)
 
 ## 19. Endereço da matriz: Rua Francisco Evandro do Amaral ou Rua Pioneira?
 
@@ -286,7 +287,11 @@ YouTube divergem (consultadas em 13/10/2026):
   Pode ser o nome antigo da rua ou um erro do release. O "sede em
   Aquiraz" de março de 2026 ajuda a datar a mudança da matriz, que está
   como `[FALTA: mês da mudança da matriz]` na ficha.
-- **Enquanto não houver decisão:** vale o endereço da ficha.
+- **Decisão (14/10/2026):** os dois endereços estão certos, em tempos
+  diferentes: uma lei municipal mudou o nome da rua de Pioneira para
+  Francisco Evandro do Amaral, nome em uso há algum tempo. Em texto novo,
+  vale **Rua Francisco Evandro do Amaral, 730**. Registrado em
+  `projetos/iteva.md`.
 
 ## 20. Nome completo de Fábio Beneduce
 
@@ -300,4 +305,23 @@ YouTube divergem (consultadas em 13/10/2026):
   "Fábio Beneduce" em todo o acervo.
 - **Por que importa:** só se a ficha for registrar o nome completo; em
   texto novo, vale "Fábio Beneduce".
-- **Enquanto não houver decisão:** a ficha não registra o nome completo.
+- **Decisão (14/10/2026):** o nome completo não entra na ficha. Mais
+  que isso: Fábio Beneduce não pertence mais à organização e **não é
+  nomeado em texto novo, nem como histórico**, qualquer que seja a
+  grafia da fonte. Em texto novo, "um dos fundadores" ou "antigos
+  associados". Retrato dele não é sugerido; foto de grupo pode ser, sem
+  identificá-lo.
+- **Aplicado em 14/10/2026:** `projetos/iteva.md`, observações do
+  índice (`scripts/indexacao`, `acervo/indice.csv`) e fichas de imagem.
+  Ficam como estão as cópias das fontes (texto das revistas, notícias,
+  páginas do site, clipping, vídeos), que registram o que foi publicado;
+  as skills não usam o nome delas. Onde o nome aparece no site está em
+  `PENDENCIAS.md`.
+
+## 21. Grafia do nome da jornalista da BemTeVi
+
+- **Fonte A:** "Andressa Meireles" (`revista2019.pdf`, p. 8).
+- **Fonte B:** "Andressa Meirelles" (`revista2019.pdf`, p. 15).
+- **Outra:** o expediente da mesma edição traz "Andressa Maia" em
+  Audiovisual (p. 4).
+- **Decisão (14/10/2026):** vale **Andressa Meirelles**.

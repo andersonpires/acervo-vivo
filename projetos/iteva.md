@@ -3,7 +3,7 @@
 Fatos da instituição que todo texto pode precisar. Cada fato traz a
 fonte entre colchetes; códigos no quadro **Fontes**, no fim. O que
 nenhuma fonte diz está marcado como `[FALTA: ...]`. Última revisão:
-13/10/2026.
+14/10/2026.
 
 ## Identificação
 
@@ -12,7 +12,10 @@ nenhuma fonte diz está marcado como `[FALTA: ...]`. Última revisão:
   com o "e" [voz/noticia.md].
 - **Natureza:** OSCIP, qualificada em 2007 [Site LdT; R2020 p. 7].
 - **CNPJ:** 03.502.169/0001-38 [Site rodapé].
-- **Fundadores:** Fábio Beneduce e Vanessa Belém [Site QS; R2016 p. 6].
+- **Fundadores:** Vanessa Belém e outro fundador [Site QS; R2016 p. 6].
+  O outro fundador não pertence mais à organização e não é nomeado em
+  texto novo, nem como histórico: diga "um dos fundadores" ou "antigos
+  associados" [Curadoria, divergência 20].
 - **Fundação:** atividades informais desde **1993**; constituição
   formal em **1999** [Curadoria, divergência 5; R2013 p. 21; Site LdT].
 
@@ -25,7 +28,12 @@ nenhuma fonte diz está marcado como `[FALTA: ...]`. Última revisão:
   `[FALTA: mês da mudança da matriz]`
 - **Endereço da matriz:** Rua Francisco Evandro do Amaral, 730, Parque
   Hawaí, Eusébio/CE, CEP 61.761-320 [Curadoria, 13/10/2026; Site rodapé,
-  corrigido no mesmo dia].
+  corrigido no mesmo dia]. "Rua Pioneira, 730" é o mesmo endereço: uma
+  lei municipal mudou o nome da rua. Em texto novo, use sempre Rua
+  Francisco Evandro do Amaral [Curadoria, divergência 19].
+- **Sede antiga:** foto ou texto antigo que fale da "sede do Iteva em
+  Aquiraz" vira, em texto novo, "sede antiga do Iteva em Aquiraz"
+  [Curadoria, 14/10/2026].
 - **Unidade de Beberibe:** inaugurada em 24/04/2026, na Rua Antônio
   Mário Ribeiro, 361 [N 2026-04-28].
 - `[FALTA: lista completa das unidades em funcionamento]`

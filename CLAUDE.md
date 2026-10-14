@@ -24,8 +24,8 @@ cadastro de projetos (`projetos/cadastro.csv`), fichas
 (`projetos/iteva.md`, `projetos/construcom.md`), guias de voz
 (`voz/revista.md`, `voz/noticia.md`, `voz/roteiro.md`) e as skills
 `conteudo-construcom` e `roteiro-video` (em `.claude/skills/`), ambas
-testadas (`testes/`). As divergências 1 a 17 estão decididas; 18 a 20, do
-clipping, esperam o usuário.
+testadas (`testes/`). As divergências 1 a 21 estão decididas. A 20 vale para
+tudo: Fábio Beneduce não é nomeado em texto novo ("um dos fundadores").
 
 ## Mapa
 
@@ -101,6 +101,7 @@ caíram nessa conferência.
 | Clipping | `node scripts/exportar_clipping.cjs`, depois `python -I scripts/extrair_clipping.py` | busca o original (página ou Internet Archive); recortes escaneados transcritos à mão em `acervo/clipping/recortes` |
 | Transparência | `node scripts/exportar_transparencia.cjs` | gera `conferir.md` e `mudancas.md`; valores por data não provam liberação |
 | Imagens | `node scripts/exportar_imagens_site.cjs`, `python -I scripts/extrair_imagens_revista.py [ano...]`, depois `cd acervo/imagens && sha256sum arquivos/* > SHA256SUMS` | arquivos e páginas fora do git; contexto em `acervo/imagens/contexto` |
+| Fichas de imagem | `python -I scripts/preparar_imagens.py` (prévias, lotes, folhas), agentes com `acervo/imagens/INSTRUCOES.md`, `python -I scripts/conferir_fichas_imagens.py [lote]` | uma ficha por imagem em `acervo/imagens/fichas` |
 | Índice | `python -I scripts/montar_indice.py scripts/indexacao` | rodar depois de qualquer exportação |
 | Medidas de voz | `python -I scripts/medir_voz.py > voz/medidas.md` | |
 

@@ -225,7 +225,7 @@ def main():
         print(f"{pdf.name}: {len(entradas)} imagens ({usos} usos); descartes {dict(descartes)}")
         novas += [json.dumps({**e, "extraido_em": hoje}, ensure_ascii=False) for e in entradas]
     linhas = sorted(antigas + novas, key=lambda l: json.loads(l)["id"])
-    CONTEXTO.write_text("\n".join(linhas) + "\n", encoding="utf-8")
+    CONTEXTO.write_text("\n".join(linhas) + "\n", encoding="utf-8", newline="\n")
     print(f"{len(novas)} imagens gravadas; {len(linhas)} no total em {CONTEXTO.relative_to(RAIZ)}")
 
 

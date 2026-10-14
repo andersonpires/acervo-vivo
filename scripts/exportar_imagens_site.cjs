@@ -172,7 +172,10 @@ const pad = (n) => String(n).padStart(2, '0')
   // Painéis Temáticos: convidados e parceiros.
   const paineis = { fonte: 'site', titulo: 'Painéis Temáticos', url: `${BASE}/paineis-tematicos`, arquivo_acervo: 'acervo/site/evento/paineis-tematicos.md' }
   for (const r of await q(`select _order, tema, nome, papel, bio, foto_id from paineis_tematicos_convidados order by _order`)) {
-    if (r.foto_id) usos.push({ imagem: r.foto_id, id: `site-paineis-convidado${pad(r._order)}`, ...paineis, posicao: 'foto de convidado', tema: r.tema || '', nome: r.nome || '', papel: r.papel || '', bio: r.bio || '' })
+    if (r.foto_id) usos.push({ imagem: r.foto_id, id: `site-paineis-convidado${pad(r._order)}`, ...paineis,
+      // A foto aparece na página do tema (paineis-tematicos/direito, /saude).
+      ...(r.tema ? { titulo: `Painéis Temáticos: ${r.tema}`, url: `${paineis.url}/${r.tema}`, arquivo_acervo: `acervo/site/evento/${r.tema}.md` } : {}),
+      posicao: 'foto de convidado', tema: r.tema || '', nome: r.nome || '', papel: r.papel || '', bio: r.bio || '' })
   }
   for (const r of await q(`select _order, nome, grupo, logo_id from paineis_tematicos_parceiros order by _order`)) {
     if (r.logo_id) usos.push({ imagem: r.logo_id, colecao: 'marca', id: `site-paineis-parceiro${pad(r._order)}`, ...paineis, posicao: `parceiros "${r.grupo || ''}"`, nome: r.nome || '' })
