@@ -219,7 +219,8 @@ outro id que você viu no lote, imagem usada em mais de um lugar
   - `boa`: menor lado de 1500 px ou mais, nítida, sem nada por cima;
     serve para impressão;
   - `media`: entre 600 e 1500 px, ou nítida mas com pequeno defeito;
-    serve para site e redes;
+    serve para site e redes. Foto nítida do tamanho das galerias do
+    site (cerca de 1070 ou 1170 por 592 px) também é `media`;
   - `baixa`: menos de 600 px, borrada, pixelada, com texto ou grafismo
     por cima, ou só existe o recorte da página com texto.
 - `usos_sugeridos`: dois a quatro de: `capa`, `abertura de matéria`,
