@@ -73,6 +73,13 @@ vive (ficha, cadastro, divergências).
   - dois recortes do site antigo não estão no clipping: Folha de
     S.Paulo, 08/02/2000 (forragem hidropônica), e uma revista,
     provavelmente a ARede, de 2005.
+  - a matéria do O Estado sobre o Conectividade+60 no cinema foi
+    publicada em 09/06/2025; o site a data em 09/07/2025;
+  - o resumo da matéria da Prefeitura do Eusébio sobre o Centro Dia
+    (15/01/2026) atribui a ação ao "Projeto Circuito NoCorre", nome que a
+    matéria não usa (ela cita hidroterapia, fisioterapia e pilates);
+  - o resumo da posse de conselhos de 19/11/2019 grafa COMDIM e CONDIM
+    para o mesmo conselho.
 - **Erros publicados:** a notícia de 28/04/2026 dá o dia 24/04 como
   sexta-feira e como quinta-feira; a de 28/05/2026 escreve "Instituto
   Tecnológico Vocacional Avançado", sem o "e"; a de 21/06/2012 traz a
@@ -102,15 +109,14 @@ vive (ficha, cadastro, divergências).
 - **14 sem texto a extrair:** 6 vídeos do YouTube (dá para transcrever
   com o fluxo dos vídeos, se for útil), 7 posts de Instagram e 1 do
   LinkedIn (pedem login) e o áudio da Rádio Dom Bosco (no OneDrive).
-- **Para o confronto (fase 4):** O Povo de 07/08/2008 diz que o Iteva
-  "foi criada em março de 2004"; o Portal do Governo de 07/10/2005 dá o
-  nome "Fábio Cezar Aidar Beneduce" e a Folha de 08/02/2000 o chama de
-  "presidente" do Iteva. Conferir contra `projetos/iteva.md`.
+- **Divergências 18 a 20** (início do Midiacom, endereço da matriz, nome
+  completo de Fábio Beneduce), abertas no confronto de 13/10/2026,
+  esperam decisão.
 
 ## Acervos futuros
 
-Na ordem em que o usuário os citou: clipping, vídeos (com transcrição),
-transparência (a atualizar sempre), propostas de projeto e relatórios.
+Clipping, vídeos e transparência estão prontos (a transparência, a
+atualizar sempre). Faltam propostas de projeto e relatórios.
 O papel de cada um está no `README.md`.
 
 ## Do projeto como um todo

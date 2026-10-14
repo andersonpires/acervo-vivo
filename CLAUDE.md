@@ -6,7 +6,7 @@ publicou, para produzir conteúdo novo com a voz e os fatos da casa. O
 como trabalhar. Leia também `PENDENCIAS.md` (o que ficou para depois) e
 `divergencias.md` (decisões entre fontes) antes de começar.
 
-## Estado atual (13/10/2026)
+## Estado atual (14/10/2026)
 
 | Acervo | Pasta | Situação |
 |---|---|---|
@@ -15,7 +15,7 @@ como trabalhar. Leia também `PENDENCIAS.md` (o que ficou para depois) e
 | Páginas do site | `acervo/site` | pronto (30 páginas e rodapé) |
 | Vídeos | `acervo/videos` | pronto (19; 4 são produção externa) |
 | Transparência | `acervo/transparencia` | pronto; atualizar a cada lançamento |
-| Clipping | `acervo/clipping` | **em andamento**: extraído (fase 2); faltam índice, confronto e 32 consultas ao Internet Archive; consulta, nunca modelo de escrita |
+| Clipping | `acervo/clipping` | pronto (105 matérias, 40 com o texto original; 32 à espera do Internet Archive); consulta, nunca modelo de escrita |
 | Propostas de projeto e relatórios | | futuros; o usuário indica onde estão os arquivos |
 
 Produtos prontos: índice (`acervo/indice.csv`, `acervo/volume.md`),
@@ -23,8 +23,8 @@ cadastro de projetos (`projetos/cadastro.csv`), fichas
 (`projetos/iteva.md`, `projetos/construcom.md`), guias de voz
 (`voz/revista.md`, `voz/noticia.md`, `voz/roteiro.md`) e as skills
 `conteudo-construcom` e `roteiro-video` (em `.claude/skills/`), ambas
-testadas (`testes/`). Todas as divergências registradas até aqui estão
-decididas.
+testadas (`testes/`). As divergências 1 a 17 estão decididas; 18 a 20, do
+clipping, esperam o usuário.
 
 ## Mapa
 

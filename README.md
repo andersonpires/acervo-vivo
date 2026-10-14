@@ -36,7 +36,7 @@ marcados.
 | Revistas (2010 a 2023) | `acervo/texto` | pronto | conteúdo e **principal modelo de escrita** |
 | Notícias do site | `acervo/noticias` | pronto | conteúdo e **modelo de escrita** da notícia |
 | Páginas do site | `acervo/site` | extraído | conteúdo institucional e de projeto; **modelo de escrita**; é fonte, não verdade (há trechos desatualizados) |
-| Clipping | a criar | futuro | o que a imprensa publicou sobre o Iteva; **nunca** como modelo de escrita |
+| Clipping | `acervo/clipping` | pronto | o que a imprensa publicou sobre o Iteva, com o texto original quando obtido; **nunca** como modelo de escrita |
 | Vídeos | `acervo/videos` | pronto | transcrição dos 19 vídeos de /videos, com autor de cada fala conferido na tela: depoimentos e histórias, base para roteiros; os 4 de produção externa (TV e Microsoft) não servem de modelo |
 | Transparência | `acervo/transparencia` | pronto, a atualizar a cada lançamento | dados de cada convênio: quanto captou, quanto recebeu, aditivo, devolução, situação (em execução, concluído, prestes a iniciar); permite saber se um dado está atualizado |
 | Propostas de projeto | a criar | futuro | ideias apresentadas para captar recursos; só se executam se o recurso vier |

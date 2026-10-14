@@ -257,3 +257,47 @@ YouTube divergem (consultadas em 13/10/2026):
   forragem vira o projeto `Forragem Hidropônica`, encerrado, sem
   programa, no cadastro; as aulas de Eusébio em 2020 são `Sala de Aula
   Iteva`.
+
+## 18. Início do Midiacom: fevereiro ou março de 2004?
+
+- **Fonte A:** revistas da casa: "Iniciado em março de 2004"
+  (`revista2010.pdf`, p. 3; também 2014 e 2015), com "onze jovens"
+  (`revista2010.pdf`, p. 16); o O Povo de 07/08/2008 repete março de 2004 e 11
+  pessoas (`acervo/clipping/recortes/opovo.md`).
+- **Fonte B:** matéria de revista de 2005, provavelmente a ARede, com fala
+  de Fábio Beneduce: a experiência de 2003 "me levou à criação do
+  Mídia.Com em fevereiro do ano seguinte"
+  (`acervo/clipping/recortes/arede.md`, p. 31).
+- **Por que importa:** a data de início do Midiacom aparece em texto de
+  aniversário e de histórico.
+- **Enquanto não houver decisão:** vale março de 2004, das revistas.
+
+## 19. Endereço da matriz: Rua Francisco Evandro do Amaral ou Rua Pioneira?
+
+- **Fonte A:** `projetos/iteva.md` e rodapé do site: Rua Francisco
+  Evandro do Amaral, 730, Parque Hawaí, Eusébio/CE, CEP 61.761-320
+  (Curadoria, 13/10/2026).
+- **Fonte B:** matéria da Agência da Boa Notícia de 26/03/2026 sobre o
+  Empodera Jovem, no "Sobre o Iteva": "R. Pioneira, 730, Parque Havaí,
+  Eusébio, CE, 61761-320". O mesmo texto diz "com sede em Aquiraz"
+  (`acervo/clipping/2026-03-26-128-...md`). O Estado de 27/03/2026 e de
+  09/06/2025 também dizem "sede em Aquiraz".
+- **Por que importa:** mesmo número e mesmo CEP, nome de rua diferente.
+  Pode ser o nome antigo da rua ou um erro do release. O "sede em
+  Aquiraz" de março de 2026 ajuda a datar a mudança da matriz, que está
+  como `[FALTA: mês da mudança da matriz]` na ficha.
+- **Enquanto não houver decisão:** vale o endereço da ficha.
+
+## 20. Nome completo de Fábio Beneduce
+
+- **Fonte A:** Portal do Governo do Ceará, 07/10/2005: "Fábio Cezar Aidar
+  Beneduce", "catarinense que está no Ceará desde 1979"
+  (`acervo/clipping/recortes/governo_do_Ceara.md`).
+- **Fonte B:** Diário do Nordeste, 03/03/2005: "Fábio César Beneduce"
+  (`acervo/clipping/recortes/diario.md`).
+- **Outras grafias na imprensa:** "Beneducci" (O Povo, 2008) e
+  "Beneduci" (O Estado e blog de Tom Gurgel, 2017). A casa escreve
+  "Fábio Beneduce" em todo o acervo.
+- **Por que importa:** só se a ficha for registrar o nome completo; em
+  texto novo, vale "Fábio Beneduce".
+- **Enquanto não houver decisão:** a ficha não registra o nome completo.
