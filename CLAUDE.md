@@ -16,6 +16,7 @@ como trabalhar. Leia também `PENDENCIAS.md` (o que ficou para depois) e
 | Vídeos | `acervo/videos` | pronto (19; 4 são produção externa) |
 | Transparência | `acervo/transparencia` | pronto; atualizar a cada lançamento |
 | Clipping | `acervo/clipping` | pronto (105 matérias, 40 com o texto original; 32 à espera do Internet Archive); consulta, nunca modelo de escrita |
+| Imagens (revistas, notícias, site) | `acervo/imagens` | fase 1 feita; plano em `prd-imagens.md` |
 | Propostas de projeto e relatórios | | futuros; o usuário indica onde estão os arquivos |
 
 Produtos prontos: índice (`acervo/indice.csv`, `acervo/volume.md`),
