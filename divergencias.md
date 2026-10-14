@@ -239,3 +239,21 @@ YouTube divergem (consultadas em 13/10/2026):
   duas datas na observação; cada ficha em `acervo/videos/` traz as duas.
 - **Decisão (13/10/2026):** encerrada sem escolha, por decisão do usuário.
   O índice segue com o ano do site, e as fichas mantêm as duas datas.
+
+## 17. Classificação de três temas do clipping
+
+- **Fonte:** indexação do clipping (`scripts/indexacao/clipping_*.jsonl`),
+  13/10/2026. Três temas sem projeto no cadastro ou sem nome no texto:
+  - evento Conexão Digital (Microsoft Brasil com o Iteva, para ONGs,
+    Fortaleza, junho de 2011), em 2 matérias;
+  - forragem hidropônica de milho, na Folha de S.Paulo de 08/02/2000
+    (`acervo/clipping/recortes/Instituto_produz_forragem.md`), nas revistas
+    e na Linha do Tempo do site;
+  - aulas a distância e salas de aula virtuais da rede de Eusébio em 2020,
+    em 3 matérias da Prefeitura de Eusébio que não nomeiam projeto.
+- **Por que importa:** o projeto vai para o índice e para o volume por
+  projeto.
+- **Decisão (13/10/2026):** Conexão Digital fica `Institucional`; a
+  forragem vira o projeto `Forragem Hidropônica`, encerrado, sem
+  programa, no cadastro; as aulas de Eusébio em 2020 são `Sala de Aula
+  Iteva`.

@@ -81,6 +81,10 @@ BOTAO = re.compile(r"^(- )?(facebook|twitter|google\+|whatsapp|linkedin|pinteres
 # site_legado/public/arquivos/reportagens (conferido na leitura).
 RECORTE_DE = {50: "folha_online.jpg", 47: "governo_do_Ceara.jpg"}
 
+# Páginas que abrem e citam o Iteva, mas mostram outro texto (conferido na
+# indexação): 24 cai na página inicial do blog, com outro post.
+NAO_E_A_MATERIA = {24}
+
 BLOCO = ["p", "div", "li", "ul", "ol", "h1", "h2", "h3", "h4", "h5", "h6", "tr", "td", "table",
          "section", "article", "blockquote", "pre", "dd", "dt"]
 CORPO = re.compile(r"post-body|entry-content|post-content|article-body|articlebody|"
@@ -309,7 +313,7 @@ def buscar(r):
         meta = {"url": url, "consultado": HOJE, "status": status, "final": final}
         guardar(nome, meta, html if status == 200 else "")
         time.sleep(1)
-    vivo_ok = meta["status"] == 200 and not generico(url, meta["final"])
+    vivo_ok = meta["status"] == 200 and not generico(url, meta["final"]) and r["id_legado"] not in NAO_E_A_MATERIA
     if vivo_ok:
         info, texto = extrair(html)
         if CITA.search(texto) and len(texto) > 150:

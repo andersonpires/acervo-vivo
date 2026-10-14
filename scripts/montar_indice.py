@@ -103,7 +103,7 @@ def main(pasta):
                 "obs": r.get("obs", ""),
             })
 
-    ordem_fonte = {"revista": 0, "noticia": 1, "video": 2, "site": 3, "transparencia": 4}
+    ordem_fonte = {"revista": 0, "noticia": 1, "video": 2, "site": 3, "transparencia": 4, "clipping": 5}
     linhas.sort(key=lambda r: (r["ano"] or 9999, ordem_fonte.get(r["fonte"], 3), r["arquivo"], primeira_pagina(r["paginas_ou_url"])))
 
     destino = RAIZ / "acervo" / "indice.csv"
@@ -145,20 +145,20 @@ def escrever_volume(linhas):
     md = [
         "# Volume de material por projeto",
         "",
-        "Número de textos (matérias de revista, notícias, vídeos, páginas do site e convênios da transparência) que tratam",
+        "Número de textos (matérias de revista, notícias, vídeos, páginas do site, convênios da transparência e clipping) que tratam",
         "do projeto de forma substantiva, por ano. Um texto pode contar para",
         "mais de um projeto. Gerado por `scripts/montar_indice.py` a partir de",
         "`acervo/indice.csv`.",
         "",
-        "| Projeto | Programa | Situação | Revista | Notícia | Vídeo | Site | Convênio | Total | " + " | ".join(str(a)[2:] for a in anos) + " |",
-        "|---|---|---|---|---|---|---|---|---|" + "---|" * len(anos),
+        "| Projeto | Programa | Situação | Revista | Notícia | Vídeo | Site | Convênio | Clipping | Total | " + " | ".join(str(a)[2:] for a in anos) + " |",
+        "|---|---|---|---|---|---|---|---|---|---|" + "---|" * len(anos),
     ]
     for p in ordem:
         celulas = [str(por[p][a]) if por[p][a] else "" for a in anos]
         situacao = PROJETOS.get(p, {}).get("situacao", "?")
-        md.append(f"| {p} | {curto(PROGRAMAS.get(p, '?'))} | {situacao} | {fontes[p]['revista']} | {fontes[p]['noticia']} | {fontes[p]['video']} | {fontes[p]['site']} | {fontes[p]['transparencia']} | {sum(fontes[p].values())} | " + " | ".join(celulas) + " |")
+        md.append(f"| {p} | {curto(PROGRAMAS.get(p, '?'))} | {situacao} | {fontes[p]['revista']} | {fontes[p]['noticia']} | {fontes[p]['video']} | {fontes[p]['site']} | {fontes[p]['transparencia']} | {fontes[p]['clipping']} | {sum(fontes[p].values())} | " + " | ".join(celulas) + " |")
     md.append("")
-    md.append("Anos na tabela: " + ", ".join(str(a) for a in anos) + ". Revistas cobrem 2010 a 2023; notícias, 2011 a 2026. Páginas do site não têm data e só entram nas colunas Site e Total.")
+    md.append("Anos na tabela: " + ", ".join(str(a) for a in anos) + ". Revistas cobrem 2010 a 2023; notícias, 2011 a 2026; clipping, 2000 a 2026. Páginas do site não têm data e só entram nas colunas Site e Total.")
     md.append("")
     (RAIZ / "acervo" / "volume.md").write_text("\n".join(md), encoding="utf-8", newline="\n")
 
