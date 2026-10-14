@@ -170,12 +170,21 @@ de contexto com a fonte.
 
 ### Catálogo e índice
 
-- `acervo/imagens/catalogo.csv` gerado das fichas (UTF-8 com BOM,
-  separador `;`), para filtrar no Excel.
-- Linhas em `scripts/indexacao/imagens.jsonl`, para entrarem no
-  `acervo/indice.csv` com fonte, ano, projeto e tipo.
-- Duplicatas (a mesma foto na revista e na notícia, ou em dois anos)
-  achadas por hash perceptual e ligadas nas fichas.
+- `acervo/imagens/catalogo.jsonl` gerado das fichas por
+  `scripts/catalogar_imagens.py`: uma linha por ficha, com prioridade,
+  se pode ser sugerida, duplicatas e a melhor versão de cada grupo. É a
+  base de busca das skills. O usuário dispensou o CSV para Excel
+  (14/10/2026).
+- Linhas em `scripts/indexacao/imagens.jsonl`, que entram no
+  `acervo/indice.csv` com o tipo `imagem`; o `volume.md` continua
+  contando só textos.
+- Duplicatas (a mesma foto na revista e na notícia, ou em dois anos):
+  bytes iguais, ou hash de diferença de 256 bits próximo **e**
+  correlação dos tons numa miniatura acima de 0,93. Calibrado em
+  14/10/2026: o hash sozinho juntava retratos diferentes sobre fundo
+  liso. Ficam no catálogo, não nas fichas.
+- Capas e páginas de parceiros desenhadas em vetor: renderizadas da
+  página inteira por `scripts/paginas_especiais_revista.py`.
 
 ### Uso pelas skills
 

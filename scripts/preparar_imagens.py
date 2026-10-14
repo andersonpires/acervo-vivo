@@ -90,6 +90,12 @@ def main():
             # lote à parte, para não mudar a composição dos lotes já feitos.
             grupo = "revsob" if "-s" in e["id"].rsplit("-p", 1)[1] else e["id"][:7]
             grupos[grupo].append(e)
+    # Capas e páginas de parceiros renderizadas inteiras.
+    especiais = PASTA / "contexto" / "paginas_especiais.jsonl"
+    if especiais.exists():
+        for linha in especiais.read_text(encoding="utf-8").splitlines():
+            if linha:
+                grupos["revpag"].append(json.loads(linha))
 
     falhas = []
     for grupo in sorted(grupos):

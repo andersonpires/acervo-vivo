@@ -68,7 +68,7 @@ def normalizar(p):
     return p
 
 COLUNAS = ["fonte", "arquivo", "ano", "titulo", "programa", "projetos", "paginas_ou_url", "tipo", "obs"]
-TIPOS = {"reportagem", "editorial", "entrevista", "nota", "notícia", "artigo", "depoimento", "página do site", "vídeo", "convênio"}
+TIPOS = {"reportagem", "editorial", "entrevista", "nota", "notícia", "artigo", "depoimento", "página do site", "vídeo", "convênio", "imagem"}
 
 
 def main(pasta):
@@ -103,7 +103,7 @@ def main(pasta):
                 "obs": r.get("obs", ""),
             })
 
-    ordem_fonte = {"revista": 0, "noticia": 1, "video": 2, "site": 3, "transparencia": 4, "clipping": 5}
+    ordem_fonte = {"revista": 0, "noticia": 1, "video": 2, "site": 3, "transparencia": 4, "clipping": 5, "imagem": 6}
     linhas.sort(key=lambda r: (r["ano"] or 9999, ordem_fonte.get(r["fonte"], 3), r["arquivo"], primeira_pagina(r["paginas_ou_url"])))
 
     destino = RAIZ / "acervo" / "indice.csv"
@@ -132,6 +132,9 @@ def curto(programa):
 
 def escrever_volume(linhas):
     """Tabela projeto x ano: quantos textos citam o projeto de forma substantiva."""
+    # Imagens têm o próprio catálogo (acervo/imagens/catalogo.jsonl) e não
+    # são texto: ficam fora desta contagem.
+    linhas = [r for r in linhas if r["fonte"] != "imagem"]
     anos = sorted({r["ano"] for r in linhas if r["ano"]})
     por = collections.defaultdict(collections.Counter)
     fontes = collections.defaultdict(collections.Counter)

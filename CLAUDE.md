@@ -101,7 +101,8 @@ caíram nessa conferência.
 | Clipping | `node scripts/exportar_clipping.cjs`, depois `python -I scripts/extrair_clipping.py` | busca o original (página ou Internet Archive); recortes escaneados transcritos à mão em `acervo/clipping/recortes` |
 | Transparência | `node scripts/exportar_transparencia.cjs` | gera `conferir.md` e `mudancas.md`; valores por data não provam liberação |
 | Imagens | `node scripts/exportar_imagens_site.cjs`, `python -I scripts/extrair_imagens_revista.py [ano...]`, depois `cd acervo/imagens && sha256sum arquivos/* > SHA256SUMS` | arquivos e páginas fora do git; contexto em `acervo/imagens/contexto` |
-| Fichas de imagem | `python -I scripts/preparar_imagens.py` (prévias, lotes, folhas), agentes com `acervo/imagens/INSTRUCOES.md`, `python -I scripts/conferir_fichas_imagens.py [lote]` | uma ficha por imagem em `acervo/imagens/fichas` |
+| Fichas de imagem | `python -I scripts/paginas_especiais_revista.py` (capas e parceiros), `python -I scripts/preparar_imagens.py` (prévias, lotes, folhas), agentes com `acervo/imagens/INSTRUCOES.md`, `python -I scripts/conferir_fichas_imagens.py [lote]` | uma ficha por imagem em `acervo/imagens/fichas` |
+| Catálogo de imagens | `python -I scripts/catalogar_imagens.py`, depois o índice | `acervo/imagens/catalogo.jsonl` (busca, prioridade, duplicatas) |
 | Índice | `python -I scripts/montar_indice.py scripts/indexacao` | rodar depois de qualquer exportação |
 | Medidas de voz | `python -I scripts/medir_voz.py > voz/medidas.md` | |
 
