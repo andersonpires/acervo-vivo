@@ -177,7 +177,9 @@ outro id que você viu no lote, imagem usada em mais de um lugar
   de `projetos_do_indice` (notícia e site) ou do texto. Se a matéria
   tem vários projetos e só um combina com a imagem pela legenda ou pelo
   texto ao lado, use só ele. Instituição como um todo: `Institucional`.
-  Projeto fora do cadastro: `NOVO: nome como aparece`.
+  Ação, oficina, evento ou negócio que não está no cadastro **não** vira
+  projeto novo: use `Institucional` e escreva em Observações "Atividade
+  extra: <nome como aparece>" (Curadoria, 14/10/2026).
 - `materia`: título da matéria (revista), título da notícia, título da
   página do site. Sem travessão: troque por dois-pontos.
 - `legenda`: só texto **publicado** junto da imagem e que é dela
@@ -204,7 +206,8 @@ outro id que você viu no lote, imagem usada em mais de um lugar
   à imagem: legenda, nome impresso junto do retrato, "na foto, ...",
   campo `nome` do site, nome escrito na própria imagem. Nunca por
   semelhança de rosto, nunca porque o nome aparece em outro lugar da
-  matéria. Nas páginas de depoimentos, o nome só vale se o leiaute
+  matéria. Editorial com um só retrato e uma só assinatura: o nome da
+  assinatura vale para o retrato. Nas páginas de depoimentos, o nome só vale se o leiaute
   junta claramente aquele nome àquele retrato (confira na página
   inteira); se houver dúvida, deixe vazio e escreva em Observações
   "na página há depoimentos de A, B e C; pareamento não confirmado".
@@ -274,6 +277,6 @@ uniforme escolar". Use o gênero só quando a fonte o dá (por exemplo
 3. Releia as descrições procurando gênero atribuído pela aparência
    ("uma jovem", "um senhor", "duas adolescentes") e troque.
 
-Na resposta final, diga: quantas fichas e quantos descartes; os `NOVO:`
-que apareceram; os nomes de pessoa que você registrou, com a fonte de
+Na resposta final, diga: quantas fichas e quantos descartes; as
+atividades extras que apareceram; os nomes de pessoa que você registrou, com a fonte de
 cada um; e qualquer dúvida que valha a revisão de uma pessoa.

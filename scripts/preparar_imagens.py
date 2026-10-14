@@ -86,7 +86,10 @@ def main():
     for linha in (PASTA / "contexto" / "revistas.jsonl").read_text(encoding="utf-8").splitlines():
         if linha:
             e = json.loads(linha)
-            grupos[e["id"][:7]].append(e)
+            # Imagem achada sob outra na mesma caixa (id "-sK") vai para um
+            # lote à parte, para não mudar a composição dos lotes já feitos.
+            grupo = "revsob" if "-s" in e["id"].rsplit("-p", 1)[1] else e["id"][:7]
+            grupos[grupo].append(e)
 
     falhas = []
     for grupo in sorted(grupos):

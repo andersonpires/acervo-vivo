@@ -133,18 +133,26 @@ def extrair(pdf, materias):
                 continue
             candidatas.append((caixa, xref, info))
 
-        # A mesma imagem desenhada duas vezes (sombra, máscara) ou duas
-        # imagens com a mesma caixa: fica a de mais pixels.
-        unicas = []
+        # A mesma imagem desenhada duas vezes (sombra, máscara: mesmo
+        # tamanho em pixels na mesma caixa) sai. Imagem diferente na mesma
+        # caixa (foto sobre um fundo de página inteira, como em 2010) fica,
+        # com id "sK" depois das outras, para não mudar os ids já usados
+        # nas fichas.
+        unicas, sobrepostas = [], []
         for c in sorted(candidatas, key=lambda c: -c[2]["width"] * c[2]["height"]):
             iguais = [u for u in unicas if (u[0] & c[0]).get_area() > 0.85 * max(u[0].get_area(), c[0].get_area())]
-            if iguais:
-                descartes["mesma caixa de outra"] += 1
-                continue
-            unicas.append(c)
+            if any((u[2]["width"], u[2]["height"]) == (c[2]["width"], c[2]["height"]) for u in iguais):
+                descartes["mesma imagem na mesma caixa"] += 1
+            elif iguais:
+                sobrepostas.append(c)
+            else:
+                unicas.append(c)
         if not unicas:
             continue
         unicas.sort(key=lambda c: (round(c[0].y0 / 20), c[0].x0))
+        sobrepostas.sort(key=lambda c: (round(c[0].y0 / 20), c[0].x0))
+        rotuladas = [(str(k), c) for k, c in enumerate(unicas, 1)]
+        rotuladas += [(f"s{k}", c) for k, c in enumerate(sobrepostas, 1)]
 
         id_pagina = f"rev{ano}-p{n:02d}"
         pagina.get_pixmap(dpi=DPI_PAGINA).save(PAGINAS / f"{id_pagina}.jpg", jpg_quality=75)
@@ -155,7 +163,7 @@ def extrair(pdf, materias):
             if n in m["_paginas"]
         ]
 
-        for k, (caixa, xref, info) in enumerate(unicas, 1):
+        for k, (caixa, xref, info) in rotuladas:
             uso = {
                 "pagina": n,
                 "caixa_pt": [round(v, 1) for v in caixa],

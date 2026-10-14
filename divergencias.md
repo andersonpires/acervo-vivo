@@ -317,6 +317,19 @@ YouTube divergem (consultadas em 13/10/2026):
   páginas do site, clipping, vídeos), que registram o que foi publicado;
   as skills não usam o nome delas. Onde o nome aparece no site está em
   `PENDENCIAS.md`.
+- **Confirmado (14/10/2026):** também não se sugerem a foto em dupla
+  dele com Vanessa Belém nem capa de livro que traga o nome dele como
+  autor.
+
+## 22. Ações fora do cadastro: projeto novo ou não?
+
+- **Fonte:** as fichas de imagem acharam nomes que não estão em
+  `projetos/cadastro.csv`: "Oficina Multifuncional" e "Construções
+  Sustentáveis" (`revista2017.pdf`, p. 7 e 8), "eventos"
+  (`revista2021.pdf`, p. 8), "Kria Design Studio" (`revista2022.pdf`,
+  p. 8) e o totem "Meu Banco" (`revista2023.pdf`, p. 18).
+- **Decisão (14/10/2026):** não viram projeto. Ficam como **atividades
+  extras**, sob `Institucional`, com o nome registrado na ficha.
 
 ## 21. Grafia do nome da jornalista da BemTeVi
 
