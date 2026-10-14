@@ -59,6 +59,20 @@ vive (ficha, cadastro, divergências).
     e-mail: o texto veio do site antigo já embaralhado pela proteção
     contra spam da Cloudflare, sem o código que permitiria recuperá-lo.
     Precisa ser redigitado (iteva@iteva.org.br, se for esse o certo).
+- **Clipping do site** (achado na extração de 13/10/2026):
+  - a matéria da Rádio Dom Bosco (01/04/2026) aponta para o OneDrive
+    pessoal de uma funcionária, que pede login: o público não abre;
+  - quatro matérias de 2005 a 2008 apontam para `https://arquivos/...`,
+    endereço quebrado do site antigo; os recortes existem em
+    `site_legado/public/arquivos/reportagens` e poderiam ir para o site;
+  - o campo "veículo" está vazio nas 105 matérias;
+  - o título de uma matéria de 05/07/2017 diz "site O Estado Doce" (é o
+    jornal O Estado);
+  - cerca de metade dos links não abre mais (lista em `situacao` de cada
+    arquivo de `acervo/clipping`);
+  - dois recortes do site antigo não estão no clipping: Folha de
+    S.Paulo, 08/02/2000 (forragem hidropônica), e uma revista,
+    provavelmente a ARede, de 2005.
 - **Erros publicados:** a notícia de 28/04/2026 dá o dia 24/04 como
   sexta-feira e como quinta-feira; a de 28/05/2026 escreve "Instituto
   Tecnológico Vocacional Avançado", sem o "e"; a de 21/06/2012 traz a
@@ -78,6 +92,20 @@ vive (ficha, cadastro, divergências).
   2020), convênio sem tabela de parcelas (Conectividade Eusébio 2024),
   cinco sem situação da prestação de contas e o Midiacom Aquiraz 2017
   com "Aguardando (Município em atraso)".
+
+## Do acervo do clipping
+
+- **32 matérias à espera do Internet Archive:** o Archive bloqueou as
+  consultas (429) em 13/10/2026. Rodar de novo `python -I
+  scripts/extrair_clipping.py` (sem `--sem-arquivo`) outro dia; só essas
+  vão à rede. Estão marcadas "consulta ao Internet Archive pendente".
+- **14 sem texto a extrair:** 6 vídeos do YouTube (dá para transcrever
+  com o fluxo dos vídeos, se for útil), 7 posts de Instagram e 1 do
+  LinkedIn (pedem login) e o áudio da Rádio Dom Bosco (no OneDrive).
+- **Para o confronto (fase 4):** O Povo de 07/08/2008 diz que o Iteva
+  "foi criada em março de 2004"; o Portal do Governo de 07/10/2005 dá o
+  nome "Fábio Cezar Aidar Beneduce" e a Folha de 08/02/2000 o chama de
+  "presidente" do Iteva. Conferir contra `projetos/iteva.md`.
 
 ## Acervos futuros
 

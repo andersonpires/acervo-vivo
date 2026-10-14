@@ -15,7 +15,7 @@ como trabalhar. Leia também `PENDENCIAS.md` (o que ficou para depois) e
 | Páginas do site | `acervo/site` | pronto (30 páginas e rodapé) |
 | Vídeos | `acervo/videos` | pronto (19; 4 são produção externa) |
 | Transparência | `acervo/transparencia` | pronto; atualizar a cada lançamento |
-| Clipping | | **próximo**: 105 matérias no banco do site; consulta, nunca modelo de escrita |
+| Clipping | `acervo/clipping` | **em andamento**: extraído (fase 2); faltam índice, confronto e 32 consultas ao Internet Archive; consulta, nunca modelo de escrita |
 | Propostas de projeto e relatórios | | futuros; o usuário indica onde estão os arquivos |
 
 Produtos prontos: índice (`acervo/indice.csv`, `acervo/volume.md`),
@@ -97,6 +97,7 @@ caíram nessa conferência.
 | Notícias | `node scripts/exportar_noticias.cjs` | lê o banco do site, só leitura |
 | Páginas | `python -I scripts/extrair_site.py` | lê o HTML publicado a partir do sitemap |
 | Vídeos | yt-dlp, `transcrever_videos.py`, `quadros_videos.py`, `quadro_em.py` | ver armadilhas; mídia fica fora do git |
+| Clipping | `node scripts/exportar_clipping.cjs`, depois `python -I scripts/extrair_clipping.py` | busca o original (página ou Internet Archive); recortes escaneados transcritos à mão em `acervo/clipping/recortes` |
 | Transparência | `node scripts/exportar_transparencia.cjs` | gera `conferir.md` e `mudancas.md`; valores por data não provam liberação |
 | Índice | `python -I scripts/montar_indice.py scripts/indexacao` | rodar depois de qualquer exportação |
 | Medidas de voz | `python -I scripts/medir_voz.py > voz/medidas.md` | |
