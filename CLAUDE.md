@@ -16,7 +16,7 @@ como trabalhar. Leia também `PENDENCIAS.md` (o que ficou para depois) e
 | Vídeos | `acervo/videos` | pronto (19; 4 são produção externa) |
 | Transparência | `acervo/transparencia` | pronto; atualizar a cada lançamento |
 | Clipping | `acervo/clipping` | pronto (105 matérias, 40 com o texto original; 32 à espera do Internet Archive); consulta, nunca modelo de escrita |
-| Imagens (revistas, notícias, site) | `acervo/imagens` | fase 1 feita; plano em `prd-imagens.md` |
+| Imagens (revistas, notícias, site) | `acervo/imagens` | extraídas (fase 2: 1.728); fichas a fazer; plano em `prd-imagens.md` |
 | Propostas de projeto e relatórios | | futuros; o usuário indica onde estão os arquivos |
 
 Produtos prontos: índice (`acervo/indice.csv`, `acervo/volume.md`),
@@ -100,6 +100,7 @@ caíram nessa conferência.
 | Vídeos | yt-dlp, `transcrever_videos.py`, `quadros_videos.py`, `quadro_em.py` | ver armadilhas; mídia fica fora do git |
 | Clipping | `node scripts/exportar_clipping.cjs`, depois `python -I scripts/extrair_clipping.py` | busca o original (página ou Internet Archive); recortes escaneados transcritos à mão em `acervo/clipping/recortes` |
 | Transparência | `node scripts/exportar_transparencia.cjs` | gera `conferir.md` e `mudancas.md`; valores por data não provam liberação |
+| Imagens | `node scripts/exportar_imagens_site.cjs`, `python -I scripts/extrair_imagens_revista.py [ano...]`, depois `cd acervo/imagens && sha256sum arquivos/* > SHA256SUMS` | arquivos e páginas fora do git; contexto em `acervo/imagens/contexto` |
 | Índice | `python -I scripts/montar_indice.py scripts/indexacao` | rodar depois de qualquer exportação |
 | Medidas de voz | `python -I scripts/medir_voz.py > voz/medidas.md` | |
 

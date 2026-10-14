@@ -89,6 +89,31 @@ imagens úteis nas revistas, a confirmar na fase 2.
 Entre 800 e 950 imagens com as do site, cerca de 400 MB. Pesado demais para o git, como
 os PDFs.
 
+### Resultado da extração (fase 2, 14/10/2026)
+
+| Fonte | Imagens | Observação |
+|---|---|---|
+| Notícias | 372 | 375 usos (capa, galeria, corpo); todas baixadas do site publicado |
+| Site | 88 | projetos (bloco, carrossel, seção, logos), página Parceria, banners e parceiros da home, convidados e parceiros dos Painéis Temáticos |
+| Revistas | 1.268 | 1.316 usos; 1.115 com o original do PDF, 153 só com o recorte da página |
+| Total | 1.728 | 646 MB em `arquivos/` |
+
+A estimativa de 400 a 500 imagens nas revistas era baixa: o filtro final
+(40 pt na página e 80 px) mantém os retratos pequenos dos depoimentos,
+que são úteis. Os milhares de "pedaços" de 2010 a 2012 eram lascas de
+altura zero (restos de degradê), não fotos fatiadas; as fotos são
+objetos inteiros. As folhas de contato mostram três grupos que a regra
+não separa e que ficam para a triagem visual da fase 3:
+
+- **grafismos:** fundos lisos, molduras, faixas de título, formas da
+  diagramação, páginas de 2010 rasterizadas com o texto; não ganham
+  ficha, vão para uma lista de descartadas com o motivo;
+- **imagens de banco** (boneco 3D, cadeado, moedas): ganham ficha com
+  `origem: banco de imagem provável`, e a skill não as sugere como foto
+  do Iteva;
+- **a mesma foto em dois objetos** (com e sem moldura): ligadas como
+  duplicatas na fase 4.
+
 ## Requisitos
 
 ### Arquivos
@@ -96,13 +121,19 @@ os PDFs.
 - `acervo/imagens/arquivos/` guarda as imagens, **fora do git**, com
   integridade em `SHA256SUMS` (o mesmo esquema das revistas). Os scripts
   refazem a pasta a partir das fontes.
-- Nome estável e legível: `rev2016-p12-1.jpg`, `not2024-05-10-capa.jpg`,
-  `not2024-05-10-g03.jpg`.
-- Notícias: arquivo original, sem recompressão, baixado do site
+- Nome estável e legível: `rev2016-p12-1.jpg` (revista, página, ordem
+  na página), `not-2024-05-10-123-capa.jpg` e `-g03` (data e id da
+  notícia no site), `site-construcom-carrossel03.jpg`.
+- Notícias e site: arquivo original, sem recompressão, baixado do site
   publicado; se falhar, copiado do legado.
-- Revistas: recorte da área visível da página, renderizado em 200 dpi;
-  quando a imagem é um objeto inteiro, guarda-se também o original do
-  PDF (costuma ter mais resolução e mostrar o que a página cortou).
+- Revistas: recorte da área visível da página (`-pagina.jpg`, 200 dpi,
+  com o texto que estiver por cima) e, quando dá, o original do PDF
+  (costuma ter mais resolução e mostrar o que a página cortou). Também
+  a página inteira em tamanho pequeno (`paginas/`), para quem analisa
+  ver o leiaute.
+- O contexto bruto de cada imagem (usos, matérias do índice, texto em
+  volta, tamanho, resolução na página) fica em
+  `acervo/imagens/contexto/*.jsonl`, no git.
 
 ### Ficha (uma por imagem)
 
@@ -115,6 +146,7 @@ arquivo: arquivos/rev2016-p12-1.jpg
 fonte: acervo/revistas/revista2016.pdf, p. 12
 data: 2016            # da publicação; data da foto só se a fonte disser
 tipo: foto            # foto | ilustracao | montagem | logo | grafico | outro
+origem: iteva         # iteva | banco de imagem provável | terceiro | incerto
 projeto: Construcom   # do cadastro; vazio se não der para saber
 programa: Bem-estar +60
 materia: "título | subtítulo"
@@ -199,8 +231,10 @@ Commit ao fim de cada fase.
   fase 2 e deixar o agente da fase 3 marcar "recorte ruim".
 - **Descrição que inventa.** Mitigação: separar o que é contexto (com
   fonte) do que é descrição visual, e conferir por amostragem.
-- **Custo de análise:** 800 a 950 imagens lidas uma a uma por agente.
-  Feito em lotes, como a indexação das revistas.
+- **Custo de análise:** 1.728 imagens. Na fase 3, os agentes fazem
+  primeiro a triagem pelas folhas de contato (grafismo sai sem ficha) e
+  só depois leem uma a uma as que ficam. Lotes por revista e por ano de
+  notícia.
 
 ## Decisões do usuário (14/10/2026)
 

@@ -4,3 +4,9 @@ acervo/revistas/*.pdf
 
 # HTML baixado das matérias do clipping: cache do extrator, refeito com --rebaixar.
 acervo/clipping/brutos/
+
+# Arquivos do acervo de imagens: pesados demais para o git, refeitos pelos
+# scripts. Integridade em acervo/imagens/SHA256SUMS.
+acervo/imagens/arquivos/
+acervo/imagens/paginas/
+acervo/imagens/folhas/
